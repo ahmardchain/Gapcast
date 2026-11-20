@@ -1,0 +1,42 @@
+{
+  "request": {
+    "method": "GET",
+    "path": "/v1/key/info",
+    "params": {},
+    "url": "https://pro-api.coinmarketcap.com/v1/key/info"
+  },
+  "fetched_at": "2026-11-20T00:17:39.245Z",
+  "elapsed_ms": 98,
+  "http_status": 200,
+  "body": {
+    "data": {
+      "plan": {
+        "credit_limit_monthly": 450000,
+        "credit_limit_monthly_reset": "In 10 days, 23 hours, 42 minutes",
+        "credit_limit_monthly_reset_timestamp": "2026-12-01T00:00:00.000Z",
+        "rate_limit_minute": 600
+      },
+      "usage": {
+        "current_minute": {
+          "requests_made": 36,
+          "requests_left": 564
+        },
+        "current_day": {
+          "credits_used": 9
+        },
+        "current_month": {
+          "credits_used": 14,
+          "credits_left": 449986
+        }
+      }
+    },
+    "status": {
+      "timestamp": "2026-11-20T00:17:39.224Z",
+      "error_code": 0,
+      "error_message": null,
+      "elapsed": 5,
+      "credit_count": 0,
+      "notice": null
+    }
+  }
+}

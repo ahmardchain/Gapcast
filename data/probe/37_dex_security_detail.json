@@ -1,0 +1,23 @@
+{
+  "request": {
+    "method": "GET",
+    "path": "/v1/dex/security/detail",
+    "params": {
+      "network_slug": "solana",
+      "contract_address": "XsdZDkoMdUb6iKDAKKappuM7C1Q2HmTqC8jNujbfmCu"
+    },
+    "url": "https://pro-api.coinmarketcap.com/v1/dex/security/detail?network_slug=solana&contract_address=XsdZDkoMdUb6iKDAKKappuM7C1Q2HmTqC8jNujbfmCu"
+  },
+  "fetched_at": "2026-11-20T00:17:39.147Z",
+  "elapsed_ms": 277,
+  "http_status": 400,
+  "body": {
+    "status": {
+      "timestamp": "2026-11-20T00:17:39.127Z",
+      "error_code": "400",
+      "error_message": "BAD_REQUEST",
+      "elapsed": "0",
+      "credit_count": 0
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "request": {
+    "method": "GET",
+    "path": "/v5/cryptocurrency/ohlcv/historical",
+    "params": {
+      "id": 40147,
+      "interval": "1h",
+      "time_start": "2026-11-13T00:17:34.458Z",
+      "count": 3
+    },
+    "url": "https://pro-api.coinmarketcap.com/v5/cryptocurrency/ohlcv/historical?id=40147&interval=1h&time_start=2026-11-13T00%3A17%3A34.458Z&count=3"
+  },
+  "fetched_at": "2026-11-20T00:17:37.757Z",
+  "elapsed_ms": 100,
+  "http_status": 403,
+  "body": {
+    "status": {
+      "timestamp": "2026-11-20T00:17:37.737Z",
+      "error_code": "1006",
+      "error_message": "Your API Key subscription plan doesn't support this endpoint.",
+      "elapsed": 0,
+      "credit_count": 0
+    }
+  }
+}

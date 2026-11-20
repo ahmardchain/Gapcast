@@ -1,0 +1,1076 @@
+{
+  "request": {
+    "method": "GET",
+    "path": "/v5/real-world-assets/info",
+    "params": {
+      "rwa_id": "7750,86,7751,118,5289,5699,211,1062,4789,87,5186,175,189,5382,31,219,443,181,5000,125,191,92,103,26,54,188,34,251,44,127,153,22,205,1588,297,75,5383,255,16,42,93,73,7733,256,183,1682,511,2023,2220,16386"
+    },
+    "url": "https://pro-api.coinmarketcap.com/v5/real-world-assets/info?rwa_id=7750%2C86%2C7751%2C118%2C5289%2C5699%2C211%2C1062%2C4789%2C87%2C5186%2C175%2C189%2C5382%2C31%2C219%2C443%2C181%2C5000%2C125%2C191%2C92%2C103%2C26%2C54%2C188%2C34%2C251%2C44%2C127%2C153%2C22%2C205%2C1588%2C297%2C75%2C5383%2C255%2C16%2C42%2C93%2C73%2C7733%2C256%2C183%2C1682%2C511%2C2023%2C2220%2C16386"
+  },
+  "fetched_at": "2026-11-20T00:17:35.201Z",
+  "elapsed_ms": 103,
+  "http_status": 200,
+  "body": {
+    "data": {
+      "rwa_assets": [
+        {
+          "name": "Direxion Daily Semiconductor Bull 3X ETF",
+          "symbol": "SOXL",
+          "slug": "direxion-daily-semiconductor-bull-3x-etf",
+          "website": null,
+          "employees": null,
+          "founded": null,
+          "industry": null,
+          "cik": null,
+          "about": {
+            "description": null,
+            "logo": "https://s2.coinmarketcap.com/static/img/rwa/200x200/6a3d16234f2c925dd32d62c1.png",
+            "website": null,
+            "date_added": "2026-06-25T11:50:59.000Z"
+          },
+          "rwa_id": 7750,
+          "asset_type": "etf",
+          "rwa_rank": 5292,
+          "has_tokens": true,
+          "primary_exchange": null
+        },
+        {
+          "name": "SPDR S&P 500 ETF Trust",
+          "symbol": "SPY",
+          "slug": "spy",
+          "website": null,
+          "employees": null,
+          "founded": "1993-01-22",
+          "industry": null,
+          "cik": "0000884394",
+          "about": {
+            "description": null,
+            "logo": null,
+            "website": null,
+            "date_added": "2025-07-18T11:15:18.000Z"
+          },
+          "rwa_id": 86,
+          "asset_type": "etf",
+          "rwa_rank": 7811,
+          "has_tokens": true,
+          "primary_exchange": "NYSE Arca, Inc."
+        },
+        {
+          "name": "Direxion Daily Semiconductor Bear 3X ETF",
+          "symbol": "SOXS",
+          "slug": "direxion-daily-semiconductor-bear-3x-etf",
+          "website": null,
+          "employees": null,
+          "founded": null,
+          "industry": null,
+          "cik": null,
+          "about": {
+            "description": null,
+            "logo": "https://s2.coinmarketcap.com/static/img/rwa/200x200/6a3d16254f2c925dd32d62c3.png",
+            "website": null,
+            "date_added": "2026-06-25T11:51:01.000Z"
+          },
+          "rwa_id": 7751,
+          "asset_type": "etf",
+          "rwa_rank": 5290,
+          "has_tokens": true,
+          "primary_exchange": null
+        },
+        {
+          "name": "Invesco QQQ Trust",
+          "symbol": "QQQ",
+          "slug": "qqq",
+          "website": null,
+          "employees": null,
+          "founded": "1999-03-10",
+          "industry": null,
+          "cik": "0001067839",
+          "about": {
+            "description": null,
+            "logo": null,
+            "website": null,
+            "date_added": "2025-07-19T08:08:31.000Z"
+          },
+          "rwa_id": 118,
+          "asset_type": "etf",
+          "rwa_rank": 7810,
+          "has_tokens": true,
+          "primary_exchange": "Nasdaq"
+        },
+        {
+          "name": "Direxion Daily MSCI South Korea Bull 3X ETF",
+          "symbol": "KORU",
+          "slug": "direxion-daily-msci-south-korea-bull-3x-etf",
+          "website": null,
+          "employees": null,
+          "founded": null,
+          "industry": null,
+          "cik": null,
+          "about": {
+            "description": null,
+            "logo": "https://s2.coinmarketcap.com/static/img/rwa/200x200/6a3d11fd4f2c925dd32d5eae.png",
+            "website": null,
+            "date_added": "2026-06-25T11:33:17.000Z"
+          },
+          "rwa_id": 5289,
+          "asset_type": "etf",
+          "rwa_rank": 6114,
+          "has_tokens": true,
+          "primary_exchange": null
+        },
+        {
+          "name": "Tradr 2X Long SNDK Daily ETF",
+          "symbol": "SNXX",
+          "slug": "tradr-2x-long-sndk-daily-etf",
+          "website": null,
+          "employees": null,
+          "founded": null,
+          "industry": null,
+          "cik": null,
+          "about": {
+            "description": null,
+            "logo": "https://s2.coinmarketcap.com/static/img/rwa/200x200/6a3d161c4f2c925dd32d62ba.png",
+            "website": null,
+            "date_added": "2026-06-25T11:50:52.000Z"
+          },
+          "rwa_id": 5699,
+          "asset_type": "etf",
+          "rwa_rank": 5299,
+          "has_tokens": true,
+          "primary_exchange": null
+        },
+        {
+          "name": "ProShares UltraPro QQQ",
+          "symbol": "TQQQ",
+          "slug": "tqqq",
+          "website": null,
+          "employees": null,
+          "founded": "2010-02-09",
+          "industry": null,
+          "cik": "0001174610",
+          "about": {
+            "description": null,
+            "logo": null,
+            "website": null,
+            "date_added": "2025-08-23T11:38:34.000Z"
+          },
+          "rwa_id": 211,
+          "asset_type": "etf",
+          "rwa_rank": 7792,
+          "has_tokens": true,
+          "primary_exchange": "Nasdaq"
+        },
+        {
+          "name": "iShares MSCI South Korea ETF",
+          "symbol": "EWY",
+          "slug": "ishares-msci-south-korea-etf",
+          "website": null,
+          "employees": null,
+          "founded": null,
+          "industry": null,
+          "cik": null,
+          "about": {
+            "description": null,
+            "logo": null,
+            "website": null,
+            "date_added": "2026-06-21T05:30:12.000Z"
+          },
+          "rwa_id": 1062,
+          "asset_type": "etf",
+          "rwa_rank": 7766,
+          "has_tokens": true,
+          "primary_exchange": null
+        },
+        {
+          "name": "Roundhill Memory ETF",
+          "symbol": "DRAM",
+          "slug": "roundhill-memory-etf",
+          "website": null,
+          "employees": null,
+          "founded": null,
+          "industry": null,
+          "cik": null,
+          "about": {
+            "description": null,
+            "logo": "https://s2.coinmarketcap.com/static/img/rwa/200x200/6a3d0c024f2c925dd32d59cd.png",
+            "website": null,
+            "date_added": "2026-06-25T11:07:46.000Z"
+          },
+          "rwa_id": 4789,
+          "asset_type": "etf",
+          "rwa_rank": 7111,
+          "has_tokens": true,
+          "primary_exchange": null
+        },
+        {
+          "name": "SPDR Gold Trust",
+          "symbol": "GLD",
+          "slug": "gld",
+          "website": null,
+          "employees": null,
+          "founded": "2004-11-12",
+          "industry": "Commodity Contracts Brokers & Dealers",
+          "cik": "0001222333",
+          "about": {
+            "description": null,
+            "logo": null,
+            "website": null,
+            "date_added": "2025-07-19T11:26:40.000Z"
+          },
+          "rwa_id": 87,
+          "asset_type": "etf",
+          "rwa_rank": 7809,
+          "has_tokens": true,
+          "primary_exchange": "NYSE Arca, Inc."
+        },
+        {
+          "name": "GraniteShares ETF Trust GraniteShares 2x Long INTC Daily ETF",
+          "symbol": "INTW",
+          "slug": "graniteshares-etf-trust-graniteshares-2x-long-intc-daily-etf",
+          "website": null,
+          "employees": null,
+          "founded": null,
+          "industry": null,
+          "cik": null,
+          "about": {
+            "description": null,
+            "logo": "https://s2.coinmarketcap.com/static/img/rwa/200x200/6a3d10bb4f2c925dd32d5d82.png",
+            "website": null,
+            "date_added": "2026-06-25T11:27:55.000Z"
+          },
+          "rwa_id": 5186,
+          "asset_type": "etf",
+          "rwa_rank": 6318,
+          "has_tokens": true,
+          "primary_exchange": null
+        },
+        {
+          "name": "PDD Holdings Inc",
+          "symbol": "PDD",
+          "slug": "pdd-holdings",
+          "website": "https://www.pddholdings.com",
+          "employees": 23465,
+          "founded": "2015-01-01",
+          "industry": null,
+          "cik": "0001737806",
+          "about": {
+            "description": "PDD Holdings operates commerce businesses in over 80 countries globally. Its main operations are Pinduoduo, a social commerce platform in China, and Temu, a global e-commerce marketplace. PDD also has a community group purchase business in China. PDD has built a network of sourcing, logistics, and fulfillment capabilities that support its underlying businesses.",
+            "logo": null,
+            "website": "https://www.pddholdings.com",
+            "date_added": "2026-01-05T14:07:38.000Z"
+          },
+          "rwa_id": 175,
+          "asset_type": "stock",
+          "rwa_rank": 125,
+          "has_tokens": true,
+          "primary_exchange": "Nasdaq"
+        },
+        {
+          "name": "Lumentum Holdings Inc.",
+          "symbol": "LITE",
+          "slug": "lumentum-holdings-inc",
+          "website": null,
+          "employees": null,
+          "founded": null,
+          "industry": null,
+          "cik": null,
+          "about": {
+            "description": null,
+            "logo": "https://s2.coinmarketcap.com/static/img/rwa/200x200/6a325ce23e374d5372a7dfcf.png",
+            "website": null,
+            "date_added": "2026-06-17T08:37:54.000Z"
+          },
+          "rwa_id": 189,
+          "asset_type": "stock",
+          "rwa_rank": 314,
+          "has_tokens": true,
+          "primary_exchange": null
+        },
+        {
+          "name": "Direxion Shares ETF Trust Direxion Daily MU Bull 2X ETF",
+          "symbol": "MUU",
+          "slug": "direxion-shares-etf-trust-direxion-daily-mu-bull-2x-etf",
+          "website": null,
+          "employees": null,
+          "founded": null,
+          "industry": null,
+          "cik": null,
+          "about": {
+            "description": null,
+            "logo": "https://s2.coinmarketcap.com/static/img/rwa/200x200/6a3d12cb4f2c925dd32d5f7a.png",
+            "website": null,
+            "date_added": "2026-06-25T11:36:43.000Z"
+          },
+          "rwa_id": 5382,
+          "asset_type": "etf",
+          "rwa_rank": 5929,
+          "has_tokens": true,
+          "primary_exchange": null
+        },
+        {
+          "name": "Costco Wholesale Corp",
+          "symbol": "COST",
+          "slug": "costco-wholesale",
+          "website": "https://www.costco.com",
+          "employees": 333000,
+          "founded": "1983-09-14",
+          "industry": "Retail-Variety Stores",
+          "cik": "0000909832",
+          "about": {
+            "description": "Costco operates a membership-based, no-frills retail model predicated on offering a select product assortment in bulk quantities at bargain prices. The firm avoids maintaining costly product displays by keeping inventory on pallets and limits distribution expenses by storing its inventory at point of sale in the warehouse. Given its frugal cost structure, the firm is able to price its merchandise below that of competing retailers, driving high sales volume per warehouse and generating strong profits on thin margins. Costco operates over 600 warehouses in the United States and has over 60% share in the domestic warehouse club industry. Internationally, Costco operates about 280 warehouses, primarily in Canada, Mexico, Japan, and the UK.",
+            "logo": null,
+            "website": "https://www.costco.com",
+            "date_added": "2025-08-21T11:14:57.000Z"
+          },
+          "rwa_id": 31,
+          "asset_type": "stock",
+          "rwa_rank": 26,
+          "has_tokens": true,
+          "primary_exchange": "Nasdaq"
+        },
+        {
+          "name": "BitMine Immersion Technologies",
+          "symbol": "BMNR",
+          "slug": "bitmine-immersion-technologies",
+          "website": "https://www.bitminetech.io",
+          "employees": null,
+          "founded": "1995-01-01",
+          "industry": "Finance Services",
+          "cik": "0001829311",
+          "about": {
+            "description": "BitMine Immersion Technologies Inc is a Bitcoin and Ethereum Network Company with a focus on the accumulation of Crypto for long term investment, whether acquired by its Bitcoin mining operations or from the proceeds of capital raising transactions. Company business lines include Bitcoin Mining, Synthetic Bitcoin mining through involvement in Bitcoin mining, hashrate as a financial product, offering advisory and mining services to companies interested in earning Bitcoin denominated revenues, and general Bitcoin advisory to public companies. BitMine's operations are located in low-cost energy regions in Trinidad; Pecos, Texas; and Silverton, Texas.",
+            "logo": null,
+            "website": "https://www.bitminetech.io",
+            "date_added": "2025-12-26T15:03:19.000Z"
+          },
+          "rwa_id": 219,
+          "asset_type": "stock",
+          "rwa_rank": 913,
+          "has_tokens": true,
+          "primary_exchange": "NYSE American, LLC"
+        },
+        {
+          "name": "Coreweave, Inc.",
+          "symbol": "CRWV",
+          "slug": "coreweave-inc",
+          "website": null,
+          "employees": null,
+          "founded": null,
+          "industry": null,
+          "cik": null,
+          "about": {
+            "description": null,
+            "logo": "https://s2.coinmarketcap.com/static/img/rwa/200x200/6a3353e43e374d5372a7fe0b.png",
+            "website": null,
+            "date_added": "2026-06-18T02:11:48.000Z"
+          },
+          "rwa_id": 443,
+          "asset_type": "stock",
+          "rwa_rank": 515,
+          "has_tokens": true,
+          "primary_exchange": null
+        },
+        {
+          "name": "ProShares UltraPro Short QQQ",
+          "symbol": "SQQQ",
+          "slug": "proshares-ultrapro-short-qqq",
+          "website": null,
+          "employees": null,
+          "founded": "2010-02-09",
+          "industry": null,
+          "cik": "0001174610",
+          "about": {
+            "description": null,
+            "logo": null,
+            "website": null,
+            "date_added": "2026-01-07T03:43:17.000Z"
+          },
+          "rwa_id": 181,
+          "asset_type": "etf",
+          "rwa_rank": 7772,
+          "has_tokens": true,
+          "primary_exchange": "Nasdaq"
+        },
+        {
+          "name": "iShares China Large-Cap ETF",
+          "symbol": "FXI",
+          "slug": "ishares-china-large-cap-etf",
+          "website": null,
+          "employees": null,
+          "founded": null,
+          "industry": null,
+          "cik": null,
+          "about": {
+            "description": null,
+            "logo": "https://s2.coinmarketcap.com/static/img/rwa/200x200/6a3d0e204f2c925dd32d5bef.png",
+            "website": null,
+            "date_added": "2026-06-25T11:16:48.000Z"
+          },
+          "rwa_id": 5000,
+          "asset_type": "etf",
+          "rwa_rank": 6690,
+          "has_tokens": true,
+          "primary_exchange": null
+        },
+        {
+          "name": "Hims & Hers Health Inc",
+          "symbol": "HIMS",
+          "slug": "hims-hers",
+          "website": "https://www.forhims.com",
+          "employees": 1637,
+          "founded": "2017-01-01",
+          "industry": "Services-Offices & Clinics of Doctors of Medicine",
+          "cik": "0001773751",
+          "about": {
+            "description": "Hims & Hers Health Inc is a multi-specialty telehealth platform that connects consumers to licensed healthcare professionals, enabling them to access high-quality medical care for numerous conditions related to mental health, sexual health, dermatology, haircare and more.",
+            "logo": null,
+            "website": "https://www.forhims.com",
+            "date_added": "2025-08-19T08:51:51.000Z"
+          },
+          "rwa_id": 125,
+          "asset_type": "stock",
+          "rwa_rank": 1525,
+          "has_tokens": true,
+          "primary_exchange": "New York Stock Exchange"
+        },
+        {
+          "name": "Applied Optoelectronics, Inc.",
+          "symbol": "AAOI",
+          "slug": "applied-optoelectronics-inc",
+          "website": null,
+          "employees": null,
+          "founded": null,
+          "industry": null,
+          "cik": null,
+          "about": {
+            "description": null,
+            "logo": "https://s2.coinmarketcap.com/static/img/rwa/200x200/6a3353443e374d5372a7fd7a.png",
+            "website": null,
+            "date_added": "2026-06-18T02:09:08.000Z"
+          },
+          "rwa_id": 191,
+          "asset_type": "stock",
+          "rwa_rank": 1570,
+          "has_tokens": true,
+          "primary_exchange": null
+        },
+        {
+          "name": "Pfizer Inc",
+          "symbol": "PFE",
+          "slug": "pfizer",
+          "website": "https://www.pfizer.com",
+          "employees": 81000,
+          "founded": "1848-12-31",
+          "industry": "Pharmaceutical Preparations",
+          "cik": "0000078003",
+          "about": {
+            "description": "Pfizer is one of the world's largest pharmaceutical firms, with annual sales of roughly $60 billion. While it historically sold many types of healthcare products and chemicals, now prescription drugs and vaccines account for the majority of sales. Top sellers include pneumococcal vaccine Prevnar 13, cancer drug Ibrance, and cardiovascular treatment Eliquis. Pfizer sells these products globally, with international sales representing 40% of total sales. Within international sales, emerging markets are a major contributor.",
+            "logo": null,
+            "website": "https://www.pfizer.com",
+            "date_added": "2025-08-19T05:58:47.000Z"
+          },
+          "rwa_id": 92,
+          "asset_type": "stock",
+          "rwa_rank": 97,
+          "has_tokens": true,
+          "primary_exchange": "New York Stock Exchange"
+        },
+        {
+          "name": "Qualcomm Inc",
+          "symbol": "QCOM",
+          "slug": "qualcomm",
+          "website": "https://www.qualcomm.com",
+          "employees": 49000,
+          "founded": "1985-07-01",
+          "industry": "Radio & TV Broadcasting & Communications Equipment",
+          "cik": "0000804328",
+          "about": {
+            "description": "Qualcomm develops and licenses wireless technology and designs chips for smartphones. The company's key patents revolve around CDMA and OFDMA technologies, which are standards in wireless communications that are the backbone of all 3G, 4G, and 5G networks. Qualcomm's IP is licensed by virtually all wireless device makers. The firm is also the world's largest wireless chip vendor, supplying nearly every premier handset maker with leading-edge processors. Qualcomm also sells RF-front end modules into smartphones, as well as chips into automotive and Internet of Things markets.",
+            "logo": null,
+            "website": "https://www.qualcomm.com",
+            "date_added": "2025-08-20T03:47:21.000Z"
+          },
+          "rwa_id": 103,
+          "asset_type": "stock",
+          "rwa_rank": 86,
+          "has_tokens": true,
+          "primary_exchange": "Nasdaq"
+        },
+        {
+          "name": "ASML Holding NV",
+          "symbol": "ASML",
+          "slug": "asml",
+          "website": "https://www.asml.com",
+          "employees": 44127,
+          "founded": "1984-03-31",
+          "industry": null,
+          "cik": "0000937966",
+          "about": {
+            "description": "ASML is the leader in photolithography systems used in manufacturing semiconductors. Photolithography is the process in which a light source is used to expose circuit patterns from a photo mask onto a semiconductor wafer. The latest technological advances in this segment allow chipmakers to continually increase the number of transistors on the same area of silicon, with lithography historically representing a high portion of the cost of making cutting-edge chips. ASML outsources the manufacturing of most of its parts, acting like an assembler. ASML's main clients are TSMC, Samsung, and Intel.",
+            "logo": null,
+            "website": "https://www.asml.com",
+            "date_added": "2025-08-21T10:53:35.000Z"
+          },
+          "rwa_id": 26,
+          "asset_type": "stock",
+          "rwa_rank": 24,
+          "has_tokens": true,
+          "primary_exchange": "Nasdaq"
+        },
+        {
+          "name": "Arm Holdings PLC - ADR",
+          "symbol": "ARM",
+          "slug": "arm-holdings-plc",
+          "website": "https://www.arm.com",
+          "employees": 8330,
+          "founded": "1990-11-27",
+          "industry": null,
+          "cik": "0001973239",
+          "about": {
+            "description": "Arm Holdings is the IP owner and developer of the ARM architecture, which is used in 99% of the world's smartphone CPU cores, and it also has high market share in other battery-powered devices like wearables, tablets, or sensors. Arm licenses its architecture for a fee, offering different types of licenses depending on the flexibility the customer needs. Customers like Apple or Qualcomm buy architectural licenses, which allow them to modify the architecture and add or delete instructions to tailor the chips to their specific needs. Other clients directly buy off-the-shelf designs from Arm. Both off-the-shelf and architectural customers pay a royalty fee per chip shipped.",
+            "logo": null,
+            "website": "https://www.arm.com",
+            "date_added": "2025-08-20T06:24:31.000Z"
+          },
+          "rwa_id": 54,
+          "asset_type": "stock",
+          "rwa_rank": 77,
+          "has_tokens": true,
+          "primary_exchange": "Nasdaq"
+        },
+        {
+          "name": "Coherent",
+          "symbol": "COHR",
+          "slug": "coherent",
+          "website": "https://www.coherent.com",
+          "employees": 30000,
+          "founded": "1987-10-02",
+          "industry": "Optical Instruments & Lenses",
+          "cik": "0000820318",
+          "about": {
+            "description": "Coherent Corp is a vertically integrated manufacturing company that develops, manufactures, and markets lasers, transceivers, and other optical and optoelectronic devices, modules, and systems, as well as engineered materials, for use in the communications, industrial, instrumentation, and electronics markets. Its reporting segments are Datacenter Communications and Industrial. Its geographic areas are North America, Europe, China, Japan, and the rest of the world.",
+            "logo": null,
+            "website": "https://www.coherent.com",
+            "date_added": "2026-05-13T09:37:48.000Z"
+          },
+          "rwa_id": 188,
+          "asset_type": "stock",
+          "rwa_rank": 352,
+          "has_tokens": true,
+          "primary_exchange": "New York Stock Exchange"
+        },
+        {
+          "name": "Coca-Cola Co",
+          "symbol": "KO",
+          "slug": "coca-cola",
+          "website": "https://www.coca-colacompany.com",
+          "employees": 69700,
+          "founded": "1892-01-29",
+          "industry": "Beverages",
+          "cik": "0000021344",
+          "about": {
+            "description": "Founded in 1886, Atlanta-headquartered Coca-Cola is the world's largest nonalcoholic beverage company, with a strong portfolio of 200 brands covering key categories including carbonated soft drinks, water, sports, energy, juice, and coffee. Together with bottlers and distribution partners, the company sells finished beverage products bearing Coca-Cola and licensed brands through retailers and food-service locations in more than 200 countries and regions globally. Coca-Cola generates around two thirds of its total revenue overseas, with a significant portion from emerging economies in Latin America and Asia-Pacific.",
+            "logo": null,
+            "website": "https://www.coca-colacompany.com",
+            "date_added": "2025-08-20T05:27:49.000Z"
+          },
+          "rwa_id": 34,
+          "asset_type": "stock",
+          "rwa_rank": 27,
+          "has_tokens": true,
+          "primary_exchange": "New York Stock Exchange"
+        },
+        {
+          "name": "Cerebras Systems",
+          "symbol": "CBRS",
+          "slug": "cerebras-systems",
+          "website": "https://www.cerebras.ai/",
+          "employees": 1000,
+          "founded": "2015-01-01",
+          "industry": "Semiconductors & Related Devices",
+          "cik": null,
+          "about": {
+            "description": null,
+            "logo": "https://s2.coinmarketcap.com/static/img/rwa/zLdh072p_400x400.png",
+            "website": "https://www.cerebras.ai/",
+            "date_added": "2026-05-04T07:36:17.000Z"
+          },
+          "rwa_id": 251,
+          "asset_type": "stock",
+          "rwa_rank": 567,
+          "has_tokens": true,
+          "primary_exchange": null
+        },
+        {
+          "name": "Dell Technologies Inc.",
+          "symbol": "DELL",
+          "slug": "dell-technologies-inc",
+          "website": null,
+          "employees": null,
+          "founded": null,
+          "industry": null,
+          "cik": null,
+          "about": {
+            "description": null,
+            "logo": "https://s2.coinmarketcap.com/static/img/rwa/200x200/6a3353413e374d5372a7fd78.png",
+            "website": null,
+            "date_added": "2026-06-18T02:09:05.000Z"
+          },
+          "rwa_id": 44,
+          "asset_type": "stock",
+          "rwa_rank": 69,
+          "has_tokens": true,
+          "primary_exchange": null
+        },
+        {
+          "name": "Super Micro Computer Inc",
+          "symbol": "SMCI",
+          "slug": "super-micro-computer",
+          "website": "https://www.supermicro.com",
+          "employees": 5684,
+          "founded": "1993-09-01",
+          "industry": "Electronic Computers",
+          "cik": "0001375365",
+          "about": {
+            "description": "Super Micro Computer Inc provides high-performance server technology services to cloud computing, data centers, Big Data, high-performance computing, and the \"Internet of Things\" embedded markets. Its solutions include server, storage, blade, and workstations to full racks, networking devices, and server management software. The firm follows a modular architectural approach, which provides flexibility to deliver customized solutions. The Company operates in one operating segment that develops and provides high-performance server solutions based upon an innovative, modular, and open-standard architecture. More than half of the firm's revenue is generated in the United States, with the rest coming from Europe, Asia, and other regions.",
+            "logo": null,
+            "website": "https://www.supermicro.com",
+            "date_added": "2025-08-19T09:47:38.000Z"
+          },
+          "rwa_id": 127,
+          "asset_type": "stock",
+          "rwa_rank": 673,
+          "has_tokens": true,
+          "primary_exchange": "Nasdaq"
+        },
+        {
+          "name": "AMC Entertainment",
+          "symbol": "AMC",
+          "slug": "amc-entertainment",
+          "website": "https://www.amctheatres.com",
+          "employees": 33382,
+          "founded": "1920-01-01",
+          "industry": "Services-Motion Picture Theaters",
+          "cik": "0001411579",
+          "about": {
+            "description": "AMC Entertainment Holdings Inc is involved in the theatrical exhibition business. It owns, operates, or has interests in theatres located in the United States and Europe. It provides amenities such as plush, power recliners, MacGuffins full bars, AMC Dine-In Theatres, and premium presentation. The company has identified two reportable segments and reporting units for its theatrical exhibition operations, U.S. markets and International markets. It derives key revenue from the U.S.",
+            "logo": null,
+            "website": "https://www.amctheatres.com",
+            "date_added": "2025-12-26T10:42:42.000Z"
+          },
+          "rwa_id": 153,
+          "asset_type": "stock",
+          "rwa_rank": 1814,
+          "has_tokens": true,
+          "primary_exchange": "New York Stock Exchange"
+        },
+        {
+          "name": "Applied Materials",
+          "symbol": "AMAT",
+          "slug": "applied-materials",
+          "website": "https://www.appliedmaterials.com",
+          "employees": 36500,
+          "founded": "1967-11-10",
+          "industry": "Semiconductors & Related Devices",
+          "cik": "0000006951",
+          "about": {
+            "description": "Applied Materials is the largest semiconductor wafer fabrication equipment manufacturer in the world. It has a broad portfolio spanning nearly every corner of the WFE ecosystem. Applied Materials holds leading market share in deposition, which entails the layering of new materials on semiconductor wafers. It is more exposed to general-purpose logic chips made at integrated device manufacturers and foundries. It counts the largest chipmakers in the world as customers, including TSMC, Intel, and Samsung.",
+            "logo": null,
+            "website": "https://www.appliedmaterials.com",
+            "date_added": "2025-12-26T10:36:16.000Z"
+          },
+          "rwa_id": 22,
+          "asset_type": "stock",
+          "rwa_rank": 45,
+          "has_tokens": true,
+          "primary_exchange": "Nasdaq"
+        },
+        {
+          "name": "iShares Silver Trust",
+          "symbol": "SLV",
+          "slug": "slv",
+          "website": null,
+          "employees": null,
+          "founded": "2006-04-21",
+          "industry": "Commodity Contracts Brokers & Dealers",
+          "cik": "0001330568",
+          "about": {
+            "description": null,
+            "logo": null,
+            "website": null,
+            "date_added": "2025-08-21T11:30:20.000Z"
+          },
+          "rwa_id": 205,
+          "asset_type": "etf",
+          "rwa_rank": 7795,
+          "has_tokens": true,
+          "primary_exchange": "NYSE Arca, Inc."
+        },
+        {
+          "name": "Nokia Corporation",
+          "symbol": "NOK",
+          "slug": "nokia-corporation",
+          "website": null,
+          "employees": null,
+          "founded": null,
+          "industry": null,
+          "cik": null,
+          "about": {
+            "description": null,
+            "logo": "https://s2.coinmarketcap.com/static/img/rwa/200x200/6a3cc4320d1b235a865db45e.png",
+            "website": null,
+            "date_added": "2026-06-25T06:01:22.000Z"
+          },
+          "rwa_id": 1588,
+          "asset_type": "stock",
+          "rwa_rank": 349,
+          "has_tokens": true,
+          "primary_exchange": null
+        },
+        {
+          "name": "Rocket Lab Corporation",
+          "symbol": "RKLB",
+          "slug": "rocket-lab-corporation",
+          "website": null,
+          "employees": null,
+          "founded": null,
+          "industry": null,
+          "cik": null,
+          "about": {
+            "description": null,
+            "logo": "https://s2.coinmarketcap.com/static/img/rwa/200x200/6a3353b63e374d5372a7fdde.png",
+            "website": null,
+            "date_added": "2026-06-18T02:11:02.000Z"
+          },
+          "rwa_id": 297,
+          "asset_type": "stock",
+          "rwa_rank": 403,
+          "has_tokens": true,
+          "primary_exchange": null
+        },
+        {
+          "name": "Western Digital Corporation",
+          "symbol": "WDC",
+          "slug": "western-digital-corporation",
+          "website": null,
+          "employees": null,
+          "founded": null,
+          "industry": null,
+          "cik": null,
+          "about": {
+            "description": null,
+            "logo": "https://s2.coinmarketcap.com/static/img/rwa/200x200/6a3353453e374d5372a7fd7b.png",
+            "website": null,
+            "date_added": "2026-06-18T02:09:09.000Z"
+          },
+          "rwa_id": 75,
+          "asset_type": "stock",
+          "rwa_rank": 140,
+          "has_tokens": true,
+          "primary_exchange": null
+        },
+        {
+          "name": "GraniteShares ETF Trust GraniteShares 2x Long MRVL Daily ETF",
+          "symbol": "MVLL",
+          "slug": "graniteshares-etf-trust-graniteshares-2x-long-mrvl-daily-etf",
+          "website": null,
+          "employees": null,
+          "founded": null,
+          "industry": null,
+          "cik": null,
+          "about": {
+            "description": null,
+            "logo": "https://s2.coinmarketcap.com/static/img/rwa/200x200/6a3d12cc4f2c925dd32d5f7c.png",
+            "website": null,
+            "date_added": "2026-06-25T11:36:44.000Z"
+          },
+          "rwa_id": 5383,
+          "asset_type": "etf",
+          "rwa_rank": 5927,
+          "has_tokens": true,
+          "primary_exchange": null
+        },
+        {
+          "name": "Astera Labs, Inc.",
+          "symbol": "ALAB",
+          "slug": "astera-labs-inc",
+          "website": null,
+          "employees": null,
+          "founded": null,
+          "industry": null,
+          "cik": null,
+          "about": {
+            "description": null,
+            "logo": "https://s2.coinmarketcap.com/static/img/rwa/200x200/6a3353483e374d5372a7fd7d.png",
+            "website": null,
+            "date_added": "2026-06-18T02:09:12.000Z"
+          },
+          "rwa_id": 255,
+          "asset_type": "stock",
+          "rwa_rank": 383,
+          "has_tokens": true,
+          "primary_exchange": null
+        },
+        {
+          "name": "JPmorgan Chase & Co",
+          "symbol": "JPM",
+          "slug": "jpmorgan",
+          "website": "https://www.jpmorganchase.com",
+          "employees": 317233,
+          "founded": "1870-12-31",
+          "industry": "National Commercial Banks",
+          "cik": "0000019617",
+          "about": {
+            "description": "### Who is the CEO of JPMorgan Chase?\n\nLeadership stability is often overlooked when assessing legacy financial firms, yet it heavily influences risk appetite and innovation cycles.\n\nJamie Dimon has been the CEO of JPMorgan Chase since 2005, overseeing the firm through the 2008 crisis, major acquisitions, and its expansion into digital banking. Under his leadership, JPMorgan has remained the largest U.S. bank by assets.\n\nDimon is known for balancing conservative risk frameworks with selective innovation in blockchain, AI, and payments infrastructure.\n\n\n### What does JPMorgan Chase do across banking, investment, and asset management?\n\nFor investors looking at financial stocks, breaking down core operations is critical to understanding earnings resilience.\n\nJPMorgan Chase operates across four primary segments: Consumer & Community Banking (retail, cards, mortgages), Corporate & Investment Bank (M&A, trading, capital markets), Commercial Banking (mid-sized business lending), and Asset & Wealth Management (funds, pensions, private banking).\n\nThe bank’s scale across lending, advisory, custody, and wealth allows it to cross-sell and hedge revenue across market cycles.\n\n\n### What risks are associated with investing in JPMorgan stock?\n\nBanking stocks are exposed to layered risks that retail investors often underestimate.\n\nJPMorgan faces regulatory scrutiny, interest rate pressure, geopolitical exposure, and credit cycle risks. A downturn in commercial real estate or consumer defaults could impair asset quality.\n\nIts size makes it systemically important, meaning regulatory capital requirements and fines can materially affect returns.\n\n\n### Can I buy tokenized JPMorgan Chase stock on the blockchain?\n\nAccess to U.S. bank stocks is still limited in many regions. Tokenization is an emerging workaround.\n\nYes, tokenized versions of JPM (JPMorgan Chase) stock exist on select blockchain platforms. These tokens aim to replicate the price action of JPM stock and are available 24/7, with fractional ownership.\n\nThey don’t offer traditional shareholder rights, and legal clarity remains limited in most jurisdictions.\n\n\n### Which platforms offer JPM (JPMorgan Chase) as a tokenized asset?\n\nFinding legitimate access to tokenized bank stocks depends on the platform's custodial model.\n\nPlatforms like Backed Finance, Swarm, and DeFi protocols using synthetic assets (e.g., Mirror, Synthetix) have listed JPM-equivalent tokens. These may be collateralized with real shares or use oracle price feeds to mirror performance.\n\nAccess often depends on the user’s jurisdiction, and KYC is usually required for custodial offerings.\n\n\n### How do tokenized JPM shares work?\n\nMany investors assume tokenized stocks are equivalent to equities, but the mechanisms are different.\n\nTokenized JPM shares may follow two models. In the custodial model, each token is backed 1:1 with real JPM shares held in custody. In synthetic models, tokens track JPM’s price using oracles but aren’t backed by shares.\n\nThese tokens settle faster, trade globally, and can be bought fractionally — but usually offer no dividends or voting rights.\n\n\n### What is JPM Coin, and how does it function?\n\nMany confuse tokenized stocks with digital bank coins. JPM Coin solves a different problem.\n\nJPM Coin is a permissioned digital token issued by JPMorgan on its private Onyx blockchain. It’s used by institutional clients to move USD and EUR between accounts instantly across borders.\n\nUnlike stablecoins like [USDC] (https://coinmarketcap.com/currencies/usd-coin/) or [DAI] (https://coinmarketcap.com/currencies/multi-collateral-dai/), JPM Coin is not publicly tradable and only functions within JPMorgan’s closed network.\n\n\n### How can I invest in JPMorgan — traditional shares or tokenized stock?\n\nAccess to financial stocks varies widely depending on geography and custody preferences.\n\nJPMorgan Chase stock trades on the NYSE under the ticker JPM, available through brokers like Fidelity, Schwab, or eToro. Tokenized versions exist on select DeFi or custodian-backed platforms, offering 24/7 access, lower minimums, and global reach.\n\nTraditional shares come with legal protections and dividends, while tokenized versions offer liquidity and accessibility with fewer guarantees.",
+            "logo": null,
+            "website": "https://www.jpmorganchase.com",
+            "date_added": "2025-07-18T04:03:26.000Z"
+          },
+          "rwa_id": 16,
+          "asset_type": "stock",
+          "rwa_rank": 16,
+          "has_tokens": true,
+          "primary_exchange": "New York Stock Exchange"
+        },
+        {
+          "name": "IBM",
+          "symbol": "IBM",
+          "slug": "ibm",
+          "website": "https://www.ibm.com",
+          "employees": 270300,
+          "founded": "1911-06-16",
+          "industry": "Computer & office Equipment",
+          "cik": "0000051143",
+          "about": {
+            "description": "Incorporated in 1911, International Business Machines, or IBM, is one of the oldest technology companies in the world. It provides software, IT consulting services, and hardware to help business customers modernize their technology workflows. IBM operates in 175 countries and employs approximately 300,000 people. The company has a robust roster of business partners to service its clients, which includes 95% of all Fortune 500 companies. IBM's products, including Red Hat, watsonx, and mainframes, handle some of the world's most important data workloads in areas like finance and retail.",
+            "logo": null,
+            "website": "https://www.ibm.com",
+            "date_added": "2025-08-21T06:31:17.000Z"
+          },
+          "rwa_id": 42,
+          "asset_type": "stock",
+          "rwa_rank": 63,
+          "has_tokens": true,
+          "primary_exchange": "New York Stock Exchange"
+        },
+        {
+          "name": "PayPal Holdings Inc",
+          "symbol": "PYPL",
+          "slug": "paypal",
+          "website": "https://www.paypal.com",
+          "employees": 24400,
+          "founded": "1998-12-01",
+          "industry": "Services-Business Services, NEC",
+          "cik": "0001633917",
+          "about": {
+            "description": "PayPal was spun off from eBay in 2015 and provides electronic payment solutions to merchants and consumers, with a focus on online transactions. The company had 434 million active accounts at the end of 2024. The company also owns Venmo, a person-to-person payment platform.",
+            "logo": null,
+            "website": "https://www.paypal.com",
+            "date_added": "2025-08-19T08:28:22.000Z"
+          },
+          "rwa_id": 93,
+          "asset_type": "stock",
+          "rwa_rank": 320,
+          "has_tokens": true,
+          "primary_exchange": "Nasdaq"
+        },
+        {
+          "name": "Seagate Technology Holdings Plc",
+          "symbol": "STX",
+          "slug": "seagate-technology-holdings-plc",
+          "website": null,
+          "employees": null,
+          "founded": null,
+          "industry": null,
+          "cik": null,
+          "about": {
+            "description": null,
+            "logo": "https://s2.coinmarketcap.com/static/img/rwa/200x200/6a3353473e374d5372a7fd7c.png",
+            "website": null,
+            "date_added": "2026-06-18T02:09:11.000Z"
+          },
+          "rwa_id": 73,
+          "asset_type": "stock",
+          "rwa_rank": 132,
+          "has_tokens": true,
+          "primary_exchange": null
+        },
+        {
+          "name": "VanEck Semiconductor ETF",
+          "symbol": "SMH",
+          "slug": "vaneck-semiconductor-etf",
+          "website": null,
+          "employees": null,
+          "founded": null,
+          "industry": null,
+          "cik": null,
+          "about": {
+            "description": null,
+            "logo": "https://s2.coinmarketcap.com/static/img/rwa/200x200/6a3d16034f2c925dd32d629f.png",
+            "website": null,
+            "date_added": "2026-06-25T11:50:27.000Z"
+          },
+          "rwa_id": 7733,
+          "asset_type": "etf",
+          "rwa_rank": 5325,
+          "has_tokens": true,
+          "primary_exchange": null
+        },
+        {
+          "name": "Corning Incorporated",
+          "symbol": "GLW",
+          "slug": "corning-incorporated",
+          "website": null,
+          "employees": null,
+          "founded": null,
+          "industry": null,
+          "cik": null,
+          "about": {
+            "description": null,
+            "logo": "https://s2.coinmarketcap.com/static/img/rwa/200x200/6a3353523e374d5372a7fd86.png",
+            "website": null,
+            "date_added": "2026-06-18T02:09:22.000Z"
+          },
+          "rwa_id": 256,
+          "asset_type": "stock",
+          "rwa_rank": 178,
+          "has_tokens": true,
+          "primary_exchange": null
+        },
+        {
+          "name": "United States Oil Fund LP",
+          "symbol": "USO",
+          "slug": "united-states-oil-fund",
+          "website": null,
+          "employees": null,
+          "founded": "2006-04-10",
+          "industry": "Commodity Contracts Brokers & Dealers",
+          "cik": "0001327068",
+          "about": {
+            "description": null,
+            "logo": null,
+            "website": null,
+            "date_added": "2026-01-07T04:45:26.000Z"
+          },
+          "rwa_id": 183,
+          "asset_type": "etf",
+          "rwa_rank": 7771,
+          "has_tokens": true,
+          "primary_exchange": "NYSE Arca, Inc."
+        },
+        {
+          "name": "USA Rare Earth, Inc.",
+          "symbol": "USAR",
+          "slug": "usa-rare-earth-inc",
+          "website": null,
+          "employees": null,
+          "founded": null,
+          "industry": null,
+          "cik": null,
+          "about": {
+            "description": null,
+            "logo": "https://s2.coinmarketcap.com/static/img/rwa/200x200/6a3cc5250d1b235a865db670.png",
+            "website": null,
+            "date_added": "2026-06-25T06:05:25.000Z"
+          },
+          "rwa_id": 1682,
+          "asset_type": "stock",
+          "rwa_rank": 1800,
+          "has_tokens": true,
+          "primary_exchange": null
+        },
+        {
+          "name": "Ast Spacemobile, Inc.",
+          "symbol": "ASTS",
+          "slug": "ast-spacemobile-inc",
+          "website": null,
+          "employees": null,
+          "founded": null,
+          "industry": null,
+          "cik": null,
+          "about": {
+            "description": null,
+            "logo": "https://s2.coinmarketcap.com/static/img/rwa/200x200/6a3354913e374d5372a7fe93.png",
+            "website": null,
+            "date_added": "2026-06-18T02:14:41.000Z"
+          },
+          "rwa_id": 511,
+          "asset_type": "stock",
+          "rwa_rank": 1019,
+          "has_tokens": true,
+          "primary_exchange": null
+        },
+        {
+          "name": "Trump Media & Technology Group Corp.",
+          "symbol": "DJT",
+          "slug": "trump-media-technology-group-corp",
+          "website": null,
+          "employees": null,
+          "founded": null,
+          "industry": null,
+          "cik": null,
+          "about": {
+            "description": null,
+            "logo": "https://s2.coinmarketcap.com/static/img/rwa/200x200/6a3cc8b20d1b235a865dc16e.png",
+            "website": null,
+            "date_added": "2026-06-25T06:20:34.000Z"
+          },
+          "rwa_id": 2023,
+          "asset_type": "stock",
+          "rwa_rank": 2320,
+          "has_tokens": true,
+          "primary_exchange": null
+        },
+        {
+          "name": "SharonAI Holdings, Inc.",
+          "symbol": "SHAZ",
+          "slug": "sharonai-holdings-inc",
+          "website": null,
+          "employees": null,
+          "founded": null,
+          "industry": null,
+          "cik": null,
+          "about": {
+            "description": null,
+            "logo": "https://s2.coinmarketcap.com/static/img/rwa/200x200/6a3cfb7c4f2c925dd32d4bee.png",
+            "website": null,
+            "date_added": "2026-06-25T09:57:16.000Z"
+          },
+          "rwa_id": 2220,
+          "asset_type": "stock",
+          "rwa_rank": 2551,
+          "has_tokens": true,
+          "primary_exchange": null
+        },
+        {
+          "name": "Quantinuum Inc",
+          "symbol": "QNT",
+          "slug": "quantinuum-inc",
+          "website": "https://www.quantinuum.com",
+          "employees": null,
+          "founded": "2026-06-04",
+          "industry": null,
+          "cik": "0002110105",
+          "about": {
+            "description": "Quantinuum Inc. is providing a full-stack quantum technology solution to scale quantum computing and develop applications. Its products and solutions are Quantinuum Systems, Helios, Quantum Origin, InQuanto, Nexus, and Developer Tools.",
+            "logo": "https://s2.coinmarketcap.com/static/img/rwa/8rkj5Tmb_400x400.png",
+            "website": "https://www.quantinuum.com",
+            "date_added": "2026-07-21T05:31:08.000Z"
+          },
+          "rwa_id": 16386,
+          "asset_type": "stock",
+          "rwa_rank": 2243,
+          "has_tokens": true,
+          "primary_exchange": "Nasdaq"
+        }
+      ]
+    },
+    "status": {
+      "timestamp": "2026-11-20T00:17:35.178Z",
+      "error_code": "0",
+      "error_message": "",
+      "elapsed": 3,
+      "credit_count": 1
+    }
+  }
+}

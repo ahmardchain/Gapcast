@@ -1,0 +1,4196 @@
+{
+  "request": {
+    "method": "GET",
+    "path": "/v5/real-world-assets/quotes/latest",
+    "params": {
+      "rwa_id": "7750,86,7751,118,5289,5699,211,1062,4789,87,5186,175,189,5382,31,219,443,181,5000,125,191,92,103,26,54,188,34,251,44,127,153,22,205,1588,297,75,5383,255,16,42,93,73,7733,256,183,1682,511,2023,2220,16386"
+    },
+    "url": "https://pro-api.coinmarketcap.com/v5/real-world-assets/quotes/latest?rwa_id=7750%2C86%2C7751%2C118%2C5289%2C5699%2C211%2C1062%2C4789%2C87%2C5186%2C175%2C189%2C5382%2C31%2C219%2C443%2C181%2C5000%2C125%2C191%2C92%2C103%2C26%2C54%2C188%2C34%2C251%2C44%2C127%2C153%2C22%2C205%2C1588%2C297%2C75%2C5383%2C255%2C16%2C42%2C93%2C73%2C7733%2C256%2C183%2C1682%2C511%2C2023%2C2220%2C16386"
+  },
+  "fetched_at": "2026-11-20T00:17:35.315Z",
+  "elapsed_ms": 113,
+  "http_status": 200,
+  "body": {
+    "data": {
+      "rwa_assets": [
+        {
+          "name": "Direxion Daily Semiconductor Bull 3X ETF",
+          "symbol": "SOXL",
+          "slug": "direxion-daily-semiconductor-bull-3x-etf",
+          "quotes": [
+            {
+              "symbol": "USD",
+              "crypto_id": 2781,
+              "average_tokenized_price": 44.4737835805424,
+              "tokenized_market_cap": 94237880.91974927,
+              "tokenized_volume_24h": 108175523.30091164,
+              "last_updated": "2026-11-20T00:16:01.000Z"
+            }
+          ],
+          "rwa_id": 7750,
+          "asset_type": "etf",
+          "rwa_rank": 5292,
+          "has_tokens": true,
+          "average_tokenized_price": 44.4737835805424,
+          "tokenized_market_cap": 94237880.91974927,
+          "tokenized_volume_24h": 108175523.30091164,
+          "last_updated": "2026-11-20T00:17:13.175Z",
+          "tokens": [
+            {
+              "symbol": "SOXLx",
+              "name": "Direxion Semiconductor Bull 3X tokenized ETF (xStock)",
+              "price": 44.54178497487584,
+              "crypto_id": 40147,
+              "issuer_id": "6878977dcbbf471de3366e85",
+              "issuer_name": "Backed Assets",
+              "market_cap": 11794082.45768392,
+              "volume_24h": 13467642.81664998
+            },
+            {
+              "symbol": "rSOXL",
+              "name": "Direxion Semiconductor Bull 3X Tokenized Stock (Reality)",
+              "price": 44.39897582489779,
+              "crypto_id": 40600,
+              "issuer_id": "6a43600c282e7240b76c8bbb",
+              "issuer_name": "Reality",
+              "market_cap": 3827301.9911843603,
+              "volume_24h": 10016182.710091803
+            },
+            {
+              "symbol": "SOXLB",
+              "name": "Semicon Bull 3X ETF Tokenized bStocks",
+              "price": 44.49922496425249,
+              "crypto_id": 40794,
+              "issuer_id": "6a2aed5097c45356b1a5f710",
+              "issuer_name": "bStocks",
+              "market_cap": 78664966.53196342,
+              "volume_24h": 84705777.97481653
+            },
+            {
+              "symbol": "wSOXLx",
+              "name": "Wrapped Direxion Semiconductor Bull 3X Tokenized ETF (xStock)",
+              "price": null,
+              "crypto_id": 41586,
+              "issuer_id": "6878977dcbbf471de3366e85",
+              "issuer_name": "Backed Assets",
+              "market_cap": null,
+              "volume_24h": null
+            }
+          ],
+          "tradfi_markets": [
+            {
+              "exchange": {
+                "slug": "binance",
+                "name": "Binance",
+                "exchange_id": 270
+              },
+              "ticker": "SOXL",
+              "market_url": "https://www.binance.com/en/stocks/EQ_SOXL"
+            }
+          ]
+        },
+        {
+          "name": "SPDR S&P 500 ETF Trust",
+          "symbol": "SPY",
+          "slug": "spy",
+          "quotes": [
+            {
+              "symbol": "USD",
+              "crypto_id": 2781,
+              "average_tokenized_price": 716.7256593346964,
+              "tokenized_market_cap": 168695129.23345968,
+              "tokenized_volume_24h": 56813885.18921758,
+              "last_updated": "2026-11-20T00:16:01.000Z"
+            }
+          ],
+          "rwa_id": 86,
+          "asset_type": "etf",
+          "rwa_rank": 7811,
+          "has_tokens": true,
+          "average_tokenized_price": 716.7256593346964,
+          "tokenized_market_cap": 168695129.23345968,
+          "tokenized_volume_24h": 56813885.18921758,
+          "last_updated": "2026-11-20T00:17:13.185Z",
+          "tokens": [
+            {
+              "symbol": "SPYX",
+              "name": "SP500 tokenized ETF (xStock)",
+              "price": 718.5652936871423,
+              "crypto_id": 37006,
+              "issuer_id": "6878977dcbbf471de3366e85",
+              "issuer_name": "Backed Assets",
+              "market_cap": 74911033.57330556,
+              "volume_24h": 9412443.43048633
+            },
+            {
+              "symbol": "SPY.D",
+              "name": "SPY tokenized ETF (Dinari)",
+              "price": null,
+              "crypto_id": 28628,
+              "issuer_id": "688c6172abae9b5b9fb30359",
+              "issuer_name": "Dinari Assets",
+              "market_cap": null,
+              "volume_24h": null
+            },
+            {
+              "symbol": "SPYon",
+              "name": "SPDR S&P 500 Tokenized ETF (Ondo)",
+              "price": 719.0951338462336,
+              "crypto_id": 38067,
+              "issuer_id": "688ca4ccabae9b5b9fb3167a",
+              "issuer_name": "Ondo Assets",
+              "market_cap": 46687979.52057062,
+              "volume_24h": 4153175.6548163523
+            },
+            {
+              "symbol": "SPY",
+              "name": "SPDR S&P 500 ETF Trust Tokenized ETF (Hyperliquid)",
+              "price": 714.5380675272237,
+              "crypto_id": 39621,
+              "issuer_id": "699ed38db54c9320b15928e3",
+              "issuer_name": "Hyperliquid Assets",
+              "market_cap": 0,
+              "volume_24h": 48.723368772361844
+            },
+            {
+              "symbol": "SPY",
+              "name": "State Street SPDR S&P 500 ETF Trust (Derivatives)",
+              "price": 716.1666308129553,
+              "crypto_id": 39732,
+              "issuer_id": "695e11f774b54210f3b95dc3",
+              "issuer_name": "NA (Derivatives)",
+              "market_cap": 0,
+              "volume_24h": 0
+            },
+            {
+              "symbol": "rSPY",
+              "name": "SPDR S&P 500 Tokenized Stock (Reality)",
+              "price": 715.1281606712165,
+              "crypto_id": 40625,
+              "issuer_id": "6a43600c282e7240b76c8bbb",
+              "issuer_name": "Reality",
+              "market_cap": 3258896.788884326,
+              "volume_24h": 2743470.429295435
+            },
+            {
+              "symbol": "SPY",
+              "name": "SPDR S&P 500 Trust Tokenized ETF (Robinhood)",
+              "price": 715.8050605872994,
+              "crypto_id": 40694,
+              "issuer_id": "6a465832fbe3004b1a0ea2dd",
+              "issuer_name": "Robinhood",
+              "market_cap": 19279327.263117462,
+              "volume_24h": 27868676.76061753
+            },
+            {
+              "symbol": "SPYB",
+              "name": "State Street SPDR S&P 500 ETF Tokenized bStocks",
+              "price": 714.9498017506427,
+              "crypto_id": 40790,
+              "issuer_id": "6a2aed5097c45356b1a5f710",
+              "issuer_name": "bStocks",
+              "market_cap": 24555936.33286725,
+              "volume_24h": 8793376.947228821
+            },
+            {
+              "symbol": "wSPYx",
+              "name": "Wrapped SP500 Tokenized ETF (xStock)",
+              "price": 720.1646147461416,
+              "crypto_id": 41525,
+              "issuer_id": "6878977dcbbf471de3366e85",
+              "issuer_name": "Backed Assets",
+              "market_cap": 0,
+              "volume_24h": 3843975.831151076
+            }
+          ],
+          "tradfi_markets": [
+            {
+              "exchange": {
+                "slug": "binance",
+                "name": "Binance",
+                "exchange_id": 270
+              },
+              "ticker": "SPY",
+              "market_url": "https://www.binance.com/en/stocks/EQ_SPY"
+            }
+          ]
+        },
+        {
+          "name": "Direxion Daily Semiconductor Bear 3X ETF",
+          "symbol": "SOXS",
+          "slug": "direxion-daily-semiconductor-bear-3x-etf",
+          "quotes": [
+            {
+              "symbol": "USD",
+              "crypto_id": 2781,
+              "average_tokenized_price": 64.17471411896463,
+              "tokenized_market_cap": 3328328.7601374993,
+              "tokenized_volume_24h": 55808595.1891627,
+              "last_updated": "2026-11-20T00:16:01.000Z"
+            }
+          ],
+          "rwa_id": 7751,
+          "asset_type": "etf",
+          "rwa_rank": 5290,
+          "has_tokens": true,
+          "average_tokenized_price": 64.17471411896463,
+          "tokenized_market_cap": 3328328.7601374993,
+          "tokenized_volume_24h": 55808595.1891627,
+          "last_updated": "2026-11-20T00:17:13.128Z",
+          "tokens": [
+            {
+              "symbol": "rSOXS",
+              "name": "Direxion Semiconductor Bear 3X Tokenized Stock (Reality)",
+              "price": 64.24616704291171,
+              "crypto_id": 40621,
+              "issuer_id": "6a43600c282e7240b76c8bbb",
+              "issuer_name": "Reality",
+              "market_cap": 1831290.850391092,
+              "volume_24h": 5788383.959658181
+            },
+            {
+              "symbol": "SOXS",
+              "name": "Direxion Daily Semiconductor Bear 3X Shares (Derivatives)",
+              "price": 64.44336465426207,
+              "crypto_id": 40862,
+              "issuer_id": "695e11f774b54210f3b95dc3",
+              "issuer_name": "NA (Derivatives)",
+              "market_cap": 0,
+              "volume_24h": 0
+            },
+            {
+              "symbol": "SOXSB",
+              "name": "Direxion Semiconductor Bear 3X ETF Tokenized bStocks",
+              "price": 64.14759087027774,
+              "crypto_id": 40930,
+              "issuer_id": "6a2aed5097c45356b1a5f710",
+              "issuer_name": "bStocks",
+              "market_cap": 1496598.0205115676,
+              "volume_24h": 50021208.4611967
+            }
+          ],
+          "tradfi_markets": [
+            {
+              "exchange": {
+                "slug": "binance",
+                "name": "Binance",
+                "exchange_id": 270
+              },
+              "ticker": "SOXS",
+              "market_url": "https://www.binance.com/en/stocks/EQ_SOXS"
+            }
+          ]
+        },
+        {
+          "name": "Invesco QQQ Trust",
+          "symbol": "QQQ",
+          "slug": "qqq",
+          "quotes": [
+            {
+              "symbol": "USD",
+              "crypto_id": 2781,
+              "average_tokenized_price": 644.2325304400487,
+              "tokenized_market_cap": 221991407.86698407,
+              "tokenized_volume_24h": 51341771.23359228,
+              "last_updated": "2026-11-20T00:16:01.000Z"
+            }
+          ],
+          "rwa_id": 118,
+          "asset_type": "etf",
+          "rwa_rank": 7810,
+          "has_tokens": true,
+          "average_tokenized_price": 644.2325304400487,
+          "tokenized_market_cap": 221991407.86698407,
+          "tokenized_volume_24h": 51341771.23359228,
+          "last_updated": "2026-11-20T00:17:13.181Z",
+          "tokens": [
+            {
+              "symbol": "QQQX",
+              "name": "Nasdaq tokenized ETF (xStock)",
+              "price": 644.3026060388987,
+              "crypto_id": 37057,
+              "issuer_id": "6878977dcbbf471de3366e85",
+              "issuer_name": "Backed Assets",
+              "market_cap": 73028656.69574606,
+              "volume_24h": 7904927.558935078
+            },
+            {
+              "symbol": "QQQon",
+              "name": "Invesco QQQ Tokenized ETF (Ondo)",
+              "price": 645.2937909464627,
+              "crypto_id": 38094,
+              "issuer_id": "688ca4ccabae9b5b9fb3167a",
+              "issuer_name": "Ondo Assets",
+              "market_cap": 35512719.83065614,
+              "volume_24h": 5663144.147159091
+            },
+            {
+              "symbol": "QQQ",
+              "name": "QQQ (Derivatives)",
+              "price": 644.3602910700782,
+              "crypto_id": 39517,
+              "issuer_id": "695e11f774b54210f3b95dc3",
+              "issuer_name": "NA (Derivatives)",
+              "market_cap": 0,
+              "volume_24h": 0
+            },
+            {
+              "symbol": "QQQ",
+              "name": "Invesco QQQ Trust Tokenized ETF (Hyperliquid)",
+              "price": 1099.752456687513,
+              "crypto_id": 39623,
+              "issuer_id": "699ed38db54c9320b15928e3",
+              "issuer_name": "Hyperliquid Assets",
+              "market_cap": 0,
+              "volume_24h": 0
+            },
+            {
+              "symbol": null,
+              "name": null,
+              "price": null,
+              "crypto_id": 39839,
+              "issuer_id": "695e11f774b54210f3b95dc3",
+              "issuer_name": "NA (Derivatives)",
+              "market_cap": null,
+              "volume_24h": null
+            },
+            {
+              "symbol": "QQQB",
+              "name": "Invesco QQQ Trust Tokenized bStocks",
+              "price": 643.8476123455316,
+              "crypto_id": 40593,
+              "issuer_id": "6a2aed5097c45356b1a5f710",
+              "issuer_name": "bStocks",
+              "market_cap": 96961789.9525779,
+              "volume_24h": 26495772.685119253
+            },
+            {
+              "symbol": "rQQQ",
+              "name": "Invesco QQQ Tokenized Stock (Reality)",
+              "price": 643.2407750667643,
+              "crypto_id": 40606,
+              "issuer_id": "6a43600c282e7240b76c8bbb",
+              "issuer_name": "Reality",
+              "market_cap": 9226209.912626723,
+              "volume_24h": 1278874.6633172724
+            },
+            {
+              "symbol": "QQQ",
+              "name": "Invesco QQQ Tokenized ETF (Robinhood)",
+              "price": 643.6534941602766,
+              "crypto_id": 40686,
+              "issuer_id": "6a465832fbe3004b1a0ea2dd",
+              "issuer_name": "Robinhood",
+              "market_cap": 7275474.701687845,
+              "volume_24h": 3791699.0559166553
+            },
+            {
+              "symbol": "wQQQx",
+              "name": "Wrapped Nasdaq Tokenized ETF (xStock)",
+              "price": 645.7765086720644,
+              "crypto_id": 41519,
+              "issuer_id": "6878977dcbbf471de3366e85",
+              "issuer_name": "Backed Assets",
+              "market_cap": 0,
+              "volume_24h": 6209644.600634239
+            }
+          ],
+          "tradfi_markets": [
+            {
+              "exchange": {
+                "slug": "binance",
+                "name": "Binance",
+                "exchange_id": 270
+              },
+              "ticker": "QQQ",
+              "market_url": "https://www.binance.com/en/stocks/EQ_QQQ"
+            }
+          ]
+        },
+        {
+          "name": "Direxion Daily MSCI South Korea Bull 3X ETF",
+          "symbol": "KORU",
+          "slug": "direxion-daily-msci-south-korea-bull-3x-etf",
+          "quotes": [
+            {
+              "symbol": "USD",
+              "crypto_id": 2781,
+              "average_tokenized_price": 6.388102910437285,
+              "tokenized_market_cap": 20933413.616325673,
+              "tokenized_volume_24h": 39476657.5560761,
+              "last_updated": "2026-11-20T00:16:01.000Z"
+            }
+          ],
+          "rwa_id": 5289,
+          "asset_type": "etf",
+          "rwa_rank": 6114,
+          "has_tokens": true,
+          "average_tokenized_price": 6.388102910437285,
+          "tokenized_market_cap": 20933413.616325673,
+          "tokenized_volume_24h": 39476657.5560761,
+          "last_updated": "2026-11-20T00:17:13.144Z",
+          "tokens": [
+            {
+              "symbol": "KORUB",
+              "name": "South Korea Bull 3X ETF Tokenized bStocks",
+              "price": 6.390843150984544,
+              "crypto_id": 40876,
+              "issuer_id": "6a2aed5097c45356b1a5f710",
+              "issuer_name": "bStocks",
+              "market_cap": 20942393.213177543,
+              "volume_24h": 39477551.31458151
+            }
+          ],
+          "tradfi_markets": [
+            {
+              "exchange": {
+                "slug": "binance",
+                "name": "Binance",
+                "exchange_id": 270
+              },
+              "ticker": "KORU",
+              "market_url": "https://www.binance.com/en/stocks/EQ_KORU"
+            }
+          ]
+        },
+        {
+          "name": "Tradr 2X Long SNDK Daily ETF",
+          "symbol": "SNXX",
+          "slug": "tradr-2x-long-sndk-daily-etf",
+          "quotes": [
+            {
+              "symbol": "USD",
+              "crypto_id": 2781,
+              "average_tokenized_price": 2.527919399880118,
+              "tokenized_market_cap": 9117813.386754775,
+              "tokenized_volume_24h": 28563500.09520755,
+              "last_updated": "2026-11-20T00:16:01.000Z"
+            }
+          ],
+          "rwa_id": 5699,
+          "asset_type": "etf",
+          "rwa_rank": 5299,
+          "has_tokens": true,
+          "average_tokenized_price": 2.527919399880118,
+          "tokenized_market_cap": 9117813.386754775,
+          "tokenized_volume_24h": 28563500.09520755,
+          "last_updated": "2026-11-20T00:17:13.121Z",
+          "tokens": [
+            {
+              "symbol": "SNXX",
+              "name": "Tradr 2X Long SNDK Daily ETF (Derivatives)",
+              "price": 2.529074867821114,
+              "crypto_id": 40826,
+              "issuer_id": "695e11f774b54210f3b95dc3",
+              "issuer_name": "NA (Derivatives)",
+              "market_cap": 0,
+              "volume_24h": 0
+            },
+            {
+              "symbol": "SNXXB",
+              "name": "Tradr 2X Long SNDK ETF Tokenized bStocks",
+              "price": 2.527956647395727,
+              "crypto_id": 40880,
+              "issuer_id": "6a2aed5097c45356b1a5f710",
+              "issuer_name": "bStocks",
+              "market_cap": 9117947.732769312,
+              "volume_24h": 28564206.943206936
+            }
+          ],
+          "tradfi_markets": [
+            {
+              "exchange": {
+                "slug": "binance",
+                "name": "Binance",
+                "exchange_id": 270
+              },
+              "ticker": "SNXX",
+              "market_url": "https://www.binance.com/en/stocks/EQ_SNXX"
+            }
+          ]
+        },
+        {
+          "name": "ProShares UltraPro QQQ",
+          "symbol": "TQQQ",
+          "slug": "tqqq",
+          "quotes": [
+            {
+              "symbol": "USD",
+              "crypto_id": 2781,
+              "average_tokenized_price": 48.64345868108379,
+              "tokenized_market_cap": 24711879.0675695,
+              "tokenized_volume_24h": 21902906.47244559,
+              "last_updated": "2026-11-20T00:16:01.000Z"
+            }
+          ],
+          "rwa_id": 211,
+          "asset_type": "etf",
+          "rwa_rank": 7792,
+          "has_tokens": true,
+          "average_tokenized_price": 48.64345868108379,
+          "tokenized_market_cap": 24711879.0675695,
+          "tokenized_volume_24h": 21902906.47244559,
+          "last_updated": "2026-11-20T00:17:13.153Z",
+          "tokens": [
+            {
+              "symbol": "TQQQX",
+              "name": "TQQQ tokenized ETF (xStock)",
+              "price": 25.69756442572372,
+              "crypto_id": 37044,
+              "issuer_id": "6878977dcbbf471de3366e85",
+              "issuer_name": "Backed Assets",
+              "market_cap": 3172747.806816655,
+              "volume_24h": 60227.329876589916
+            },
+            {
+              "symbol": "TQQQon",
+              "name": "ProShares UltraPro QQQ Tokenized Stock (Ondo)",
+              "price": 48.94490136188337,
+              "crypto_id": 39284,
+              "issuer_id": "688ca4ccabae9b5b9fb3167a",
+              "issuer_name": "Ondo Assets",
+              "market_cap": 4573773.388815886,
+              "volume_24h": 1645288.5120382598
+            },
+            {
+              "symbol": "rTQQQ",
+              "name": "ProShares UltraPro QQQ Tokenized Stock (Reality)",
+              "price": 48.73399393693505,
+              "crypto_id": 40633,
+              "issuer_id": "6a43600c282e7240b76c8bbb",
+              "issuer_name": "Reality",
+              "market_cap": 3927775.532319895,
+              "volume_24h": 2679240.7568965545
+            },
+            {
+              "symbol": "TQQQB",
+              "name": "ProShares UltraPro QQQ Tokenized bStocks",
+              "price": 48.68867915558928,
+              "crypto_id": 40884,
+              "issuer_id": "6a2aed5097c45356b1a5f710",
+              "issuer_name": "bStocks",
+              "market_cap": 13044387.44000583,
+              "volume_24h": 17519504.95918668
+            },
+            {
+              "symbol": "wTQQQx",
+              "name": "Wrapped TQQQ Tokenized ETF (xStock)",
+              "price": null,
+              "crypto_id": 41573,
+              "issuer_id": "6878977dcbbf471de3366e85",
+              "issuer_name": "Backed Assets",
+              "market_cap": null,
+              "volume_24h": null
+            }
+          ],
+          "tradfi_markets": [
+            {
+              "exchange": {
+                "slug": "binance",
+                "name": "Binance",
+                "exchange_id": 270
+              },
+              "ticker": "TQQQ",
+              "market_url": "https://www.binance.com/en/stocks/EQ_TQQQ"
+            }
+          ]
+        },
+        {
+          "name": "iShares MSCI South Korea ETF",
+          "symbol": "EWY",
+          "slug": "ishares-msci-south-korea-etf",
+          "quotes": [
+            {
+              "symbol": "USD",
+              "crypto_id": 2781,
+              "average_tokenized_price": 135.0307136864225,
+              "tokenized_market_cap": 16723344.906139687,
+              "tokenized_volume_24h": 7472986.03352229,
+              "last_updated": "2026-11-20T00:16:01.000Z"
+            }
+          ],
+          "rwa_id": 1062,
+          "asset_type": "etf",
+          "rwa_rank": 7766,
+          "has_tokens": true,
+          "average_tokenized_price": 135.0307136864225,
+          "tokenized_market_cap": 16723344.906139687,
+          "tokenized_volume_24h": 7472986.03352229,
+          "last_updated": "2026-11-20T00:17:13.164Z",
+          "tokens": [
+            {
+              "symbol": "EWY",
+              "name": "Ishares Msci South Korea ETF (Derivatives)",
+              "price": 135.04897427017525,
+              "crypto_id": 39654,
+              "issuer_id": "695e11f774b54210f3b95dc3",
+              "issuer_name": "NA (Derivatives)",
+              "market_cap": 0,
+              "volume_24h": 0
+            },
+            {
+              "symbol": "EWYon",
+              "name": "iShares MSCI South Korea Tokenized ETF (Ondo)",
+              "price": 134.4248437284342,
+              "crypto_id": 39781,
+              "issuer_id": "688ca4ccabae9b5b9fb3167a",
+              "issuer_name": "Ondo Assets",
+              "market_cap": 659361.6912527622,
+              "volume_24h": 259206.5367122539
+            },
+            {
+              "symbol": "EWYx",
+              "name": "iShares MSCI South Korea tokenized ETF (xStock)",
+              "price": 135.15237970335534,
+              "crypto_id": 40159,
+              "issuer_id": "6878977dcbbf471de3366e85",
+              "issuer_name": "Backed Assets",
+              "market_cap": 4035547.4352589226,
+              "volume_24h": 320115.06909290585
+            },
+            {
+              "symbol": "EWYB",
+              "name": "iShares MSCI South Korea ETF Tokenized bStocks",
+              "price": 135.10990323276317,
+              "crypto_id": 40539,
+              "issuer_id": "6a2aed5097c45356b1a5f710",
+              "issuer_name": "bStocks",
+              "market_cap": 11224541.860987764,
+              "volume_24h": 6310429.134103841
+            },
+            {
+              "symbol": "rEWY",
+              "name": "iShares MSCI South Korea ETF Tokenized Stock (Reality)",
+              "price": 134.84503343894715,
+              "crypto_id": 40645,
+              "issuer_id": "6a43600c282e7240b76c8bbb",
+              "issuer_name": "Reality",
+              "market_cap": 635051.5747584109,
+              "volume_24h": 596644.6219811316
+            },
+            {
+              "symbol": "EWY",
+              "name": "iShares MSCI South Korea fund Tokenized ETF (Robinhood)",
+              "price": 134.59625663705756,
+              "crypto_id": 40763,
+              "issuer_id": "6a465832fbe3004b1a0ea2dd",
+              "issuer_name": "Robinhood",
+              "market_cap": 105692.71595828653,
+              "volume_24h": 40.624979030880155
+            },
+            {
+              "symbol": "wEWYx",
+              "name": "Wrapped iShares MSCI South Korea Tokenized ETF (xStock)",
+              "price": null,
+              "crypto_id": 41388,
+              "issuer_id": "6878977dcbbf471de3366e85",
+              "issuer_name": "Backed Assets",
+              "market_cap": 0,
+              "volume_24h": 0
+            },
+            {
+              "symbol": "EWY",
+              "name": "ishares MSCI South Korea tokenized ETF (Backpack)",
+              "price": 134.0962343201043,
+              "crypto_id": 42375,
+              "issuer_id": "6a2d54b697c45356b1a634f4",
+              "issuer_name": "Backpack",
+              "market_cap": 66703.48983784948,
+              "volume_24h": 394.8296342737334
+            }
+          ],
+          "tradfi_markets": [
+            {
+              "exchange": {
+                "slug": "binance",
+                "name": "Binance",
+                "exchange_id": 270
+              },
+              "ticker": "EWY",
+              "market_url": "https://www.binance.com/en/stocks/EQ_EWY"
+            }
+          ]
+        },
+        {
+          "name": "Roundhill Memory ETF",
+          "symbol": "DRAM",
+          "slug": "roundhill-memory-etf",
+          "quotes": [
+            {
+              "symbol": "USD",
+              "crypto_id": 2781,
+              "average_tokenized_price": 38.244227408729294,
+              "tokenized_market_cap": 16421746.566377187,
+              "tokenized_volume_24h": 6946621.72309588,
+              "last_updated": "2026-11-20T00:16:01.000Z"
+            }
+          ],
+          "rwa_id": 4789,
+          "asset_type": "etf",
+          "rwa_rank": 7111,
+          "has_tokens": true,
+          "average_tokenized_price": 38.244227408729294,
+          "tokenized_market_cap": 16421746.566377187,
+          "tokenized_volume_24h": 6946621.72309588,
+          "last_updated": "2026-11-20T00:17:13.172Z",
+          "tokens": [
+            {
+              "symbol": "rDRAM",
+              "name": "Global X DRAM ETF Tokenized Stock (Reality)",
+              "price": 38.26602393367457,
+              "crypto_id": 40636,
+              "issuer_id": "6a43600c282e7240b76c8bbb",
+              "issuer_name": "Reality",
+              "market_cap": 790320.3201627674,
+              "volume_24h": 939058.8171623332
+            },
+            {
+              "symbol": "DRAM",
+              "name": "Roundhill Memory Tokenized ETF (Robinhood)",
+              "price": null,
+              "crypto_id": 40782,
+              "issuer_id": "6a465832fbe3004b1a0ea2dd",
+              "issuer_name": "Robinhood",
+              "market_cap": null,
+              "volume_24h": null
+            },
+            {
+              "symbol": "DRAMB",
+              "name": "Roundhill Memory ETF Tokenized bStocks",
+              "price": 38.24153102702219,
+              "crypto_id": 40798,
+              "issuer_id": "6a2aed5097c45356b1a5f710",
+              "issuer_name": "bStocks",
+              "market_cap": 15631716.751326848,
+              "volume_24h": 6007699.635443369
+            }
+          ],
+          "tradfi_markets": [
+            {
+              "exchange": {
+                "slug": "binance",
+                "name": "Binance",
+                "exchange_id": 270
+              },
+              "ticker": "DRAM",
+              "market_url": "https://www.binance.com/en/stocks/EQ_DRAM"
+            }
+          ]
+        },
+        {
+          "name": "SPDR Gold Trust",
+          "symbol": "GLD",
+          "slug": "gld",
+          "quotes": [
+            {
+              "symbol": "USD",
+              "crypto_id": 2781,
+              "average_tokenized_price": 331.5328564568008,
+              "tokenized_market_cap": 13759660.320103014,
+              "tokenized_volume_24h": 5399578.29077254,
+              "last_updated": "2026-11-20T00:16:01.000Z"
+            }
+          ],
+          "rwa_id": 87,
+          "asset_type": "etf",
+          "rwa_rank": 7809,
+          "has_tokens": true,
+          "average_tokenized_price": 331.5328564568008,
+          "tokenized_market_cap": 13759660.320103014,
+          "tokenized_volume_24h": 5399578.29077254,
+          "last_updated": "2026-11-20T00:17:13.161Z",
+          "tokens": [
+            {
+              "symbol": "GLDX",
+              "name": "Gold tokenized ETF (xStock)",
+              "price": 331.687359802085,
+              "crypto_id": 37024,
+              "issuer_id": "6878977dcbbf471de3366e85",
+              "issuer_name": "Backed Assets",
+              "market_cap": 9942905.174122166,
+              "volume_24h": 2157253.6832747273
+            },
+            {
+              "symbol": "GLD.D",
+              "name": "SPDR Gold Shares tokenized ETF (Dinari)",
+              "price": null,
+              "crypto_id": 37081,
+              "issuer_id": "688c6172abae9b5b9fb30359",
+              "issuer_name": "Dinari Assets",
+              "market_cap": null,
+              "volume_24h": null
+            },
+            {
+              "symbol": "GLDon",
+              "name": "SPDR Gold Shares Tokenized Stock (Ondo)",
+              "price": 331.16079568191776,
+              "crypto_id": 39276,
+              "issuer_id": "688ca4ccabae9b5b9fb3167a",
+              "issuer_name": "Ondo Assets",
+              "market_cap": 3816751.3204535963,
+              "volume_24h": 1689025.0398357525
+            },
+            {
+              "symbol": "GLD",
+              "name": "SPDR Gold Shares Tokenized ETF (Hyperliquid)",
+              "price": 358.0535247536515,
+              "crypto_id": 39617,
+              "issuer_id": "699ed38db54c9320b15928e3",
+              "issuer_name": "Hyperliquid Assets",
+              "market_cap": 0,
+              "volume_24h": 0
+            },
+            {
+              "symbol": "wGLDx",
+              "name": "Wrapped Gold Tokenized ETF (xStock)",
+              "price": null,
+              "crypto_id": 41367,
+              "issuer_id": "6878977dcbbf471de3366e85",
+              "issuer_name": "Backed Assets",
+              "market_cap": 0,
+              "volume_24h": 0
+            },
+            {
+              "symbol": "GLD",
+              "name": "SPDR Gold Shares Tokenized ETF (Derivatives)",
+              "price": 331.4336921415079,
+              "crypto_id": 41957,
+              "issuer_id": "699ed38db54c9320b15928e3",
+              "issuer_name": "Hyperliquid Assets",
+              "market_cap": 0,
+              "volume_24h": 0
+            },
+            {
+              "symbol": "GLD",
+              "name": "SPDR Gold Shares Tokenized ETF (Robinhood)",
+              "price": 331.8235069116105,
+              "crypto_id": 41994,
+              "issuer_id": "6a465832fbe3004b1a0ea2dd",
+              "issuer_name": "Robinhood",
+              "market_cap": 0,
+              "volume_24h": 1557025.0214320424
+            }
+          ],
+          "tradfi_markets": [
+            {
+              "exchange": {
+                "slug": "binance",
+                "name": "Binance",
+                "exchange_id": 270
+              },
+              "ticker": "GLD",
+              "market_url": "https://www.binance.com/en/stocks/EQ_GLD"
+            }
+          ]
+        },
+        {
+          "name": "GraniteShares ETF Trust GraniteShares 2x Long INTC Daily ETF",
+          "symbol": "INTW",
+          "slug": "graniteshares-etf-trust-graniteshares-2x-long-intc-daily-etf",
+          "quotes": [
+            {
+              "symbol": "USD",
+              "crypto_id": 2781,
+              "average_tokenized_price": 5.027604988389405,
+              "tokenized_market_cap": 3783233.3444143618,
+              "tokenized_volume_24h": 5198052.42852869,
+              "last_updated": "2026-11-20T00:16:01.000Z"
+            }
+          ],
+          "rwa_id": 5186,
+          "asset_type": "etf",
+          "rwa_rank": 6318,
+          "has_tokens": true,
+          "average_tokenized_price": 5.027604988389405,
+          "tokenized_market_cap": 3783233.3444143618,
+          "tokenized_volume_24h": 5198052.42852869,
+          "last_updated": "2026-11-20T00:17:13.141Z",
+          "tokens": [
+            {
+              "symbol": "INTW",
+              "name": "GraniteShares 2x Long INTC Daily ETF (Derivatives)",
+              "price": 5.0409207647562715,
+              "crypto_id": 40825,
+              "issuer_id": "695e11f774b54210f3b95dc3",
+              "issuer_name": "NA (Derivatives)",
+              "market_cap": 0,
+              "volume_24h": 0
+            },
+            {
+              "symbol": "INTWB",
+              "name": "GraniteShares 2X Long INTC ETF Tokenized bStocks",
+              "price": 5.0293928796203815,
+              "crypto_id": 40883,
+              "issuer_id": "6a2aed5097c45356b1a5f710",
+              "issuer_name": "bStocks",
+              "market_cap": 3784578.7185511203,
+              "volume_24h": 5198439.776285047
+            }
+          ],
+          "tradfi_markets": [
+            {
+              "exchange": {
+                "slug": "binance",
+                "name": "Binance",
+                "exchange_id": 270
+              },
+              "ticker": "INTW",
+              "market_url": "https://www.binance.com/en/stocks/EQ_INTW"
+            }
+          ]
+        },
+        {
+          "name": "PDD Holdings Inc",
+          "symbol": "PDD",
+          "slug": "pdd-holdings",
+          "quotes": [
+            {
+              "symbol": "USD",
+              "crypto_id": 2781,
+              "average_tokenized_price": 85.34184982528001,
+              "tokenized_market_cap": 16144922.421751784,
+              "tokenized_volume_24h": 4946186.74880166,
+              "last_updated": "2026-11-20T00:16:01.000Z"
+            }
+          ],
+          "rwa_id": 175,
+          "asset_type": "stock",
+          "rwa_rank": 125,
+          "has_tokens": true,
+          "average_tokenized_price": 85.34184982528001,
+          "tokenized_market_cap": 16144922.421751784,
+          "tokenized_volume_24h": 4946186.74880166,
+          "last_updated": "2026-11-20T00:17:13.145Z",
+          "tokens": [
+            {
+              "symbol": "PDDon",
+              "name": "PDD Holdings Tokenized Stock (Ondo)",
+              "price": 85.40611364215569,
+              "crypto_id": 39247,
+              "issuer_id": "688ca4ccabae9b5b9fb3167a",
+              "issuer_name": "Ondo Assets",
+              "market_cap": 11893965.717757598,
+              "volume_24h": 1217937.012031694
+            },
+            {
+              "symbol": "PDD",
+              "name": "PDD Holdings Inc (Derivatives)",
+              "price": 85.40479419095433,
+              "crypto_id": 39861,
+              "issuer_id": "695e11f774b54210f3b95dc3",
+              "issuer_name": "NA (Derivatives)",
+              "market_cap": 0,
+              "volume_24h": 0
+            },
+            {
+              "symbol": "PDDB",
+              "name": "PDD Holdings Tokenized bStocks",
+              "price": 85.30561355414446,
+              "crypto_id": 42383,
+              "issuer_id": "6a2aed5097c45356b1a5f710",
+              "issuer_name": "bStocks",
+              "market_cap": 3999457.4366436517,
+              "volume_24h": 3482919.545828903
+            },
+            {
+              "symbol": "PDDc",
+              "name": "PDD Holdings Inc. Tokenized Stock (Coinbase)",
+              "price": 86.16524727833266,
+              "crypto_id": 42585,
+              "issuer_id": "6a72fe7072996604d45c6733",
+              "issuer_name": "Coinbase",
+              "market_cap": 34466.098911333065,
+              "volume_24h": 0
+            },
+            {
+              "symbol": "PDDx",
+              "name": "PDD Holdings Inc tokenized stock (xStock)",
+              "price": 85.47584623089377,
+              "crypto_id": 42895,
+              "issuer_id": "6878977dcbbf471de3366e85",
+              "issuer_name": "Backed Assets",
+              "market_cap": 216831.4769251918,
+              "volume_24h": 245394.37744086553
+            }
+          ],
+          "tradfi_markets": [
+            {
+              "exchange": {
+                "slug": "binance",
+                "name": "Binance",
+                "exchange_id": 270
+              },
+              "ticker": "PDD",
+              "market_url": "https://www.binance.com/en/stocks/EQ_PDD"
+            }
+          ]
+        },
+        {
+          "name": "Lumentum Holdings Inc.",
+          "symbol": "LITE",
+          "slug": "lumentum-holdings-inc",
+          "quotes": [
+            {
+              "symbol": "USD",
+              "crypto_id": 2781,
+              "average_tokenized_price": 529.3537174339077,
+              "tokenized_market_cap": 6625402.170306258,
+              "tokenized_volume_24h": 4711959.67479999,
+              "last_updated": "2026-11-20T00:16:01.000Z"
+            }
+          ],
+          "rwa_id": 189,
+          "asset_type": "stock",
+          "rwa_rank": 314,
+          "has_tokens": true,
+          "average_tokenized_price": 529.3537174339077,
+          "tokenized_market_cap": 6625402.170306258,
+          "tokenized_volume_24h": 4711959.67479999,
+          "last_updated": "2026-11-20T00:17:13.124Z",
+          "tokens": [
+            {
+              "symbol": "LITEx",
+              "name": "Lumentum Holdings Inc. tokenized stock (xStock)",
+              "price": 530.2512953592799,
+              "crypto_id": 40178,
+              "issuer_id": "6878977dcbbf471de3366e85",
+              "issuer_name": "Backed Assets",
+              "market_cap": 2983912.4652640563,
+              "volume_24h": 138416.0984444059
+            },
+            {
+              "symbol": "LITEB",
+              "name": "Lumentum Tokenized bStocks",
+              "price": 529.2235105797894,
+              "crypto_id": 40591,
+              "issuer_id": "6a2aed5097c45356b1a5f710",
+              "issuer_name": "bStocks",
+              "market_cap": 3180006.5802539913,
+              "volume_24h": 3503213.8200844293
+            },
+            {
+              "symbol": "rLITE",
+              "name": "Lumentum Tokenized Stock (Reality)",
+              "price": 530.0109010620307,
+              "crypto_id": 40664,
+              "issuer_id": "6a43600c282e7240b76c8bbb",
+              "issuer_name": "Reality",
+              "market_cap": 219115.7646642719,
+              "volume_24h": 557820.1921784498
+            },
+            {
+              "symbol": "LITE",
+              "name": "Lumentum Tokenized Stock (Robinhood)",
+              "price": 529.3483071169051,
+              "crypto_id": 40750,
+              "issuer_id": "6a465832fbe3004b1a0ea2dd",
+              "issuer_name": "Robinhood",
+              "market_cap": 132880.09285963295,
+              "volume_24h": 508476.90092712117
+            },
+            {
+              "symbol": "wLITEx",
+              "name": "Wrapped Lumentum Holdings Inc. Tokenized Stock (xStock)",
+              "price": null,
+              "crypto_id": 41452,
+              "issuer_id": "6878977dcbbf471de3366e85",
+              "issuer_name": "Backed Assets",
+              "market_cap": null,
+              "volume_24h": null
+            },
+            {
+              "symbol": "LITEc",
+              "name": "Lumentum Holdings Inc Tokenized Stock (Coinbase)",
+              "price": 529.1890413301497,
+              "crypto_id": 42547,
+              "issuer_id": "6a72fe7072996604d45c6733",
+              "issuer_name": "Coinbase",
+              "market_cap": 109540.91008648768,
+              "volume_24h": 4102.169973357636
+            }
+          ],
+          "tradfi_markets": [
+            {
+              "exchange": {
+                "slug": "binance",
+                "name": "Binance",
+                "exchange_id": 270
+              },
+              "ticker": "LITE",
+              "market_url": "https://www.binance.com/en/stocks/EQ_LITE"
+            }
+          ]
+        },
+        {
+          "name": "Direxion Shares ETF Trust Direxion Daily MU Bull 2X ETF",
+          "symbol": "MUU",
+          "slug": "direxion-shares-etf-trust-direxion-daily-mu-bull-2x-etf",
+          "quotes": [
+            {
+              "symbol": "USD",
+              "crypto_id": 2781,
+              "average_tokenized_price": 13.11240591254692,
+              "tokenized_market_cap": 1975126.2200760266,
+              "tokenized_volume_24h": 4559228.15782369,
+              "last_updated": "2026-11-20T00:16:01.000Z"
+            }
+          ],
+          "rwa_id": 5382,
+          "asset_type": "etf",
+          "rwa_rank": 5929,
+          "has_tokens": true,
+          "average_tokenized_price": 13.11240591254692,
+          "tokenized_market_cap": 1975126.2200760266,
+          "tokenized_volume_24h": 4559228.15782369,
+          "last_updated": "2026-11-20T00:17:13.121Z",
+          "tokens": [
+            {
+              "symbol": "MUU",
+              "name": "Direxion Daily MU Bull 2X ETF (Derivatives)",
+              "price": 13.18480699031082,
+              "crypto_id": 40675,
+              "issuer_id": "695e11f774b54210f3b95dc3",
+              "issuer_name": "NA (Derivatives)",
+              "market_cap": 0,
+              "volume_24h": 0
+            },
+            {
+              "symbol": "MUUB",
+              "name": "Direxion MU Bull 2X ETF Tokenized bStocks",
+              "price": 13.11763936575988,
+              "crypto_id": 40881,
+              "issuer_id": "6a2aed5097c45356b1a5f710",
+              "issuer_name": "bStocks",
+              "market_cap": 1975914.5369365173,
+              "volume_24h": 4559296.906735097
+            }
+          ],
+          "tradfi_markets": [
+            {
+              "exchange": {
+                "slug": "binance",
+                "name": "Binance",
+                "exchange_id": 270
+              },
+              "ticker": "MUU",
+              "market_url": "https://www.binance.com/en/stocks/EQ_MUU"
+            }
+          ]
+        },
+        {
+          "name": "Costco Wholesale Corp",
+          "symbol": "COST",
+          "slug": "costco-wholesale",
+          "quotes": [
+            {
+              "symbol": "USD",
+              "crypto_id": 2781,
+              "average_tokenized_price": 1097.8778118423963,
+              "tokenized_market_cap": 1881781.8729251781,
+              "tokenized_volume_24h": 4461194.09791654,
+              "last_updated": "2026-11-20T00:16:01.000Z"
+            }
+          ],
+          "rwa_id": 31,
+          "asset_type": "stock",
+          "rwa_rank": 26,
+          "has_tokens": true,
+          "average_tokenized_price": 1097.8778118423963,
+          "tokenized_market_cap": 1881781.8729251781,
+          "tokenized_volume_24h": 4461194.09791654,
+          "last_updated": "2026-11-20T00:17:13.144Z",
+          "tokens": [
+            {
+              "symbol": "COSTon",
+              "name": "Costco Tokenized Stock (Ondo)",
+              "price": 1097.9675654777955,
+              "crypto_id": 38019,
+              "issuer_id": "688ca4ccabae9b5b9fb3167a",
+              "issuer_name": "Ondo Assets",
+              "market_cap": 1325350.1321153434,
+              "volume_24h": 4417030.6250290945
+            },
+            {
+              "symbol": "COST",
+              "name": "Costco Tokenized Stock (Robinhood)",
+              "price": 1088.7873179037115,
+              "crypto_id": 40762,
+              "issuer_id": "6a465832fbe3004b1a0ea2dd",
+              "issuer_name": "Robinhood",
+              "market_cap": 556373.6184825179,
+              "volume_24h": 44219.68621755138
+            },
+            {
+              "symbol": "wCOSTx",
+              "name": "Wrapped Costco Tokenized Stock (xStock)",
+              "price": null,
+              "crypto_id": 41837,
+              "issuer_id": "6878977dcbbf471de3366e85",
+              "issuer_name": "Backed Assets",
+              "market_cap": null,
+              "volume_24h": null
+            }
+          ],
+          "tradfi_markets": [
+            {
+              "exchange": {
+                "slug": "binance",
+                "name": "Binance",
+                "exchange_id": 270
+              },
+              "ticker": "COST",
+              "market_url": "https://www.binance.com/en/stocks/EQ_COST"
+            }
+          ]
+        },
+        {
+          "name": "BitMine Immersion Technologies",
+          "symbol": "BMNR",
+          "slug": "bitmine-immersion-technologies",
+          "quotes": [
+            {
+              "symbol": "USD",
+              "crypto_id": 2781,
+              "average_tokenized_price": 15.042297642029828,
+              "tokenized_market_cap": 13091093.494847031,
+              "tokenized_volume_24h": 4321552.78928122,
+              "last_updated": "2026-11-20T00:16:01.000Z"
+            }
+          ],
+          "rwa_id": 219,
+          "asset_type": "stock",
+          "rwa_rank": 913,
+          "has_tokens": true,
+          "average_tokenized_price": 15.042297642029828,
+          "tokenized_market_cap": 13091093.494847031,
+          "tokenized_volume_24h": 4321552.78928122,
+          "last_updated": "2026-11-20T00:17:13.119Z",
+          "tokens": [
+            {
+              "symbol": "BMNRon",
+              "name": "BitMine Immersion Technologies Tokenized Stock (Ondo)",
+              "price": 15.047018540857243,
+              "crypto_id": 39224,
+              "issuer_id": "688ca4ccabae9b5b9fb3167a",
+              "issuer_name": "Ondo Assets",
+              "market_cap": 6169161.716730676,
+              "volume_24h": 980509.0850626766
+            },
+            {
+              "symbol": "BMNR",
+              "name": "Bitmine Immersion Technologies (Derivatives)",
+              "price": 15.055418378667532,
+              "crypto_id": 39670,
+              "issuer_id": "695e11f774b54210f3b95dc3",
+              "issuer_name": "NA (Derivatives)",
+              "market_cap": 0,
+              "volume_24h": 0
+            },
+            {
+              "symbol": "BMNRB",
+              "name": "BitMine Immersion Technologies Tokenized bStocks",
+              "price": 15.03820664928838,
+              "crypto_id": 40964,
+              "issuer_id": "6a2aed5097c45356b1a5f710",
+              "issuer_name": "bStocks",
+              "market_cap": 6922072.152520271,
+              "volume_24h": 2991831.609049361
+            },
+            {
+              "symbol": "wBMNRx",
+              "name": "Wrapped Bitmine Tokenized Stock (xStock)",
+              "price": 15.060558334284167,
+              "crypto_id": 41124,
+              "issuer_id": "6878977dcbbf471de3366e85",
+              "issuer_name": "Backed Assets",
+              "market_cap": 0,
+              "volume_24h": 349288.1975307408
+            },
+            {
+              "symbol": "BMNRc",
+              "name": "BitMine Immersion Technologies, Inc. Tokenized Stock (Coinbase)",
+              "price": null,
+              "crypto_id": 42504,
+              "issuer_id": "6a72fe7072996604d45c6733",
+              "issuer_name": "Coinbase",
+              "market_cap": null,
+              "volume_24h": null
+            }
+          ],
+          "tradfi_markets": [
+            {
+              "exchange": {
+                "slug": "binance",
+                "name": "Binance",
+                "exchange_id": 270
+              },
+              "ticker": "BMNR",
+              "market_url": "https://www.binance.com/en/stocks/EQ_BMNR"
+            }
+          ]
+        },
+        {
+          "name": "Coreweave, Inc.",
+          "symbol": "CRWV",
+          "slug": "coreweave-inc",
+          "quotes": [
+            {
+              "symbol": "USD",
+              "crypto_id": 2781,
+              "average_tokenized_price": 44.353953509220446,
+              "tokenized_market_cap": 4139639.4165322725,
+              "tokenized_volume_24h": 4183138.61691818,
+              "last_updated": "2026-11-20T00:16:01.000Z"
+            }
+          ],
+          "rwa_id": 443,
+          "asset_type": "stock",
+          "rwa_rank": 515,
+          "has_tokens": true,
+          "average_tokenized_price": 44.353953509220446,
+          "tokenized_market_cap": 4139639.4165322725,
+          "tokenized_volume_24h": 4183138.61691818,
+          "last_updated": "2026-11-20T00:17:13.190Z",
+          "tokens": [
+            {
+              "symbol": "rCRWV",
+              "name": "CoreWeave Tokenized Stock (Reality)",
+              "price": 44.3490332199204,
+              "crypto_id": 40637,
+              "issuer_id": "6a43600c282e7240b76c8bbb",
+              "issuer_name": "Reality",
+              "market_cap": 438079.2840663736,
+              "volume_24h": 1197279.4677187463
+            },
+            {
+              "symbol": "CRWV",
+              "name": "CoreWeave Tokenized Stock (Robinhood)",
+              "price": 44.92427851994031,
+              "crypto_id": 40692,
+              "issuer_id": "6a465832fbe3004b1a0ea2dd",
+              "issuer_name": "Robinhood",
+              "market_cap": 481223.9320811773,
+              "volume_24h": 56303.20545040825
+            },
+            {
+              "symbol": "CRWVB",
+              "name": "CoreWeave Tokenized bStocks",
+              "price": 44.34551392452615,
+              "crypto_id": 40877,
+              "issuer_id": "6a2aed5097c45356b1a5f710",
+              "issuer_name": "bStocks",
+              "market_cap": 3102930.520054278,
+              "volume_24h": 2929597.9492497407
+            },
+            {
+              "symbol": "wCRWVx",
+              "name": "Wrapped CoreWeave Tokenized Stock (xStock)",
+              "price": null,
+              "crypto_id": 41257,
+              "issuer_id": "6878977dcbbf471de3366e85",
+              "issuer_name": "Backed Assets",
+              "market_cap": 0,
+              "volume_24h": 0
+            },
+            {
+              "symbol": "CRWVc",
+              "name": "CoreWeave, Inc. Tokenized Stock (Coinbase)",
+              "price": 48.554122143767216,
+              "crypto_id": 42491,
+              "issuer_id": "6a72fe7072996604d45c6733",
+              "issuer_name": "Coinbase",
+              "market_cap": 117441.41021871848,
+              "volume_24h": 0
+            }
+          ],
+          "tradfi_markets": [
+            {
+              "exchange": {
+                "slug": "binance",
+                "name": "Binance",
+                "exchange_id": 270
+              },
+              "ticker": "CRWV",
+              "market_url": "https://www.binance.com/en/stocks/EQ_CRWV"
+            }
+          ]
+        },
+        {
+          "name": "ProShares UltraPro Short QQQ",
+          "symbol": "SQQQ",
+          "slug": "proshares-ultrapro-short-qqq",
+          "quotes": [
+            {
+              "symbol": "USD",
+              "crypto_id": 2781,
+              "average_tokenized_price": 49.60055474821324,
+              "tokenized_market_cap": 17057442.796434473,
+              "tokenized_volume_24h": 4166144.45557185,
+              "last_updated": "2026-11-20T00:16:01.000Z"
+            }
+          ],
+          "rwa_id": 181,
+          "asset_type": "etf",
+          "rwa_rank": 7772,
+          "has_tokens": true,
+          "average_tokenized_price": 49.60055474821324,
+          "tokenized_market_cap": 17057442.796434473,
+          "tokenized_volume_24h": 4166144.45557185,
+          "last_updated": "2026-11-20T00:17:13.137Z",
+          "tokens": [
+            {
+              "symbol": "SQQQon",
+              "name": "ProShares UltraPro Short QQQ Tokenized Stock (Ondo)",
+              "price": 50.942440854145005,
+              "crypto_id": 39300,
+              "issuer_id": "688ca4ccabae9b5b9fb3167a",
+              "issuer_name": "Ondo Assets",
+              "market_cap": 113896.68118018877,
+              "volume_24h": 156534.62630813327
+            },
+            {
+              "symbol": "rSQQQ",
+              "name": "ProShares UltraPro Short QQQ Tokenized Stock (Reality)",
+              "price": 49.593006742546116,
+              "crypto_id": 40619,
+              "issuer_id": "6a43600c282e7240b76c8bbb",
+              "issuer_name": "Reality",
+              "market_cap": 129399.87627733698,
+              "volume_24h": 1062091.572003861
+            },
+            {
+              "symbol": "SQQQB",
+              "name": "ProShares UltraPro Short QQQ Tokenized bStocks",
+              "price": 49.52775777586668,
+              "crypto_id": 41962,
+              "issuer_id": "6a2aed5097c45356b1a5f710",
+              "issuer_name": "bStocks",
+              "market_cap": 869627.9683237239,
+              "volume_24h": 2838375.047212057
+            },
+            {
+              "symbol": "SQQQx",
+              "name": "ProShares UltraPro Short QQQ tokenized ETF (xStock)",
+              "price": 49.640998133613,
+              "crypto_id": 42599,
+              "issuer_id": "6878977dcbbf471de3366e85",
+              "issuer_name": "Backed Assets",
+              "market_cap": 15944012.156075072,
+              "volume_24h": 109174.92941767066
+            }
+          ],
+          "tradfi_markets": [
+            {
+              "exchange": {
+                "slug": "binance",
+                "name": "Binance",
+                "exchange_id": 270
+              },
+              "ticker": "SQQQ",
+              "market_url": "https://www.binance.com/en/stocks/EQ_SQQQ"
+            }
+          ]
+        },
+        {
+          "name": "iShares China Large-Cap ETF",
+          "symbol": "FXI",
+          "slug": "ishares-china-large-cap-etf",
+          "quotes": [
+            {
+              "symbol": "USD",
+              "crypto_id": 2781,
+              "average_tokenized_price": 31.814875302159773,
+              "tokenized_market_cap": 2607665.790591852,
+              "tokenized_volume_24h": 4092057.87993578,
+              "last_updated": "2026-11-20T00:16:01.000Z"
+            }
+          ],
+          "rwa_id": 5000,
+          "asset_type": "etf",
+          "rwa_rank": 6690,
+          "has_tokens": true,
+          "average_tokenized_price": 31.814875302159773,
+          "tokenized_market_cap": 2607665.790591852,
+          "tokenized_volume_24h": 4092057.87993578,
+          "last_updated": "2026-11-20T00:17:13.113Z",
+          "tokens": [
+            {
+              "symbol": "FXIon",
+              "name": "iShares China Large-Cap Tokenized ETF (Ondo)",
+              "price": 31.88104158177482,
+              "crypto_id": 39758,
+              "issuer_id": "688ca4ccabae9b5b9fb3167a",
+              "issuer_name": "Ondo Assets",
+              "market_cap": 2613089.0255474257,
+              "volume_24h": 4092057.8799357796
+            }
+          ],
+          "tradfi_markets": [
+            {
+              "exchange": {
+                "slug": "binance",
+                "name": "Binance",
+                "exchange_id": 270
+              },
+              "ticker": "FXI",
+              "market_url": "https://www.binance.com/en/stocks/EQ_FXI"
+            }
+          ]
+        },
+        {
+          "name": "Hims & Hers Health Inc",
+          "symbol": "HIMS",
+          "slug": "hims-hers",
+          "quotes": [
+            {
+              "symbol": "USD",
+              "crypto_id": 2781,
+              "average_tokenized_price": 15.930652611964462,
+              "tokenized_market_cap": 19367874.82301016,
+              "tokenized_volume_24h": 4042015.20589755,
+              "last_updated": "2026-11-20T00:16:01.000Z"
+            }
+          ],
+          "rwa_id": 125,
+          "asset_type": "stock",
+          "rwa_rank": 1525,
+          "has_tokens": true,
+          "average_tokenized_price": 15.930652611964462,
+          "tokenized_market_cap": 19367874.82301016,
+          "tokenized_volume_24h": 4042015.20589755,
+          "last_updated": "2026-11-20T00:17:13.156Z",
+          "tokens": [
+            {
+              "symbol": "HIMSon",
+              "name": "Hims & Hers Health Tokenized Stock (Ondo)",
+              "price": 15.890623135259535,
+              "crypto_id": 38034,
+              "issuer_id": "688ca4ccabae9b5b9fb3167a",
+              "issuer_name": "Ondo Assets",
+              "market_cap": 18158241.555491783,
+              "volume_24h": 1774385.3347456395
+            },
+            {
+              "symbol": "HIMSx",
+              "name": "Hims & Hers tokenized stock (xStock)",
+              "price": 16.010969820559687,
+              "crypto_id": 40148,
+              "issuer_id": "6878977dcbbf471de3366e85",
+              "issuer_name": "Backed Assets",
+              "market_cap": 365049.77543696057,
+              "volume_24h": 11064.742433545116
+            },
+            {
+              "symbol": "wHIMSx",
+              "name": "Wrapped Hims & Hers Tokenized Stock (xStock)",
+              "price": null,
+              "crypto_id": 41430,
+              "issuer_id": "6878977dcbbf471de3366e85",
+              "issuer_name": "Backed Assets",
+              "market_cap": null,
+              "volume_24h": null
+            },
+            {
+              "symbol": "HIMS",
+              "name": "Hims & Hers Health Tokenized Stock (Robinhood)",
+              "price": 16.052768421205577,
+              "crypto_id": 41995,
+              "issuer_id": "6a465832fbe3004b1a0ea2dd",
+              "issuer_name": "Robinhood",
+              "market_cap": 0,
+              "volume_24h": 402361.51196565304
+            },
+            {
+              "symbol": "HIMSB",
+              "name": "Hims & Hers Tokenized bStocks",
+              "price": 15.940290140736646,
+              "crypto_id": 42046,
+              "issuer_id": "6a2aed5097c45356b1a5f710",
+              "issuer_name": "bStocks",
+              "market_cap": 517884.54250789736,
+              "volume_24h": 281474.57974385424
+            },
+            {
+              "symbol": "HIMSc",
+              "name": "Hims & Hers Health, Inc. Tokenized Stock (Coinbase)",
+              "price": 15.938314180846119,
+              "crypto_id": 42486,
+              "issuer_id": "6a72fe7072996604d45c6733",
+              "issuer_name": "Coinbase",
+              "market_cap": 326603.79982739553,
+              "volume_24h": 1572733.4598583481
+            }
+          ],
+          "tradfi_markets": [
+            {
+              "exchange": {
+                "slug": "binance",
+                "name": "Binance",
+                "exchange_id": 270
+              },
+              "ticker": "HIMS",
+              "market_url": "https://www.binance.com/en/stocks/EQ_HIMS"
+            }
+          ]
+        },
+        {
+          "name": "Applied Optoelectronics, Inc.",
+          "symbol": "AAOI",
+          "slug": "applied-optoelectronics-inc",
+          "quotes": [
+            {
+              "symbol": "USD",
+              "crypto_id": 2781,
+              "average_tokenized_price": 38.9408022572651,
+              "tokenized_market_cap": 5519182.75844178,
+              "tokenized_volume_24h": 3996274.05854795,
+              "last_updated": "2026-11-20T00:16:01.000Z"
+            }
+          ],
+          "rwa_id": 191,
+          "asset_type": "stock",
+          "rwa_rank": 1570,
+          "has_tokens": true,
+          "average_tokenized_price": 38.9408022572651,
+          "tokenized_market_cap": 5519182.75844178,
+          "tokenized_volume_24h": 3996274.05854795,
+          "last_updated": "2026-11-20T00:17:13.148Z",
+          "tokens": [
+            {
+              "symbol": "rAAOI",
+              "name": "Applied Optoelectronics Tokenized Stock (Reality)",
+              "price": 39.06510561331277,
+              "crypto_id": 40630,
+              "issuer_id": "6a43600c282e7240b76c8bbb",
+              "issuer_name": "Reality",
+              "market_cap": 385465.4188830503,
+              "volume_24h": 675323.8509657659
+            },
+            {
+              "symbol": "AAOI",
+              "name": "Applied Optoelectronics Tokenized Stock (Robinhood)",
+              "price": 42.921580150202395,
+              "crypto_id": 40699,
+              "issuer_id": "6a465832fbe3004b1a0ea2dd",
+              "issuer_name": "Robinhood",
+              "market_cap": 8967.879151247344,
+              "volume_24h": 98.1194679512631
+            },
+            {
+              "symbol": "AAOIB",
+              "name": "Applied Optoelectronics Tokenized bStocks",
+              "price": 38.93087816743953,
+              "crypto_id": 40844,
+              "issuer_id": "6a2aed5097c45356b1a5f710",
+              "issuer_name": "bStocks",
+              "market_cap": 5007538.521688362,
+              "volume_24h": 3320181.5124016977
+            },
+            {
+              "symbol": "wAAOIx",
+              "name": "Wrapped Applied Optoelectronics Tokenized Stock (xStock)",
+              "price": null,
+              "crypto_id": 41090,
+              "issuer_id": "6878977dcbbf471de3366e85",
+              "issuer_name": "Backed Assets",
+              "market_cap": null,
+              "volume_24h": null
+            },
+            {
+              "symbol": "AAOIc",
+              "name": "Applied Optoelectronics Inc Tokenized Stock (Coinbase)",
+              "price": 39.31325118639646,
+              "crypto_id": 42552,
+              "issuer_id": "6a72fe7072996604d45c6733",
+              "issuer_name": "Coinbase",
+              "market_cap": 119217.92927486284,
+              "volume_24h": 1097.8703203389634
+            }
+          ],
+          "tradfi_markets": [
+            {
+              "exchange": {
+                "slug": "binance",
+                "name": "Binance",
+                "exchange_id": 270
+              },
+              "ticker": "AAOI",
+              "market_url": "https://www.binance.com/en/stocks/EQ_AAOI"
+            }
+          ]
+        },
+        {
+          "name": "Pfizer Inc",
+          "symbol": "PFE",
+          "slug": "pfizer",
+          "quotes": [
+            {
+              "symbol": "USD",
+              "crypto_id": 2781,
+              "average_tokenized_price": 29.49133203623228,
+              "tokenized_market_cap": 416050.29713512945,
+              "tokenized_volume_24h": 3822269.22483369,
+              "last_updated": "2026-11-20T00:16:01.000Z"
+            }
+          ],
+          "rwa_id": 92,
+          "asset_type": "stock",
+          "rwa_rank": 97,
+          "has_tokens": true,
+          "average_tokenized_price": 29.49133203623228,
+          "tokenized_market_cap": 416050.29713512945,
+          "tokenized_volume_24h": 3822269.22483369,
+          "last_updated": "2026-11-20T00:17:13.176Z",
+          "tokens": [
+            {
+              "symbol": "PFE.D",
+              "name": "PFE tokenized stock (Dinari)",
+              "price": null,
+              "crypto_id": 28629,
+              "issuer_id": "688c6172abae9b5b9fb30359",
+              "issuer_name": "Dinari Assets",
+              "market_cap": null,
+              "volume_24h": null
+            },
+            {
+              "symbol": "PFEon",
+              "name": "Pfizer Tokenized Stock (Ondo)",
+              "price": 29.447602029786733,
+              "crypto_id": 38000,
+              "issuer_id": "688ca4ccabae9b5b9fb3167a",
+              "issuer_name": "Ondo Assets",
+              "market_cap": 48420.5551489057,
+              "volume_24h": 3460665.6871590596
+            },
+            {
+              "symbol": "PFEX",
+              "name": "Pfizer tokenized stock (xStock)",
+              "price": 29.909842430253804,
+              "crypto_id": 37063,
+              "issuer_id": "6878977dcbbf471de3366e85",
+              "issuer_name": "Backed Assets",
+              "market_cap": 367629.7387985941,
+              "volume_24h": 361603.53453942615
+            },
+            {
+              "symbol": "WPFEX",
+              "name": "Wrapped Pfizer Tokenized stock (xStock)",
+              "price": null,
+              "crypto_id": 37115,
+              "issuer_id": "6878977dcbbf471de3366e85",
+              "issuer_name": "Backed Assets",
+              "market_cap": null,
+              "volume_24h": null
+            },
+            {
+              "symbol": "PFEc",
+              "name": "Pfizer Inc Tokenized Stock (Coinbase)",
+              "price": null,
+              "crypto_id": 42456,
+              "issuer_id": "6a72fe7072996604d45c6733",
+              "issuer_name": "Coinbase",
+              "market_cap": 1412.39,
+              "volume_24h": 0
+            },
+            {
+              "symbol": "PFE",
+              "name": "Pfizer Inc (Derivative)",
+              "price": 27.50304081075596,
+              "crypto_id": 42699,
+              "issuer_id": "695e11f774b54210f3b95dc3",
+              "issuer_name": "NA (Derivatives)",
+              "market_cap": 0,
+              "volume_24h": 0
+            }
+          ],
+          "tradfi_markets": [
+            {
+              "exchange": {
+                "slug": "binance",
+                "name": "Binance",
+                "exchange_id": 270
+              },
+              "ticker": "PFE",
+              "market_url": "https://www.binance.com/en/stocks/EQ_PFE"
+            }
+          ]
+        },
+        {
+          "name": "Qualcomm Inc",
+          "symbol": "QCOM",
+          "slug": "qualcomm",
+          "quotes": [
+            {
+              "symbol": "USD",
+              "crypto_id": 2781,
+              "average_tokenized_price": 161.26415265962729,
+              "tokenized_market_cap": 5635195.635989151,
+              "tokenized_volume_24h": 3622850.7036703,
+              "last_updated": "2026-11-20T00:16:01.000Z"
+            }
+          ],
+          "rwa_id": 103,
+          "asset_type": "stock",
+          "rwa_rank": 86,
+          "has_tokens": true,
+          "average_tokenized_price": 161.26415265962729,
+          "tokenized_market_cap": 5635195.635989151,
+          "tokenized_volume_24h": 3622850.7036703,
+          "last_updated": "2026-11-20T00:17:13.196Z",
+          "tokens": [
+            {
+              "symbol": "QCOMon",
+              "name": "Qualcomm Tokenized Stock (Ondo)",
+              "price": 163.6582513065415,
+              "crypto_id": 38048,
+              "issuer_id": "688ca4ccabae9b5b9fb3167a",
+              "issuer_name": "Ondo Assets",
+              "market_cap": 2309412.5121209,
+              "volume_24h": 970973.1881190089
+            },
+            {
+              "symbol": "QCOM",
+              "name": "Qualcomm (Derivatives)",
+              "price": 161.1202920649384,
+              "crypto_id": 39932,
+              "issuer_id": "695e11f774b54210f3b95dc3",
+              "issuer_name": "NA (Derivatives)",
+              "market_cap": 0,
+              "volume_24h": 0
+            },
+            {
+              "symbol": "rQCOM",
+              "name": "Qualcomm Tokenized Stock (Reality)",
+              "price": 160.81518802718884,
+              "crypto_id": 40649,
+              "issuer_id": "6a43600c282e7240b76c8bbb",
+              "issuer_name": "Reality",
+              "market_cap": 328745.6152001649,
+              "volume_24h": 17031.215592514116
+            },
+            {
+              "symbol": "QCOM",
+              "name": "Qualcomm Tokenized Stock (Robinhood)",
+              "price": 162.06767967173747,
+              "crypto_id": 40749,
+              "issuer_id": "6a465832fbe3004b1a0ea2dd",
+              "issuer_name": "Robinhood",
+              "market_cap": 32494.1192292861,
+              "volume_24h": 9212.917729360619
+            },
+            {
+              "symbol": "QCOMB",
+              "name": "Qualcomm Tokenized bStocks",
+              "price": 160.3495912511774,
+              "crypto_id": 40792,
+              "issuer_id": "6a2aed5097c45356b1a5f710",
+              "issuer_name": "bStocks",
+              "market_cap": 2242475.140774501,
+              "volume_24h": 2538560.148808097
+            },
+            {
+              "symbol": "wQCOMx",
+              "name": "Wrapped Qualcomm Tokenized Stock (xStock)",
+              "price": null,
+              "crypto_id": 41622,
+              "issuer_id": "6878977dcbbf471de3366e85",
+              "issuer_name": "Backed Assets",
+              "market_cap": null,
+              "volume_24h": null
+            },
+            {
+              "symbol": "QCOMx",
+              "name": "Qualcomm tokenized stock (xStock)",
+              "price": 161.20909920234203,
+              "crypto_id": 41907,
+              "issuer_id": "6878977dcbbf471de3366e85",
+              "issuer_name": "Backed Assets",
+              "market_cap": 722041.691919983,
+              "volume_24h": 87104.68650222593
+            },
+            {
+              "symbol": "QCOMc",
+              "name": "Qualcomm Incorporated Tokenized Stock (Coinbase)",
+              "price": null,
+              "crypto_id": 42746,
+              "issuer_id": "6a72fe7072996604d45c6733",
+              "issuer_name": "Coinbase",
+              "market_cap": null,
+              "volume_24h": null
+            }
+          ],
+          "tradfi_markets": [
+            {
+              "exchange": {
+                "slug": "binance",
+                "name": "Binance",
+                "exchange_id": 270
+              },
+              "ticker": "QCOM",
+              "market_url": "https://www.binance.com/en/stocks/EQ_QCOM"
+            }
+          ]
+        },
+        {
+          "name": "ASML Holding NV",
+          "symbol": "ASML",
+          "slug": "asml",
+          "quotes": [
+            {
+              "symbol": "USD",
+              "crypto_id": 2781,
+              "average_tokenized_price": 1354.95065729417,
+              "tokenized_market_cap": 6106453.395366416,
+              "tokenized_volume_24h": 3526039.64830414,
+              "last_updated": "2026-11-20T00:16:01.000Z"
+            }
+          ],
+          "rwa_id": 26,
+          "asset_type": "stock",
+          "rwa_rank": 24,
+          "has_tokens": true,
+          "average_tokenized_price": 1354.95065729417,
+          "tokenized_market_cap": 6106453.395366416,
+          "tokenized_volume_24h": 3526039.64830414,
+          "last_updated": "2026-11-20T00:17:13.187Z",
+          "tokens": [
+            {
+              "symbol": "ASMLon",
+              "name": "ASML Holding NV Tokenized Stock (Ondo)",
+              "price": 1360.9990574568235,
+              "crypto_id": 38050,
+              "issuer_id": "688ca4ccabae9b5b9fb3167a",
+              "issuer_name": "Ondo Assets",
+              "market_cap": 3082361.7711400585,
+              "volume_24h": 1644249.1153441027
+            },
+            {
+              "symbol": "ASML",
+              "name": "ASML Holding NV (Derivatives)",
+              "price": 1352.2386760380803,
+              "crypto_id": 39677,
+              "issuer_id": "695e11f774b54210f3b95dc3",
+              "issuer_name": "NA (Derivatives)",
+              "market_cap": 0,
+              "volume_24h": 0
+            },
+            {
+              "symbol": "ASMLx",
+              "name": "ASML tokenized stock (xStock)",
+              "price": 1353.0538177918475,
+              "crypto_id": 40184,
+              "issuer_id": "6878977dcbbf471de3366e85",
+              "issuer_name": "Backed Assets",
+              "market_cap": 1170011.1111902017,
+              "volume_24h": 124710.24187812024
+            },
+            {
+              "symbol": "rASML",
+              "name": "ASML Tokenized Stock (Reality)",
+              "price": 1349.6988995139063,
+              "crypto_id": 40652,
+              "issuer_id": "6a43600c282e7240b76c8bbb",
+              "issuer_name": "Reality",
+              "market_cap": 681233.7808971396,
+              "volume_24h": 600200.3580593887
+            },
+            {
+              "symbol": "ASML",
+              "name": "ASML Holding NV Tokenized Stock (Robinhood)",
+              "price": 1347.2968621303114,
+              "crypto_id": 40726,
+              "issuer_id": "6a465832fbe3004b1a0ea2dd",
+              "issuer_name": "Robinhood",
+              "market_cap": 166021.12739484108,
+              "volume_24h": 3360.4447712845167
+            },
+            {
+              "symbol": "ASMLB",
+              "name": "ASML Tokenized bStocks",
+              "price": 1349.2814704275295,
+              "crypto_id": 40968,
+              "issuer_id": "6a2aed5097c45356b1a5f710",
+              "issuer_name": "bStocks",
+              "market_cap": 1006793.8995930228,
+              "volume_24h": 1153528.1425479949
+            },
+            {
+              "symbol": "wASMLx",
+              "name": "Wrapped ASML Tokenized Stock (xStock)",
+              "price": 1438.518129550704,
+              "crypto_id": 41170,
+              "issuer_id": "6878977dcbbf471de3366e85",
+              "issuer_name": "Backed Assets",
+              "market_cap": 0,
+              "volume_24h": 0
+            }
+          ],
+          "tradfi_markets": [
+            {
+              "exchange": {
+                "slug": "binance",
+                "name": "Binance",
+                "exchange_id": 270
+              },
+              "ticker": "ASML",
+              "market_url": "https://www.binance.com/en/stocks/EQ_ASML"
+            }
+          ]
+        },
+        {
+          "name": "Arm Holdings PLC - ADR",
+          "symbol": "ARM",
+          "slug": "arm-holdings-plc",
+          "quotes": [
+            {
+              "symbol": "USD",
+              "crypto_id": 2781,
+              "average_tokenized_price": 174.74319020507858,
+              "tokenized_market_cap": 3867451.6996217263,
+              "tokenized_volume_24h": 3436655.68972107,
+              "last_updated": "2026-11-20T00:16:01.000Z"
+            }
+          ],
+          "rwa_id": 54,
+          "asset_type": "stock",
+          "rwa_rank": 77,
+          "has_tokens": true,
+          "average_tokenized_price": 174.74319020507858,
+          "tokenized_market_cap": 3867451.6996217263,
+          "tokenized_volume_24h": 3436655.68972107,
+          "last_updated": "2026-11-20T00:17:13.120Z",
+          "tokens": [
+            {
+              "symbol": "ARM.D",
+              "name": "ARM tokenized stock (Dinari)",
+              "price": null,
+              "crypto_id": 28633,
+              "issuer_id": "688c6172abae9b5b9fb30359",
+              "issuer_name": "Dinari Assets",
+              "market_cap": null,
+              "volume_24h": null
+            },
+            {
+              "symbol": "ARMon",
+              "name": "Arm Holdings plc Tokenized Stock (Ondo)",
+              "price": 174.87376571891932,
+              "crypto_id": 38059,
+              "issuer_id": "688ca4ccabae9b5b9fb3167a",
+              "issuer_name": "Ondo Assets",
+              "market_cap": 2098685.2653916357,
+              "volume_24h": 1118832.3276700233
+            },
+            {
+              "symbol": "rARM",
+              "name": "Arm Tokenized Stock (Reality)",
+              "price": 175.26857790764487,
+              "crypto_id": 40663,
+              "issuer_id": "6a43600c282e7240b76c8bbb",
+              "issuer_name": "Reality",
+              "market_cap": 183385.1393240646,
+              "volume_24h": 3678.087569520148
+            },
+            {
+              "symbol": "ARM",
+              "name": "Arm Holdings plc Tokenized Stock (Robinhood)",
+              "price": null,
+              "crypto_id": 40693,
+              "issuer_id": "6a465832fbe3004b1a0ea2dd",
+              "issuer_name": "Robinhood",
+              "market_cap": null,
+              "volume_24h": null
+            },
+            {
+              "symbol": "ARMB",
+              "name": "Arm Tokenized bStocks",
+              "price": 174.66397608878907,
+              "crypto_id": 40851,
+              "issuer_id": "6a2aed5097c45356b1a5f710",
+              "issuer_name": "bStocks",
+              "market_cap": 1544049.8681393405,
+              "volume_24h": 2314212.261590502
+            },
+            {
+              "symbol": "wARMx",
+              "name": "Wrapped ARM Tokenized Stock (xStock)",
+              "price": null,
+              "crypto_id": 41183,
+              "issuer_id": "6878977dcbbf471de3366e85",
+              "issuer_name": "Backed Assets",
+              "market_cap": null,
+              "volume_24h": null
+            },
+            {
+              "symbol": "ARMc",
+              "name": "Arm Holdings plc Tokenized Stock (Coinbase)",
+              "price": 177.956021033882,
+              "crypto_id": 42580,
+              "issuer_id": "6a72fe7072996604d45c6733",
+              "issuer_name": "Coinbase",
+              "market_cap": 41196.62366582509,
+              "volume_24h": 0
+            }
+          ],
+          "tradfi_markets": [
+            {
+              "exchange": {
+                "slug": "binance",
+                "name": "Binance",
+                "exchange_id": 270
+              },
+              "ticker": "ARM",
+              "market_url": "https://www.binance.com/en/stocks/EQ_ARM"
+            }
+          ]
+        },
+        {
+          "name": "Coherent",
+          "symbol": "COHR",
+          "slug": "coherent",
+          "quotes": [
+            {
+              "symbol": "USD",
+              "crypto_id": 2781,
+              "average_tokenized_price": 211.98369428127896,
+              "tokenized_market_cap": 3523226.3049601833,
+              "tokenized_volume_24h": 3424029.46418391,
+              "last_updated": "2026-11-20T00:16:01.000Z"
+            }
+          ],
+          "rwa_id": 188,
+          "asset_type": "stock",
+          "rwa_rank": 352,
+          "has_tokens": true,
+          "average_tokenized_price": 211.98369428127896,
+          "tokenized_market_cap": 3523226.3049601833,
+          "tokenized_volume_24h": 3424029.46418391,
+          "last_updated": "2026-11-20T00:17:13.133Z",
+          "tokens": [
+            {
+              "symbol": "COHRon",
+              "name": "Coherent Tokenized Stock (Ondo)",
+              "price": 212.01133560241442,
+              "crypto_id": 39751,
+              "issuer_id": "688ca4ccabae9b5b9fb3167a",
+              "issuer_name": "Ondo Assets",
+              "market_cap": 1187921.6350861955,
+              "volume_24h": 960228.9709601426
+            },
+            {
+              "symbol": "COHR",
+              "name": "Coherent (Derivatives)",
+              "price": 212.1152888771816,
+              "crypto_id": 39995,
+              "issuer_id": "695e11f774b54210f3b95dc3",
+              "issuer_name": "NA (Derivatives)",
+              "market_cap": 0,
+              "volume_24h": 0
+            },
+            {
+              "symbol": "rCOHR",
+              "name": "Coherent Tokenized Stock (Reality)",
+              "price": 212.7055545986948,
+              "crypto_id": 40626,
+              "issuer_id": "6a43600c282e7240b76c8bbb",
+              "issuer_name": "Reality",
+              "market_cap": 380255.2091440471,
+              "volume_24h": 680206.6238872171
+            },
+            {
+              "symbol": "COHRB",
+              "name": "Coherent Tokenized bStocks",
+              "price": 211.75300974607023,
+              "crypto_id": 40965,
+              "issuer_id": "6a2aed5097c45356b1a5f710",
+              "issuer_name": "bStocks",
+              "market_cap": 1955598.8813848488,
+              "volume_24h": 1783615.1081977405
+            },
+            {
+              "symbol": "wCOHRx",
+              "name": "Wrapped Coherent Tokenized Stock (xStock)",
+              "price": null,
+              "crypto_id": 41149,
+              "issuer_id": "6878977dcbbf471de3366e85",
+              "issuer_name": "Backed Assets",
+              "market_cap": null,
+              "volume_24h": null
+            }
+          ],
+          "tradfi_markets": [
+            {
+              "exchange": {
+                "slug": "binance",
+                "name": "Binance",
+                "exchange_id": 270
+              },
+              "ticker": "COHR",
+              "market_url": "https://www.binance.com/en/stocks/EQ_COHR"
+            }
+          ]
+        },
+        {
+          "name": "Coca-Cola Co",
+          "symbol": "KO",
+          "slug": "coca-cola",
+          "quotes": [
+            {
+              "symbol": "USD",
+              "crypto_id": 2781,
+              "average_tokenized_price": 97.98590919820454,
+              "tokenized_market_cap": 4897027.232526258,
+              "tokenized_volume_24h": 3248954.00772299,
+              "last_updated": "2026-11-20T00:16:01.000Z"
+            }
+          ],
+          "rwa_id": 34,
+          "asset_type": "stock",
+          "rwa_rank": 27,
+          "has_tokens": true,
+          "average_tokenized_price": 97.98590919820454,
+          "tokenized_market_cap": 4897027.232526258,
+          "tokenized_volume_24h": 3248954.00772299,
+          "last_updated": "2026-11-20T00:17:13.111Z",
+          "tokens": [
+            {
+              "symbol": "KOon",
+              "name": "Coca-Cola Tokenized Stock (Ondo)",
+              "price": 97.97889561233644,
+              "crypto_id": 38036,
+              "issuer_id": "688ca4ccabae9b5b9fb3167a",
+              "issuer_name": "Ondo Assets",
+              "market_cap": 3702314.8698389926,
+              "volume_24h": 3079895.8785242033
+            },
+            {
+              "symbol": "KOX",
+              "name": "Coca-Cola tokenized stock (xStock)",
+              "price": 98.09552164045878,
+              "crypto_id": 37033,
+              "issuer_id": "6878977dcbbf471de3366e85",
+              "issuer_name": "Backed Assets",
+              "market_cap": 1173418.035709936,
+              "volume_24h": 147879.98728817044
+            },
+            {
+              "symbol": "KO",
+              "name": "Coca-Cola Co (Derivatives)",
+              "price": 96.23010667418633,
+              "crypto_id": 40982,
+              "issuer_id": "695e11f774b54210f3b95dc3",
+              "issuer_name": "NA (Derivatives)",
+              "market_cap": 0,
+              "volume_24h": 0
+            },
+            {
+              "symbol": "WKOX",
+              "name": "Wrapped Coca-Cola Tokenized stock (xStock)",
+              "price": 98.24056319030039,
+              "crypto_id": 37205,
+              "issuer_id": "6878977dcbbf471de3366e85",
+              "issuer_name": "Backed Assets",
+              "market_cap": 21294.326977399327,
+              "volume_24h": 21172.28916755478
+            }
+          ],
+          "tradfi_markets": [
+            {
+              "exchange": {
+                "slug": "binance",
+                "name": "Binance",
+                "exchange_id": 270
+              },
+              "ticker": "KO",
+              "market_url": "https://www.binance.com/en/stocks/EQ_KO"
+            }
+          ]
+        },
+        {
+          "name": "Cerebras Systems",
+          "symbol": "CBRS",
+          "slug": "cerebras-systems",
+          "quotes": [
+            {
+              "symbol": "USD",
+              "crypto_id": 2781,
+              "average_tokenized_price": 86.41736422877744,
+              "tokenized_market_cap": 6290600.727075539,
+              "tokenized_volume_24h": 3195484.9143088,
+              "last_updated": "2026-11-20T00:16:01.000Z"
+            }
+          ],
+          "rwa_id": 251,
+          "asset_type": "stock",
+          "rwa_rank": 567,
+          "has_tokens": true,
+          "average_tokenized_price": 86.41736422877744,
+          "tokenized_market_cap": 6290600.727075539,
+          "tokenized_volume_24h": 3195484.9143088,
+          "last_updated": "2026-11-20T00:17:13.201Z",
+          "tokens": [
+            {
+              "symbol": "CBRS",
+              "name": "Cerebras Systems (Derivatives)",
+              "price": 86.55635746979833,
+              "crypto_id": 39931,
+              "issuer_id": "695e11f774b54210f3b95dc3",
+              "issuer_name": "NA (Derivatives)",
+              "market_cap": 0,
+              "volume_24h": 0
+            },
+            {
+              "symbol": "rCBRS",
+              "name": "CBRS Tokenized Stock (Reality)",
+              "price": 86.63044259377695,
+              "crypto_id": 40631,
+              "issuer_id": "6a43600c282e7240b76c8bbb",
+              "issuer_name": "Reality",
+              "market_cap": 1476350.3598395593,
+              "volume_24h": 176111.37904402468
+            },
+            {
+              "symbol": "CBRS",
+              "name": "Cerebras Systems Tokenized Stock (Robinhood)",
+              "price": 87.31416902436612,
+              "crypto_id": 40698,
+              "issuer_id": "6a465832fbe3004b1a0ea2dd",
+              "issuer_name": "Robinhood",
+              "market_cap": 210829.71194443427,
+              "volume_24h": 0
+            },
+            {
+              "symbol": "CBRSB",
+              "name": "Cerebras Tokenized bStocks",
+              "price": 86.40594297068446,
+              "crypto_id": 40791,
+              "issuer_id": "6a2aed5097c45356b1a5f710",
+              "issuer_name": "bStocks",
+              "market_cap": 4603474.305011176,
+              "volume_24h": 3019417.352342979
+            },
+            {
+              "symbol": "wCBRSx",
+              "name": "Wrapped Cerebras Systems Tokenized Stock (xStock)",
+              "price": null,
+              "crypto_id": 41273,
+              "issuer_id": "6878977dcbbf471de3366e85",
+              "issuer_name": "Backed Assets",
+              "market_cap": null,
+              "volume_24h": null
+            }
+          ],
+          "tradfi_markets": []
+        },
+        {
+          "name": "Dell Technologies Inc.",
+          "symbol": "DELL",
+          "slug": "dell-technologies-inc",
+          "quotes": [
+            {
+              "symbol": "USD",
+              "crypto_id": 2781,
+              "average_tokenized_price": 309.93672335541845,
+              "tokenized_market_cap": 2591324.344327598,
+              "tokenized_volume_24h": 3142149.43336715,
+              "last_updated": "2026-11-20T00:16:01.000Z"
+            }
+          ],
+          "rwa_id": 44,
+          "asset_type": "stock",
+          "rwa_rank": 69,
+          "has_tokens": true,
+          "average_tokenized_price": 309.93672335541845,
+          "tokenized_market_cap": 2591324.344327598,
+          "tokenized_volume_24h": 3142149.43336715,
+          "last_updated": "2026-11-20T00:17:13.130Z",
+          "tokens": [
+            {
+              "symbol": "DELLx",
+              "name": "Dell Technologies Inc. tokenized stock (xStock)",
+              "price": 309.801778493013,
+              "crypto_id": 40190,
+              "issuer_id": "6878977dcbbf471de3366e85",
+              "issuer_name": "Backed Assets",
+              "market_cap": 1268360.2654678267,
+              "volume_24h": 77539.19602757996
+            },
+            {
+              "symbol": "rDELL",
+              "name": "Dell Tokenized Stock (Reality)",
+              "price": 310.6430029593524,
+              "crypto_id": 40617,
+              "issuer_id": "6a43600c282e7240b76c8bbb",
+              "issuer_name": "Reality",
+              "market_cap": 45531.29234793757,
+              "volume_24h": 499360.3603654368
+            },
+            {
+              "symbol": "DELL",
+              "name": "Dell Tokenized Stock (Robinhood)",
+              "price": 308.44738965498976,
+              "crypto_id": 40743,
+              "issuer_id": "6a465832fbe3004b1a0ea2dd",
+              "issuer_name": "Robinhood",
+              "market_cap": 442281.9563194757,
+              "volume_24h": 91629.02398106031
+            },
+            {
+              "symbol": "DELLB",
+              "name": "Dell Tokenized bStocks",
+              "price": 309.8697006587151,
+              "crypto_id": 40931,
+              "issuer_id": "6a2aed5097c45356b1a5f710",
+              "issuer_name": "bStocks",
+              "market_cap": 835154.9486772883,
+              "volume_24h": 2473686.422627078
+            },
+            {
+              "symbol": "wDELLx",
+              "name": "Wrapped Dell Technologies Inc. Tokenized Stock (xStock)",
+              "price": null,
+              "crypto_id": 41142,
+              "issuer_id": "6878977dcbbf471de3366e85",
+              "issuer_name": "Backed Assets",
+              "market_cap": 0,
+              "volume_24h": 0
+            },
+            {
+              "symbol": "DELLc",
+              "name": "Dell Technologies Inc. Tokenized Stock (Coinbase)",
+              "price": null,
+              "crypto_id": 42819,
+              "issuer_id": "6a72fe7072996604d45c6733",
+              "issuer_name": "Coinbase",
+              "market_cap": null,
+              "volume_24h": null
+            }
+          ],
+          "tradfi_markets": [
+            {
+              "exchange": {
+                "slug": "binance",
+                "name": "Binance",
+                "exchange_id": 270
+              },
+              "ticker": "DELL",
+              "market_url": "https://www.binance.com/en/stocks/EQ_DELL"
+            }
+          ]
+        },
+        {
+          "name": "Super Micro Computer Inc",
+          "symbol": "SMCI",
+          "slug": "super-micro-computer",
+          "quotes": [
+            {
+              "symbol": "USD",
+              "crypto_id": 2781,
+              "average_tokenized_price": 23.69216036423274,
+              "tokenized_market_cap": 3450976.132153291,
+              "tokenized_volume_24h": 3119346.07678318,
+              "last_updated": "2026-11-20T00:16:01.000Z"
+            }
+          ],
+          "rwa_id": 127,
+          "asset_type": "stock",
+          "rwa_rank": 673,
+          "has_tokens": true,
+          "average_tokenized_price": 23.69216036423274,
+          "tokenized_market_cap": 3450976.132153291,
+          "tokenized_volume_24h": 3119346.07678318,
+          "last_updated": "2026-11-20T00:17:13.202Z",
+          "tokens": [
+            {
+              "symbol": "SMCIon",
+              "name": "Super Micro Computer Tokenized Stock (Ondo)",
+              "price": 23.74779283922441,
+              "crypto_id": 37996,
+              "issuer_id": "688ca4ccabae9b5b9fb3167a",
+              "issuer_name": "Ondo Assets",
+              "market_cap": 1529733.1335858845,
+              "volume_24h": 941436.0606036851
+            },
+            {
+              "symbol": "SMCIx",
+              "name": "Super Micro Computer, Inc. tokenized stock (xStock)",
+              "price": 24.36,
+              "crypto_id": 40143,
+              "issuer_id": "6878977dcbbf471de3366e85",
+              "issuer_name": "Backed Assets",
+              "market_cap": 748753.7984734926,
+              "volume_24h": 0
+            },
+            {
+              "symbol": "SMCI",
+              "name": "Super Micro Computer Inc (Derivatives)",
+              "price": 23.75719391369769,
+              "crypto_id": 40549,
+              "issuer_id": "695e11f774b54210f3b95dc3",
+              "issuer_name": "NA (Derivatives)",
+              "market_cap": 0,
+              "volume_24h": 0
+            },
+            {
+              "symbol": "rSMCI",
+              "name": "Super Micro Tokenized Stock (Reality)",
+              "price": 23.642829196295406,
+              "crypto_id": 40599,
+              "issuer_id": "6a43600c282e7240b76c8bbb",
+              "issuer_name": "Reality",
+              "market_cap": 180704.3484314331,
+              "volume_24h": 1081865.7059806916
+            },
+            {
+              "symbol": "SMCI",
+              "name": "Super Micro Computer Tokenized Stock (Robinhood)",
+              "price": 25.235261631233016,
+              "crypto_id": 40774,
+              "issuer_id": "6a465832fbe3004b1a0ea2dd",
+              "issuer_name": "Robinhood",
+              "market_cap": 11973.776836241532,
+              "volume_24h": 92.54913399179777
+            },
+            {
+              "symbol": "SMCIB",
+              "name": "Super Micro Computer Tokenized bStocks",
+              "price": 23.692870773967574,
+              "crypto_id": 40966,
+              "issuer_id": "6a2aed5097c45356b1a5f710",
+              "issuer_name": "bStocks",
+              "market_cap": 979808.2865441629,
+              "volume_24h": 1095962.302245506
+            },
+            {
+              "symbol": "wSMCIx",
+              "name": "Wrapped Super Micro Computer, Inc. Tokenized Stock (xStock)",
+              "price": null,
+              "crypto_id": 41508,
+              "issuer_id": "6878977dcbbf471de3366e85",
+              "issuer_name": "Backed Assets",
+              "market_cap": 0,
+              "volume_24h": 0
+            }
+          ],
+          "tradfi_markets": [
+            {
+              "exchange": {
+                "slug": "binance",
+                "name": "Binance",
+                "exchange_id": 270
+              },
+              "ticker": "SMCI",
+              "market_url": "https://www.binance.com/en/stocks/EQ_SMCI"
+            }
+          ]
+        },
+        {
+          "name": "AMC Entertainment",
+          "symbol": "AMC",
+          "slug": "amc-entertainment",
+          "quotes": [
+            {
+              "symbol": "USD",
+              "crypto_id": 2781,
+              "average_tokenized_price": 2.784463252807649,
+              "tokenized_market_cap": 635643.1808722373,
+              "tokenized_volume_24h": 3100748.44892601,
+              "last_updated": "2026-11-20T00:16:01.000Z"
+            }
+          ],
+          "rwa_id": 153,
+          "asset_type": "stock",
+          "rwa_rank": 1814,
+          "has_tokens": true,
+          "average_tokenized_price": 2.784463252807649,
+          "tokenized_market_cap": 635643.1808722373,
+          "tokenized_volume_24h": 3100748.44892601,
+          "last_updated": "2026-11-20T00:17:13.113Z",
+          "tokens": [
+            {
+              "symbol": "AMCon",
+              "name": "AMC Entertainment Tokenized Stock (Ondo)",
+              "price": 2.797795387991348,
+              "crypto_id": 39232,
+              "issuer_id": "688ca4ccabae9b5b9fb3167a",
+              "issuer_name": "Ondo Assets",
+              "market_cap": 48443.99935370148,
+              "volume_24h": 70.445568079409
+            },
+            {
+              "symbol": "AMC",
+              "name": "AMC Entertainment Holdings Tokenized Stock (Robinhood)",
+              "price": 2.7838668095597785,
+              "crypto_id": 42009,
+              "issuer_id": "6a465832fbe3004b1a0ea2dd",
+              "issuer_name": "Robinhood",
+              "market_cap": 0,
+              "volume_24h": 1328227.0527570806
+            },
+            {
+              "symbol": "AMC",
+              "name": "AMC Entertainment Holdings Tokenized Stock (Backpack Securities)",
+              "price": 2.7981320486895127,
+              "crypto_id": 42024,
+              "issuer_id": "6a2d54b697c45356b1a634f4",
+              "issuer_name": "Backpack",
+              "market_cap": 0,
+              "volume_24h": 611260.1823664835
+            },
+            {
+              "symbol": "AMC",
+              "name": "AMC Entertainment Holdings Inc (Derivatives)",
+              "price": 2.7776824426563165,
+              "crypto_id": 42322,
+              "issuer_id": "695e11f774b54210f3b95dc3",
+              "issuer_name": "NA (Derivatives)",
+              "market_cap": 0,
+              "volume_24h": 0
+            },
+            {
+              "symbol": "AMCB",
+              "name": "AMC Entertainment Holdings Tokenized bStocks",
+              "price": 2.778598575222108,
+              "crypto_id": 42355,
+              "issuer_id": "6a2aed5097c45356b1a5f710",
+              "issuer_name": "bStocks",
+              "market_cap": 587198.1000153859,
+              "volume_24h": 1161977.113346959
+            },
+            {
+              "symbol": "AMCc",
+              "name": "AMC Entertainment Holdings, Inc. Tokenized Stock (Coinbase)",
+              "price": null,
+              "crypto_id": 42479,
+              "issuer_id": "6a72fe7072996604d45c6733",
+              "issuer_name": "Coinbase",
+              "market_cap": null,
+              "volume_24h": null
+            }
+          ],
+          "tradfi_markets": [
+            {
+              "exchange": {
+                "slug": "binance",
+                "name": "Binance",
+                "exchange_id": 270
+              },
+              "ticker": "AMC",
+              "market_url": "https://www.binance.com/en/stocks/EQ_AMC"
+            }
+          ]
+        },
+        {
+          "name": "Applied Materials",
+          "symbol": "AMAT",
+          "slug": "applied-materials",
+          "quotes": [
+            {
+              "symbol": "USD",
+              "crypto_id": 2781,
+              "average_tokenized_price": 337.4836416463162,
+              "tokenized_market_cap": 2828016.393585637,
+              "tokenized_volume_24h": 3059887.23675605,
+              "last_updated": "2026-11-20T00:16:01.000Z"
+            }
+          ],
+          "rwa_id": 22,
+          "asset_type": "stock",
+          "rwa_rank": 45,
+          "has_tokens": true,
+          "average_tokenized_price": 337.4836416463162,
+          "tokenized_market_cap": 2828016.393585637,
+          "tokenized_volume_24h": 3059887.23675605,
+          "last_updated": "2026-11-20T00:17:13.163Z",
+          "tokens": [
+            {
+              "symbol": "AMATon",
+              "name": "Applied Materials Tokenized Stock (Ondo)",
+              "price": 338.580438823318,
+              "crypto_id": 39218,
+              "issuer_id": "688ca4ccabae9b5b9fb3167a",
+              "issuer_name": "Ondo Assets",
+              "market_cap": 665587.8573039176,
+              "volume_24h": 1407934.4224138132
+            },
+            {
+              "symbol": "AMAT",
+              "name": "Applied Materials Inc (Derivatives)",
+              "price": 338.22809924534874,
+              "crypto_id": 40087,
+              "issuer_id": "695e11f774b54210f3b95dc3",
+              "issuer_name": "NA (Derivatives)",
+              "market_cap": 0,
+              "volume_24h": 0
+            },
+            {
+              "symbol": "AMATx",
+              "name": "Applied Materials, Inc. tokenized stock (xStock)",
+              "price": 338.0396728165532,
+              "crypto_id": 40170,
+              "issuer_id": "6878977dcbbf471de3366e85",
+              "issuer_name": "Backed Assets",
+              "market_cap": 456313.9515954764,
+              "volume_24h": 54863.295950671454
+            },
+            {
+              "symbol": "rAMAT",
+              "name": "Applied Materials Tokenized Stock (Reality)",
+              "price": 337.6120096471418,
+              "crypto_id": 40639,
+              "issuer_id": "6a43600c282e7240b76c8bbb",
+              "issuer_name": "Reality",
+              "market_cap": 156500.5300292885,
+              "volume_24h": 1410.745143970707
+            },
+            {
+              "symbol": "AMAT",
+              "name": "Applied Materials Tokenized Stock (Robinhood)",
+              "price": 344.6040728276644,
+              "crypto_id": 40752,
+              "issuer_id": "6a465832fbe3004b1a0ea2dd",
+              "issuer_name": "Robinhood",
+              "market_cap": 98406.43130194095,
+              "volume_24h": 158.99773949958032
+            },
+            {
+              "symbol": "AMATB",
+              "name": "Applied Materials Tokenized bStocks",
+              "price": 336.4208394048264,
+              "crypto_id": 40936,
+              "issuer_id": "6a2aed5097c45356b1a5f710",
+              "issuer_name": "bStocks",
+              "market_cap": 1450871.3074265802,
+              "volume_24h": 1595570.6704601985
+            },
+            {
+              "symbol": "wAMATx",
+              "name": "Wrapped Applied Materials, Inc. Tokenized Stock (xStock)",
+              "price": null,
+              "crypto_id": 41094,
+              "issuer_id": "6878977dcbbf471de3366e85",
+              "issuer_name": "Backed Assets",
+              "market_cap": null,
+              "volume_24h": null
+            }
+          ],
+          "tradfi_markets": [
+            {
+              "exchange": {
+                "slug": "binance",
+                "name": "Binance",
+                "exchange_id": 270
+              },
+              "ticker": "AMAT",
+              "market_url": "https://www.binance.com/en/stocks/EQ_AMAT"
+            }
+          ]
+        },
+        {
+          "name": "iShares Silver Trust",
+          "symbol": "SLV",
+          "slug": "slv",
+          "quotes": [
+            {
+              "symbol": "USD",
+              "crypto_id": 2781,
+              "average_tokenized_price": 38.663472288973146,
+              "tokenized_market_cap": 17565326.720484678,
+              "tokenized_volume_24h": 2992116.9041441,
+              "last_updated": "2026-11-20T00:16:01.000Z"
+            }
+          ],
+          "rwa_id": 205,
+          "asset_type": "etf",
+          "rwa_rank": 7795,
+          "has_tokens": true,
+          "average_tokenized_price": 38.663472288973146,
+          "tokenized_market_cap": 17565326.720484678,
+          "tokenized_volume_24h": 2992116.9041441,
+          "last_updated": "2026-11-20T00:17:13.126Z",
+          "tokens": [
+            {
+              "symbol": "SLVon",
+              "name": "iShares Silver Trust Tokenized ETF (Ondo)",
+              "price": 38.64942678396655,
+              "crypto_id": 38057,
+              "issuer_id": "688ca4ccabae9b5b9fb3167a",
+              "issuer_name": "Ondo Assets",
+              "market_cap": 16418163.98036824,
+              "volume_24h": 2725337.6223891033
+            },
+            {
+              "symbol": "SLV",
+              "name": "iShares Silver Trust Tokenized (Hyperliquid)",
+              "price": 34.99195322682919,
+              "crypto_id": 39620,
+              "issuer_id": "699ed38db54c9320b15928e3",
+              "issuer_name": "Hyperliquid Assets",
+              "market_cap": 0,
+              "volume_24h": 0
+            },
+            {
+              "symbol": "SLV",
+              "name": "iShares Silver Trust (Derivatives)",
+              "price": 38.75369295187152,
+              "crypto_id": 39845,
+              "issuer_id": "695e11f774b54210f3b95dc3",
+              "issuer_name": "NA (Derivatives)",
+              "market_cap": 0,
+              "volume_24h": 6197.874272616797
+            },
+            {
+              "symbol": "SLV",
+              "name": "iShares Silver Trust Tokenized Commodity (Robinhood)",
+              "price": 38.84813112858986,
+              "crypto_id": 40707,
+              "issuer_id": "6a465832fbe3004b1a0ea2dd",
+              "issuer_name": "Robinhood",
+              "market_cap": 1148334.073996647,
+              "volume_24h": 261176.66150163027
+            },
+            {
+              "symbol": "wSLVx",
+              "name": "Wrapped iShares Silver Trust Tokenized ETF (xStock)",
+              "price": 38.48470627138645,
+              "crypto_id": 41644,
+              "issuer_id": "6878977dcbbf471de3366e85",
+              "issuer_name": "Backed Assets",
+              "market_cap": 0,
+              "volume_24h": 62.239405543536485
+            }
+          ],
+          "tradfi_markets": [
+            {
+              "exchange": {
+                "slug": "binance",
+                "name": "Binance",
+                "exchange_id": 270
+              },
+              "ticker": "SLV",
+              "market_url": "https://www.binance.com/en/stocks/EQ_SLV"
+            }
+          ]
+        },
+        {
+          "name": "Nokia Corporation",
+          "symbol": "NOK",
+          "slug": "nokia-corporation",
+          "quotes": [
+            {
+              "symbol": "USD",
+              "crypto_id": 2781,
+              "average_tokenized_price": 7.39245283501011,
+              "tokenized_market_cap": 2740872.7968753725,
+              "tokenized_volume_24h": 2969996.80839844,
+              "last_updated": "2026-11-20T00:16:01.000Z"
+            }
+          ],
+          "rwa_id": 1588,
+          "asset_type": "stock",
+          "rwa_rank": 349,
+          "has_tokens": true,
+          "average_tokenized_price": 7.39245283501011,
+          "tokenized_market_cap": 2740872.7968753725,
+          "tokenized_volume_24h": 2969996.80839844,
+          "last_updated": "2026-11-20T00:17:13.178Z",
+          "tokens": [
+            {
+              "symbol": "NOK",
+              "name": "Nokia Oyj (Derivatives)",
+              "price": 7.421837675338932,
+              "crypto_id": 40072,
+              "issuer_id": "695e11f774b54210f3b95dc3",
+              "issuer_name": "NA (Derivatives)",
+              "market_cap": 0,
+              "volume_24h": 0
+            },
+            {
+              "symbol": "rNOK",
+              "name": "Nokia Tokenized Stock (Reality)",
+              "price": 7.421471099639833,
+              "crypto_id": 40661,
+              "issuer_id": "6a43600c282e7240b76c8bbb",
+              "issuer_name": "Reality",
+              "market_cap": 634717.9546157531,
+              "volume_24h": 1006871.9029321824
+            },
+            {
+              "symbol": "NOK",
+              "name": "Nokia Tokenized Stock (Robinhood)",
+              "price": null,
+              "crypto_id": 40746,
+              "issuer_id": "6a465832fbe3004b1a0ea2dd",
+              "issuer_name": "Robinhood",
+              "market_cap": null,
+              "volume_24h": null
+            },
+            {
+              "symbol": "NOKB",
+              "name": "Nokia Tokenized bStocks",
+              "price": 7.377272042800223,
+              "crypto_id": 40853,
+              "issuer_id": "6a2aed5097c45356b1a5f710",
+              "issuer_name": "bStocks",
+              "market_cap": 1747217.9550679359,
+              "volume_24h": 1951873.7619816163
+            },
+            {
+              "symbol": "NOK",
+              "name": "Nokia Oyj (Backpack)",
+              "price": 7.428021772598046,
+              "crypto_id": 42376,
+              "issuer_id": "6a2d54b697c45356b1a634f4",
+              "issuer_name": "Backpack",
+              "market_cap": 312252.048375575,
+              "volume_24h": 11254.702965882101
+            },
+            {
+              "symbol": "NOKc",
+              "name": "Nokia Corporation Tokenized Stock (Coinbase)",
+              "price": 7.544930370656435,
+              "crypto_id": 42577,
+              "issuer_id": "6a72fe7072996604d45c6733",
+              "issuer_name": "Coinbase",
+              "market_cap": 46683.26834868805,
+              "volume_24h": 0
+            }
+          ],
+          "tradfi_markets": [
+            {
+              "exchange": {
+                "slug": "binance",
+                "name": "Binance",
+                "exchange_id": 270
+              },
+              "ticker": "NOK",
+              "market_url": "https://www.binance.com/en/stocks/EQ_NOK"
+            }
+          ]
+        },
+        {
+          "name": "Rocket Lab Corporation",
+          "symbol": "RKLB",
+          "slug": "rocket-lab-corporation",
+          "quotes": [
+            {
+              "symbol": "USD",
+              "crypto_id": 2781,
+              "average_tokenized_price": 50.8818521523705,
+              "tokenized_market_cap": 3036471.4517212296,
+              "tokenized_volume_24h": 2832695.7372503,
+              "last_updated": "2026-11-20T00:16:01.000Z"
+            }
+          ],
+          "rwa_id": 297,
+          "asset_type": "stock",
+          "rwa_rank": 403,
+          "has_tokens": true,
+          "average_tokenized_price": 50.8818521523705,
+          "tokenized_market_cap": 3036471.4517212296,
+          "tokenized_volume_24h": 2832695.7372503,
+          "last_updated": "2026-11-20T00:17:13.177Z",
+          "tokens": [
+            {
+              "symbol": "rRKLB",
+              "name": "Rocket Lab Tokenized Stock (Reality)",
+              "price": 50.9414570769356,
+              "crypto_id": 40666,
+              "issuer_id": "6a43600c282e7240b76c8bbb",
+              "issuer_name": "Reality",
+              "market_cap": 657580.236525014,
+              "volume_24h": 466832.96039238875
+            },
+            {
+              "symbol": "RKLB",
+              "name": "Rocket Lab Corporation Tokenized Stock (Robinhood)",
+              "price": 51.62455692120877,
+              "crypto_id": 40690,
+              "issuer_id": "6a465832fbe3004b1a0ea2dd",
+              "issuer_name": "Robinhood",
+              "market_cap": 66913.1384786906,
+              "volume_24h": 0
+            },
+            {
+              "symbol": "RKLBB",
+              "name": "Rocket Lab Tokenized bStocks",
+              "price": 50.87056698712145,
+              "crypto_id": 40849,
+              "issuer_id": "6a2aed5097c45356b1a5f710",
+              "issuer_name": "bStocks",
+              "market_cap": 2311999.714902031,
+              "volume_24h": 2365890.348725772
+            },
+            {
+              "symbol": "wRKLBx",
+              "name": "Wrapped Rocket Lab Tokenized Stock (xStock)",
+              "price": null,
+              "crypto_id": 41489,
+              "issuer_id": "6878977dcbbf471de3366e85",
+              "issuer_name": "Backed Assets",
+              "market_cap": 0,
+              "volume_24h": 0
+            },
+            {
+              "symbol": "RKLBc",
+              "name": "Rocket Lab Corporation Tokenized Stock (Coinbase)",
+              "price": null,
+              "crypto_id": 42587,
+              "issuer_id": "6a72fe7072996604d45c6733",
+              "issuer_name": "Coinbase",
+              "market_cap": 2386.39,
+              "volume_24h": 0
+            }
+          ],
+          "tradfi_markets": [
+            {
+              "exchange": {
+                "slug": "binance",
+                "name": "Binance",
+                "exchange_id": 270
+              },
+              "ticker": "RKLB",
+              "market_url": "https://www.binance.com/en/stocks/EQ_RKLB"
+            }
+          ]
+        },
+        {
+          "name": "Western Digital Corporation",
+          "symbol": "WDC",
+          "slug": "western-digital-corporation",
+          "quotes": [
+            {
+              "symbol": "USD",
+              "crypto_id": 2781,
+              "average_tokenized_price": 293.5069031304363,
+              "tokenized_market_cap": 3023704.807101089,
+              "tokenized_volume_24h": 2812139.4249047,
+              "last_updated": "2026-11-20T00:16:01.000Z"
+            }
+          ],
+          "rwa_id": 75,
+          "asset_type": "stock",
+          "rwa_rank": 140,
+          "has_tokens": true,
+          "average_tokenized_price": 293.5069031304363,
+          "tokenized_market_cap": 3023704.807101089,
+          "tokenized_volume_24h": 2812139.4249047,
+          "last_updated": "2026-11-20T00:17:13.120Z",
+          "tokens": [
+            {
+              "symbol": "rWDC",
+              "name": "Western Digital Tokenized Stock (Reality)",
+              "price": 293.1031600912938,
+              "crypto_id": 40611,
+              "issuer_id": "6a43600c282e7240b76c8bbb",
+              "issuer_name": "Reality",
+              "market_cap": 265921.3230495071,
+              "volume_24h": 305982.95627653284
+            },
+            {
+              "symbol": "WDCB",
+              "name": "Western Digital Tokenized bStocks",
+              "price": 293.52598194430914,
+              "crypto_id": 40796,
+              "issuer_id": "6a2aed5097c45356b1a5f710",
+              "issuer_name": "bStocks",
+              "market_cap": 1959975.7551435037,
+              "volume_24h": 2425107.536200305
+            },
+            {
+              "symbol": "wWDCx",
+              "name": "Wrapped Western Digital Tokenized Stock (xStock)",
+              "price": null,
+              "crypto_id": 41725,
+              "issuer_id": "6878977dcbbf471de3366e85",
+              "issuer_name": "Backed Assets",
+              "market_cap": null,
+              "volume_24h": null
+            },
+            {
+              "symbol": "WDCx",
+              "name": "Western Digital tokenized stock (xStock)",
+              "price": 294.4489693598804,
+              "crypto_id": 41905,
+              "issuer_id": "6878977dcbbf471de3366e85",
+              "issuer_name": "Backed Assets",
+              "market_cap": 650123.3674118201,
+              "volume_24h": 81582.16625976893
+            },
+            {
+              "symbol": "WDCc",
+              "name": "Western Digital Corporation Tokenized Stock (Coinbase)",
+              "price": 295.3114785731111,
+              "crypto_id": 42576,
+              "issuer_id": "6a72fe7072996604d45c6733",
+              "issuer_name": "Coinbase",
+              "market_cap": 147663.43093093598,
+              "volume_24h": 0
+            }
+          ],
+          "tradfi_markets": [
+            {
+              "exchange": {
+                "slug": "binance",
+                "name": "Binance",
+                "exchange_id": 270
+              },
+              "ticker": "WDC",
+              "market_url": "https://www.binance.com/en/stocks/EQ_WDC"
+            }
+          ]
+        },
+        {
+          "name": "GraniteShares ETF Trust GraniteShares 2x Long MRVL Daily ETF",
+          "symbol": "MVLL",
+          "slug": "graniteshares-etf-trust-graniteshares-2x-long-mrvl-daily-etf",
+          "quotes": [
+            {
+              "symbol": "USD",
+              "crypto_id": 2781,
+              "average_tokenized_price": 8.00379573965002,
+              "tokenized_market_cap": 1276897.8522026758,
+              "tokenized_volume_24h": 2687478.59378554,
+              "last_updated": "2026-11-20T00:16:01.000Z"
+            }
+          ],
+          "rwa_id": 5383,
+          "asset_type": "etf",
+          "rwa_rank": 5927,
+          "has_tokens": true,
+          "average_tokenized_price": 8.00379573965002,
+          "tokenized_market_cap": 1276897.8522026758,
+          "tokenized_volume_24h": 2687478.59378554,
+          "last_updated": "2026-11-20T00:17:13.148Z",
+          "tokens": [
+            {
+              "symbol": "MVLLB",
+              "name": "GraniteShares 2X Long MRVL ETF Tokenized bStocks",
+              "price": 8.003885992570034,
+              "crypto_id": 40879,
+              "issuer_id": "6a2aed5097c45356b1a5f710",
+              "issuer_name": "bStocks",
+              "market_cap": 1276912.2508409556,
+              "volume_24h": 2687516.329277389
+            }
+          ],
+          "tradfi_markets": [
+            {
+              "exchange": {
+                "slug": "binance",
+                "name": "Binance",
+                "exchange_id": 270
+              },
+              "ticker": "MVLL",
+              "market_url": "https://www.binance.com/en/stocks/EQ_MVLL"
+            }
+          ]
+        },
+        {
+          "name": "Astera Labs, Inc.",
+          "symbol": "ALAB",
+          "slug": "astera-labs-inc",
+          "quotes": [
+            {
+              "symbol": "USD",
+              "crypto_id": 2781,
+              "average_tokenized_price": 208.94942266288203,
+              "tokenized_market_cap": 641643.2677715623,
+              "tokenized_volume_24h": 2671560.00412802,
+              "last_updated": "2026-11-20T00:16:01.000Z"
+            }
+          ],
+          "rwa_id": 255,
+          "asset_type": "stock",
+          "rwa_rank": 383,
+          "has_tokens": true,
+          "average_tokenized_price": 208.94942266288203,
+          "tokenized_market_cap": 641643.2677715623,
+          "tokenized_volume_24h": 2671560.00412802,
+          "last_updated": "2026-11-20T00:17:13.158Z",
+          "tokens": [
+            {
+              "symbol": "ALABB",
+              "name": "Astera Labs Tokenized bStocks",
+              "price": 208.94861303679983,
+              "crypto_id": 40972,
+              "issuer_id": "6a2aed5097c45356b1a5f710",
+              "issuer_name": "bStocks",
+              "market_cap": 641640.7815664394,
+              "volume_24h": 2671579.6318385727
+            },
+            {
+              "symbol": "wALABx",
+              "name": "Wrapped Astera Labs Tokenized Stock (xStock)",
+              "price": null,
+              "crypto_id": 41095,
+              "issuer_id": "6878977dcbbf471de3366e85",
+              "issuer_name": "Backed Assets",
+              "market_cap": null,
+              "volume_24h": null
+            },
+            {
+              "symbol": "ALABc",
+              "name": "Astera Labs, Inc. Tokenized Stock (Coinbase)",
+              "price": null,
+              "crypto_id": 42763,
+              "issuer_id": "6a72fe7072996604d45c6733",
+              "issuer_name": "Coinbase",
+              "market_cap": null,
+              "volume_24h": null
+            }
+          ],
+          "tradfi_markets": [
+            {
+              "exchange": {
+                "slug": "binance",
+                "name": "Binance",
+                "exchange_id": 270
+              },
+              "ticker": "ALAB",
+              "market_url": "https://www.binance.com/en/stocks/EQ_ALAB"
+            }
+          ]
+        },
+        {
+          "name": "JPmorgan Chase & Co",
+          "symbol": "JPM",
+          "slug": "jpmorgan",
+          "quotes": [
+            {
+              "symbol": "USD",
+              "crypto_id": 2781,
+              "average_tokenized_price": 321.1135355551104,
+              "tokenized_market_cap": 3611212.8508568467,
+              "tokenized_volume_24h": 2650970.71149449,
+              "last_updated": "2026-11-20T00:16:01.000Z"
+            }
+          ],
+          "rwa_id": 16,
+          "asset_type": "stock",
+          "rwa_rank": 16,
+          "has_tokens": true,
+          "average_tokenized_price": 321.1135355551104,
+          "tokenized_market_cap": 3611212.8508568467,
+          "tokenized_volume_24h": 2650970.71149449,
+          "last_updated": "2026-11-20T00:17:13.196Z",
+          "tokens": [
+            {
+              "symbol": "JPMX",
+              "name": "JPMorgan Chase tokenized stock (xStock)",
+              "price": 322.6085849033298,
+              "crypto_id": 37031,
+              "issuer_id": "6878977dcbbf471de3366e85",
+              "issuer_name": "Backed Assets",
+              "market_cap": 530458.8657533687,
+              "volume_24h": 3.40501629
+            },
+            {
+              "symbol": "JPMon",
+              "name": "JPMorgan Chase Tokenized Stock (Ondo)",
+              "price": 322.52485893788077,
+              "crypto_id": 38082,
+              "issuer_id": "688ca4ccabae9b5b9fb3167a",
+              "issuer_name": "Ondo Assets",
+              "market_cap": 2635420.3410667055,
+              "volume_24h": 1539891.6355189872
+            },
+            {
+              "symbol": "JPM",
+              "name": "JPmorgan Chase & Co (Derivatives)",
+              "price": 319.95613645716276,
+              "crypto_id": 40013,
+              "issuer_id": "695e11f774b54210f3b95dc3",
+              "issuer_name": "NA (Derivatives)",
+              "market_cap": 0,
+              "volume_24h": 0
+            },
+            {
+              "symbol": "WJPMX",
+              "name": "Wrapped JPMorgan Chase Tokenized stock (xStock)",
+              "price": null,
+              "crypto_id": 37204,
+              "issuer_id": "6878977dcbbf471de3366e85",
+              "issuer_name": "Backed Assets",
+              "market_cap": null,
+              "volume_24h": null
+            },
+            {
+              "symbol": "JPMB",
+              "name": "JPMorgan Chase Tokenized bStocks",
+              "price": 319.1685090506173,
+              "crypto_id": 42416,
+              "issuer_id": "6a2aed5097c45356b1a5f710",
+              "issuer_name": "bStocks",
+              "market_cap": 445397.5265092201,
+              "volume_24h": 1111155.653977043
+            }
+          ],
+          "tradfi_markets": [
+            {
+              "exchange": {
+                "slug": "binance",
+                "name": "Binance",
+                "exchange_id": 270
+              },
+              "ticker": "JPM",
+              "market_url": "https://www.binance.com/en/stocks/EQ_JPM"
+            }
+          ]
+        },
+        {
+          "name": "IBM",
+          "symbol": "IBM",
+          "slug": "ibm",
+          "quotes": [
+            {
+              "symbol": "USD",
+              "crypto_id": 2781,
+              "average_tokenized_price": 225.57588448959245,
+              "tokenized_market_cap": 4089154.632982878,
+              "tokenized_volume_24h": 2493739.11074377,
+              "last_updated": "2026-11-20T00:16:01.000Z"
+            }
+          ],
+          "rwa_id": 42,
+          "asset_type": "stock",
+          "rwa_rank": 63,
+          "has_tokens": true,
+          "average_tokenized_price": 225.57588448959245,
+          "tokenized_market_cap": 4089154.632982878,
+          "tokenized_volume_24h": 2493739.11074377,
+          "last_updated": "2026-11-20T00:17:13.110Z",
+          "tokens": [
+            {
+              "symbol": "IBMon",
+              "name": "IBM Tokenized Stock (Ondo)",
+              "price": 228.4769029700066,
+              "crypto_id": 38018,
+              "issuer_id": "688ca4ccabae9b5b9fb3167a",
+              "issuer_name": "Ondo Assets",
+              "market_cap": 2378413.30316842,
+              "volume_24h": 1516065.67123036
+            },
+            {
+              "symbol": "IBMX",
+              "name": "International Business Machines tokenized stock (xStock)",
+              "price": 223.6899283780926,
+              "crypto_id": 37029,
+              "issuer_id": "6878977dcbbf471de3366e85",
+              "issuer_name": "Backed Assets",
+              "market_cap": 986820.1860491375,
+              "volume_24h": 9549.13939364034
+            },
+            {
+              "symbol": "IBM",
+              "name": "IBM (Derivatives)",
+              "price": 223.23362406015585,
+              "crypto_id": 39634,
+              "issuer_id": "695e11f774b54210f3b95dc3",
+              "issuer_name": "NA (Derivatives)",
+              "market_cap": 0,
+              "volume_24h": 0
+            },
+            {
+              "symbol": "rIBM",
+              "name": "IBM Tokenized Stock (Reality)",
+              "price": 222.6940755941724,
+              "crypto_id": 40610,
+              "issuer_id": "6a43600c282e7240b76c8bbb",
+              "issuer_name": "Reality",
+              "market_cap": 47709.60560242161,
+              "volume_24h": 2862.5227326499958
+            },
+            {
+              "symbol": "IBMB",
+              "name": "IBM Tokenized bStocks",
+              "price": 221.01728558285598,
+              "crypto_id": 40847,
+              "issuer_id": "6a2aed5097c45356b1a5f710",
+              "issuer_name": "bStocks",
+              "market_cap": 676183.454253413,
+              "volume_24h": 952823.4835412897
+            },
+            {
+              "symbol": "wIBMx",
+              "name": "Wrapped International Business Tokenized Stock (xStock)",
+              "price": null,
+              "crypto_id": 41431,
+              "issuer_id": "6878977dcbbf471de3366e85",
+              "issuer_name": "Backed Assets",
+              "market_cap": 0,
+              "volume_24h": 0
+            },
+            {
+              "symbol": "IBM",
+              "name": "IBM Tokenized Stock (Robinhood)",
+              "price": 223.26331646521905,
+              "crypto_id": 42358,
+              "issuer_id": "6a465832fbe3004b1a0ea2dd",
+              "issuer_name": "Robinhood",
+              "market_cap": 0,
+              "volume_24h": 12441.362573128506
+            }
+          ],
+          "tradfi_markets": [
+            {
+              "exchange": {
+                "slug": "binance",
+                "name": "Binance",
+                "exchange_id": 270
+              },
+              "ticker": "IBM",
+              "market_url": "https://www.binance.com/en/stocks/EQ_IBM"
+            }
+          ]
+        },
+        {
+          "name": "PayPal Holdings Inc",
+          "symbol": "PYPL",
+          "slug": "paypal",
+          "quotes": [
+            {
+              "symbol": "USD",
+              "crypto_id": 2781,
+              "average_tokenized_price": 56.03288044423767,
+              "tokenized_market_cap": 2084564.1489841084,
+              "tokenized_volume_24h": 2459300.07777923,
+              "last_updated": "2026-11-20T00:16:01.000Z"
+            }
+          ],
+          "rwa_id": 93,
+          "asset_type": "stock",
+          "rwa_rank": 320,
+          "has_tokens": true,
+          "average_tokenized_price": 56.03288044423767,
+          "tokenized_market_cap": 2084564.1489841084,
+          "tokenized_volume_24h": 2459300.07777923,
+          "last_updated": "2026-11-20T00:17:13.155Z",
+          "tokens": [
+            {
+              "symbol": "PYPL.D",
+              "name": "Paypal tokenized stock (Dinari)",
+              "price": null,
+              "crypto_id": 28623,
+              "issuer_id": "688c6172abae9b5b9fb30359",
+              "issuer_name": "Dinari Assets",
+              "market_cap": null,
+              "volume_24h": null
+            },
+            {
+              "symbol": "PYPLon",
+              "name": "PayPal Tokenized Stock (Ondo)",
+              "price": 56.38318588716174,
+              "crypto_id": 38010,
+              "issuer_id": "688ca4ccabae9b5b9fb3167a",
+              "issuer_name": "Ondo Assets",
+              "market_cap": 1138554.7966856447,
+              "volume_24h": 514234.77357892925
+            },
+            {
+              "symbol": "PYPLx",
+              "name": "PayPal tokenized stock (xStock)",
+              "price": 58.00000000000001,
+              "crypto_id": 40165,
+              "issuer_id": "6878977dcbbf471de3366e85",
+              "issuer_name": "Backed Assets",
+              "market_cap": 228143.0192540916,
+              "volume_24h": 519.878592
+            },
+            {
+              "symbol": "PYPLB",
+              "name": "Paypal Tokenized bStocks",
+              "price": 55.93971630361843,
+              "crypto_id": 40935,
+              "issuer_id": "6a2aed5097c45356b1a5f710",
+              "issuer_name": "bStocks",
+              "market_cap": 708056.9410038305,
+              "volume_24h": 1944265.4775640212
+            },
+            {
+              "symbol": "PYPL",
+              "name": "PayPal Holdings Inc (Derivatives)",
+              "price": 55.98032469587516,
+              "crypto_id": 40941,
+              "issuer_id": "695e11f774b54210f3b95dc3",
+              "issuer_name": "NA (Derivatives)",
+              "market_cap": 0,
+              "volume_24h": 0
+            },
+            {
+              "symbol": "wPYPLx",
+              "name": "Wrapped PayPal Tokenized Stock (xStock)",
+              "price": null,
+              "crypto_id": 41616,
+              "issuer_id": "6878977dcbbf471de3366e85",
+              "issuer_name": "Backed Assets",
+              "market_cap": null,
+              "volume_24h": null
+            },
+            {
+              "symbol": "PYPLc",
+              "name": "PayPal Holdings, Inc. Tokenized Stock (Coinbase)",
+              "price": 47.60390842147703,
+              "crypto_id": 42420,
+              "issuer_id": "6a72fe7072996604d45c6733",
+              "issuer_name": "Coinbase",
+              "market_cap": 9809.392040154018,
+              "volume_24h": 0
+            }
+          ],
+          "tradfi_markets": [
+            {
+              "exchange": {
+                "slug": "binance",
+                "name": "Binance",
+                "exchange_id": 270
+              },
+              "ticker": "PYPL",
+              "market_url": "https://www.binance.com/en/stocks/EQ_PYPL"
+            }
+          ]
+        },
+        {
+          "name": "Seagate Technology Holdings Plc",
+          "symbol": "STX",
+          "slug": "seagate-technology-holdings-plc",
+          "quotes": [
+            {
+              "symbol": "USD",
+              "crypto_id": 2781,
+              "average_tokenized_price": 518.0717834650842,
+              "tokenized_market_cap": 673971.0003934706,
+              "tokenized_volume_24h": 2245305.85918325,
+              "last_updated": "2026-11-20T00:16:01.000Z"
+            }
+          ],
+          "rwa_id": 73,
+          "asset_type": "stock",
+          "rwa_rank": 132,
+          "has_tokens": true,
+          "average_tokenized_price": 518.0717834650842,
+          "tokenized_market_cap": 673971.0003934706,
+          "tokenized_volume_24h": 2245305.85918325,
+          "last_updated": "2026-11-20T00:17:13.142Z",
+          "tokens": [
+            {
+              "symbol": "rSTX",
+              "name": "Seagate Tokenized Stock (Reality)",
+              "price": 519.6727818317114,
+              "crypto_id": 40653,
+              "issuer_id": "6a43600c282e7240b76c8bbb",
+              "issuer_name": "Reality",
+              "market_cap": 131347.30567558587,
+              "volume_24h": 316577.7236617515
+            },
+            {
+              "symbol": "STXB",
+              "name": "Seagate Tokenized bStocks",
+              "price": 517.8067280626323,
+              "crypto_id": 41963,
+              "issuer_id": "6a2aed5097c45356b1a5f710",
+              "issuer_name": "bStocks",
+              "market_cap": 542621.3152938269,
+              "volume_24h": 1928745.2984038086
+            }
+          ],
+          "tradfi_markets": [
+            {
+              "exchange": {
+                "slug": "binance",
+                "name": "Binance",
+                "exchange_id": 270
+              },
+              "ticker": "STX",
+              "market_url": "https://www.binance.com/en/stocks/EQ_STX"
+            }
+          ]
+        },
+        {
+          "name": "VanEck Semiconductor ETF",
+          "symbol": "SMH",
+          "slug": "vaneck-semiconductor-etf",
+          "quotes": [
+            {
+              "symbol": "USD",
+              "crypto_id": 2781,
+              "average_tokenized_price": 445.3072492046899,
+              "tokenized_market_cap": 3442781.2787171686,
+              "tokenized_volume_24h": 2241142.30744341,
+              "last_updated": "2026-11-20T00:16:01.000Z"
+            }
+          ],
+          "rwa_id": 7733,
+          "asset_type": "etf",
+          "rwa_rank": 5325,
+          "has_tokens": true,
+          "average_tokenized_price": 445.3072492046899,
+          "tokenized_market_cap": 3442781.2787171686,
+          "tokenized_volume_24h": 2241142.30744341,
+          "last_updated": "2026-11-20T00:17:13.151Z",
+          "tokens": [
+            {
+              "symbol": "SMH",
+              "name": "VanEck Semiconductor ETF (Derivatives)",
+              "price": 446.0745990803974,
+              "crypto_id": 39498,
+              "issuer_id": "695e11f774b54210f3b95dc3",
+              "issuer_name": "NA (Derivatives)",
+              "market_cap": 0,
+              "volume_24h": 0
+            },
+            {
+              "symbol": "SMHx",
+              "name": "VanEck Semiconductor tokenized ETF (xStock)",
+              "price": 467.78999999999996,
+              "crypto_id": 40139,
+              "issuer_id": "6878977dcbbf471de3366e85",
+              "issuer_name": "Backed Assets",
+              "market_cap": 1881200.314697117,
+              "volume_24h": 1085.02908141
+            },
+            {
+              "symbol": "SMHB",
+              "name": "VanEck Semiconductor ETF Tokenized bStocks",
+              "price": 445.2997439748827,
+              "crypto_id": 40928,
+              "issuer_id": "6a2aed5097c45356b1a5f710",
+              "issuer_name": "bStocks",
+              "market_cap": 1561592.8341867626,
+              "volume_24h": 2240078.481044429
+            },
+            {
+              "symbol": "wSMHx",
+              "name": "Wrapped VanEck Semiconductor ETF Tokenized ETF (xStock)",
+              "price": null,
+              "crypto_id": 41627,
+              "issuer_id": "6878977dcbbf471de3366e85",
+              "issuer_name": "Backed Assets",
+              "market_cap": null,
+              "volume_24h": null
+            }
+          ],
+          "tradfi_markets": [
+            {
+              "exchange": {
+                "slug": "binance",
+                "name": "Binance",
+                "exchange_id": 270
+              },
+              "ticker": "SMH",
+              "market_url": "https://www.binance.com/en/stocks/EQ_SMH"
+            }
+          ]
+        },
+        {
+          "name": "Corning Incorporated",
+          "symbol": "GLW",
+          "slug": "corning-incorporated",
+          "quotes": [
+            {
+              "symbol": "USD",
+              "crypto_id": 2781,
+              "average_tokenized_price": 103.8582209099621,
+              "tokenized_market_cap": 1701258.5823075841,
+              "tokenized_volume_24h": 2232209.31092733,
+              "last_updated": "2026-11-20T00:16:01.000Z"
+            }
+          ],
+          "rwa_id": 256,
+          "asset_type": "stock",
+          "rwa_rank": 178,
+          "has_tokens": true,
+          "average_tokenized_price": 103.8582209099621,
+          "tokenized_market_cap": 1701258.5823075841,
+          "tokenized_volume_24h": 2232209.31092733,
+          "last_updated": "2026-11-20T00:17:13.133Z",
+          "tokens": [
+            {
+              "symbol": "GLW",
+              "name": "Corning Tokenized Stock (Robinhood)",
+              "price": null,
+              "crypto_id": 40713,
+              "issuer_id": "6a465832fbe3004b1a0ea2dd",
+              "issuer_name": "Robinhood",
+              "market_cap": 2182.19,
+              "volume_24h": 0
+            },
+            {
+              "symbol": "GLWB",
+              "name": "Corning Tokenized bStocks",
+              "price": 103.86371948120616,
+              "crypto_id": 40795,
+              "issuer_id": "6a2aed5097c45356b1a5f710",
+              "issuer_name": "bStocks",
+              "market_cap": 1317873.9587228904,
+              "volume_24h": 2214446.7111821696
+            },
+            {
+              "symbol": "wGLWx",
+              "name": "Wrapped Corning Tokenized Stock (xStock)",
+              "price": null,
+              "crypto_id": 41402,
+              "issuer_id": "6878977dcbbf471de3366e85",
+              "issuer_name": "Backed Assets",
+              "market_cap": null,
+              "volume_24h": null
+            },
+            {
+              "symbol": "GLWx",
+              "name": "Corning tokenized stock (xStock)",
+              "price": 104.51577554730915,
+              "crypto_id": 41906,
+              "issuer_id": "6878977dcbbf471de3366e85",
+              "issuer_name": "Backed Assets",
+              "market_cap": 383509.86125626316,
+              "volume_24h": 17861.864219571515
+            }
+          ],
+          "tradfi_markets": [
+            {
+              "exchange": {
+                "slug": "binance",
+                "name": "Binance",
+                "exchange_id": 270
+              },
+              "ticker": "GLW",
+              "market_url": "https://www.binance.com/en/stocks/EQ_GLW"
+            }
+          ]
+        },
+        {
+          "name": "United States Oil Fund LP",
+          "symbol": "USO",
+          "slug": "united-states-oil-fund",
+          "quotes": [
+            {
+              "symbol": "USD",
+              "crypto_id": 2781,
+              "average_tokenized_price": 137.71704788006053,
+              "tokenized_market_cap": 6552170.442453309,
+              "tokenized_volume_24h": 2144418.43622624,
+              "last_updated": "2026-11-20T00:16:01.000Z"
+            }
+          ],
+          "rwa_id": 183,
+          "asset_type": "etf",
+          "rwa_rank": 7771,
+          "has_tokens": true,
+          "average_tokenized_price": 137.71704788006053,
+          "tokenized_market_cap": 6552170.442453309,
+          "tokenized_volume_24h": 2144418.43622624,
+          "last_updated": "2026-11-20T00:17:13.197Z",
+          "tokens": [
+            {
+              "symbol": "USOon",
+              "name": "United States Oil Tokenized Fund (Ondo)",
+              "price": 138.32402059577203,
+              "crypto_id": 39250,
+              "issuer_id": "688ca4ccabae9b5b9fb3167a",
+              "issuer_name": "Ondo Assets",
+              "market_cap": 4468868.061564307,
+              "volume_24h": 648227.9337532521
+            },
+            {
+              "symbol": "USO",
+              "name": "United States Oil Fund LP (Derivatives)",
+              "price": 137.55203556781183,
+              "crypto_id": 39515,
+              "issuer_id": "695e11f774b54210f3b95dc3",
+              "issuer_name": "NA (Derivatives)",
+              "market_cap": 0,
+              "volume_24h": 0
+            },
+            {
+              "symbol": "USO",
+              "name": "United States Oil Fund Tokenized Commodity (Robinhood)",
+              "price": 137.4540755848276,
+              "crypto_id": 40737,
+              "issuer_id": "6a465832fbe3004b1a0ea2dd",
+              "issuer_name": "Robinhood",
+              "market_cap": 2083302.3808890681,
+              "volume_24h": 1496190.5240941588
+            }
+          ],
+          "tradfi_markets": [
+            {
+              "exchange": {
+                "slug": "binance",
+                "name": "Binance",
+                "exchange_id": 270
+              },
+              "ticker": "USO",
+              "market_url": "https://www.binance.com/en/stocks/EQ_USO"
+            }
+          ]
+        },
+        {
+          "name": "USA Rare Earth, Inc.",
+          "symbol": "USAR",
+          "slug": "usa-rare-earth-inc",
+          "quotes": [
+            {
+              "symbol": "USD",
+              "crypto_id": 2781,
+              "average_tokenized_price": 6.807980706702485,
+              "tokenized_market_cap": 1199359.4116584759,
+              "tokenized_volume_24h": 2105161.57716065,
+              "last_updated": "2026-11-20T00:16:01.000Z"
+            }
+          ],
+          "rwa_id": 1682,
+          "asset_type": "stock",
+          "rwa_rank": 1800,
+          "has_tokens": true,
+          "average_tokenized_price": 6.807980706702485,
+          "tokenized_market_cap": 1199359.4116584759,
+          "tokenized_volume_24h": 2105161.57716065,
+          "last_updated": "2026-11-20T00:17:13.175Z",
+          "tokens": [
+            {
+              "symbol": "rUSAR",
+              "name": "USA Rare Earth ETF Tokenized Stock (Reality)",
+              "price": 6.822159839911179,
+              "crypto_id": 40647,
+              "issuer_id": "6a43600c282e7240b76c8bbb",
+              "issuer_name": "Reality",
+              "market_cap": 35981.9725579368,
+              "volume_24h": 220.1559924092215
+            },
+            {
+              "symbol": "USAR",
+              "name": "USA Rare Earth Tokenized Stock (Robinhood)",
+              "price": 6.821229375495047,
+              "crypto_id": 40738,
+              "issuer_id": "6a465832fbe3004b1a0ea2dd",
+              "issuer_name": "Robinhood",
+              "market_cap": 364594.9679626807,
+              "volume_24h": 159143.06836995366
+            },
+            {
+              "symbol": "USARB",
+              "name": "USA Rare Earth Tokenized bStocks",
+              "price": 6.806895519523879,
+              "crypto_id": 40969,
+              "issuer_id": "6a2aed5097c45356b1a5f710",
+              "issuer_name": "bStocks",
+              "market_cap": 798782.4711378653,
+              "volume_24h": 1945804.340429043
+            },
+            {
+              "symbol": "wUSARx",
+              "name": "Wrapped USA Rare Earth Inc. Tokenized Stock (xStock)",
+              "price": null,
+              "crypto_id": 41736,
+              "issuer_id": "6878977dcbbf471de3366e85",
+              "issuer_name": "Backed Assets",
+              "market_cap": null,
+              "volume_24h": null
+            }
+          ],
+          "tradfi_markets": [
+            {
+              "exchange": {
+                "slug": "binance",
+                "name": "Binance",
+                "exchange_id": 270
+              },
+              "ticker": "USAR",
+              "market_url": "https://www.binance.com/en/stocks/EQ_USAR"
+            }
+          ]
+        },
+        {
+          "name": "Ast Spacemobile, Inc.",
+          "symbol": "ASTS",
+          "slug": "ast-spacemobile-inc",
+          "quotes": [
+            {
+              "symbol": "USD",
+              "crypto_id": 2781,
+              "average_tokenized_price": 25.52248247108093,
+              "tokenized_market_cap": 2702591.4110524384,
+              "tokenized_volume_24h": 2077199.35278772,
+              "last_updated": "2026-11-20T00:16:01.000Z"
+            }
+          ],
+          "rwa_id": 511,
+          "asset_type": "stock",
+          "rwa_rank": 1019,
+          "has_tokens": true,
+          "average_tokenized_price": 25.52248247108093,
+          "tokenized_market_cap": 2702591.4110524384,
+          "tokenized_volume_24h": 2077199.35278772,
+          "last_updated": "2026-11-20T00:17:13.187Z",
+          "tokens": [
+            {
+              "symbol": "ASTSx",
+              "name": "AST SpaceMobile tokenized stock (xStock)",
+              "price": 25.52079677732095,
+              "crypto_id": 40164,
+              "issuer_id": "6878977dcbbf471de3366e85",
+              "issuer_name": "Backed Assets",
+              "market_cap": 617723.2865563103,
+              "volume_24h": 26340.963311988548
+            },
+            {
+              "symbol": "rASTS",
+              "name": "AST SpaceMobile Tokenized Stock (Reality)",
+              "price": 25.54064818543614,
+              "crypto_id": 40665,
+              "issuer_id": "6a43600c282e7240b76c8bbb",
+              "issuer_name": "Reality",
+              "market_cap": 933023.2514577839,
+              "volume_24h": 20743.13158574528
+            },
+            {
+              "symbol": "ASTS",
+              "name": "AST SpaceMobile Tokenized Stock (Robinhood)",
+              "price": 26.697958268932435,
+              "crypto_id": 40724,
+              "issuer_id": "6a465832fbe3004b1a0ea2dd",
+              "issuer_name": "Robinhood",
+              "market_cap": 19683.27450711036,
+              "volume_24h": 283.3628166061814
+            },
+            {
+              "symbol": "ASTSB",
+              "name": "AST SpaceMobile Tokenized bStocks",
+              "price": 25.537368610462504,
+              "crypto_id": 40971,
+              "issuer_id": "6a2aed5097c45356b1a5f710",
+              "issuer_name": "bStocks",
+              "market_cap": 1132817.607100121,
+              "volume_24h": 2029871.3567564716
+            },
+            {
+              "symbol": "wASTSx",
+              "name": "Wrapped AST SpaceMobile Tokenized Stock (xStock)",
+              "price": null,
+              "crypto_id": 41099,
+              "issuer_id": "6878977dcbbf471de3366e85",
+              "issuer_name": "Backed Assets",
+              "market_cap": null,
+              "volume_24h": null
+            },
+            {
+              "symbol": "ASTSc",
+              "name": "AST SpaceMobile, Inc. Tokenized Stock (Coinbase)",
+              "price": null,
+              "crypto_id": 42426,
+              "issuer_id": "6a72fe7072996604d45c6733",
+              "issuer_name": "Coinbase",
+              "market_cap": 2054.47,
+              "volume_24h": 0
+            }
+          ],
+          "tradfi_markets": [
+            {
+              "exchange": {
+                "slug": "binance",
+                "name": "Binance",
+                "exchange_id": 270
+              },
+              "ticker": "ASTS",
+              "market_url": "https://www.binance.com/en/stocks/EQ_ASTS"
+            }
+          ]
+        },
+        {
+          "name": "Trump Media & Technology Group Corp.",
+          "symbol": "DJT",
+          "slug": "trump-media-technology-group-corp",
+          "quotes": [
+            {
+              "symbol": "USD",
+              "crypto_id": 2781,
+              "average_tokenized_price": 4.060198261345698,
+              "tokenized_market_cap": 864657.3546710075,
+              "tokenized_volume_24h": 2064452.67979525,
+              "last_updated": "2026-11-20T00:16:01.000Z"
+            }
+          ],
+          "rwa_id": 2023,
+          "asset_type": "stock",
+          "rwa_rank": 2320,
+          "has_tokens": true,
+          "average_tokenized_price": 4.060198261345698,
+          "tokenized_market_cap": 864657.3546710075,
+          "tokenized_volume_24h": 2064452.67979525,
+          "last_updated": "2026-11-20T00:17:13.176Z",
+          "tokens": [
+            {
+              "symbol": "DJTB",
+              "name": "Trump Media & Technology Group Tokenized bStocks",
+              "price": 4.060318753386211,
+              "crypto_id": 41915,
+              "issuer_id": "6a2aed5097c45356b1a5f710",
+              "issuer_name": "bStocks",
+              "market_cap": 864657.3546710075,
+              "volume_24h": 2041559.2333774413
+            },
+            {
+              "symbol": "DJT",
+              "name": "Trump Media & Technology Group Corp (Derivatives)",
+              "price": 4.06696136624608,
+              "crypto_id": 41918,
+              "issuer_id": "695e11f774b54210f3b95dc3",
+              "issuer_name": "NA (Derivatives)",
+              "market_cap": 0,
+              "volume_24h": 0
+            },
+            {
+              "symbol": "DJT",
+              "name": "Trump Media & Technology Group Tokenized Stock (Robinhood)",
+              "price": 4.051915784957021,
+              "crypto_id": 41999,
+              "issuer_id": "6a465832fbe3004b1a0ea2dd",
+              "issuer_name": "Robinhood",
+              "market_cap": 0,
+              "volume_24h": 22955.678556777497
+            },
+            {
+              "symbol": "DJTc",
+              "name": "Trump Media & Technology Group Corp. Tokenized Stock (Coinbase)",
+              "price": null,
+              "crypto_id": 42474,
+              "issuer_id": "6a72fe7072996604d45c6733",
+              "issuer_name": "Coinbase",
+              "market_cap": 36962.79,
+              "volume_24h": 0
+            }
+          ],
+          "tradfi_markets": [
+            {
+              "exchange": {
+                "slug": "binance",
+                "name": "Binance",
+                "exchange_id": 270
+              },
+              "ticker": "DJT",
+              "market_url": "https://www.binance.com/en/stocks/EQ_DJT"
+            }
+          ]
+        },
+        {
+          "name": "SharonAI Holdings, Inc.",
+          "symbol": "SHAZ",
+          "slug": "sharonai-holdings-inc",
+          "quotes": [
+            {
+              "symbol": "USD",
+              "crypto_id": 2781,
+              "average_tokenized_price": 20.626367588314977,
+              "tokenized_market_cap": 671951.6787646217,
+              "tokenized_volume_24h": 1985969.34616067,
+              "last_updated": "2026-11-20T00:16:01.000Z"
+            }
+          ],
+          "rwa_id": 2220,
+          "asset_type": "stock",
+          "rwa_rank": 2551,
+          "has_tokens": true,
+          "average_tokenized_price": 20.626367588314977,
+          "tokenized_market_cap": 671951.6787646217,
+          "tokenized_volume_24h": 1985969.34616067,
+          "last_updated": "2026-11-20T00:17:13.114Z",
+          "tokens": [
+            {
+              "symbol": "SHAZ",
+              "name": "SharonAI Holdings Inc (Derivatives)",
+              "price": 20.67013619044043,
+              "crypto_id": 40807,
+              "issuer_id": "695e11f774b54210f3b95dc3",
+              "issuer_name": "NA (Derivatives)",
+              "market_cap": 0,
+              "volume_24h": 0
+            },
+            {
+              "symbol": "wSHAZx",
+              "name": "Wrapped SharonAI Tokenized Stock (xStock)",
+              "price": null,
+              "crypto_id": 41609,
+              "issuer_id": "6878977dcbbf471de3366e85",
+              "issuer_name": "Backed Assets",
+              "market_cap": null,
+              "volume_24h": null
+            },
+            {
+              "symbol": "SHAZB",
+              "name": "SharonAI Tokenized bStocks",
+              "price": 20.62621392162295,
+              "crypto_id": 42389,
+              "issuer_id": "6a2aed5097c45356b1a5f710",
+              "issuer_name": "bStocks",
+              "market_cap": 671946.6727163568,
+              "volume_24h": 1985974.8170000373
+            }
+          ],
+          "tradfi_markets": [
+            {
+              "exchange": {
+                "slug": "binance",
+                "name": "Binance",
+                "exchange_id": 270
+              },
+              "ticker": "SHAZ",
+              "market_url": "https://www.binance.com/en/stocks/EQ_SHAZ"
+            }
+          ]
+        },
+        {
+          "name": "Quantinuum Inc",
+          "symbol": "QNT",
+          "slug": "quantinuum-inc",
+          "quotes": [
+            {
+              "symbol": "USD",
+              "crypto_id": 2781,
+              "average_tokenized_price": 28.427031330139993,
+              "tokenized_market_cap": 536093.1901758201,
+              "tokenized_volume_24h": 1961806.49579295,
+              "last_updated": "2026-11-20T00:16:01.000Z"
+            }
+          ],
+          "rwa_id": 16386,
+          "asset_type": "stock",
+          "rwa_rank": 2243,
+          "has_tokens": true,
+          "average_tokenized_price": 28.427031330139993,
+          "tokenized_market_cap": 536093.1901758201,
+          "tokenized_volume_24h": 1961806.49579295,
+          "last_updated": "2026-11-20T00:17:13.121Z",
+          "tokens": [
+            {
+              "symbol": "QNTX",
+              "name": "Quantinuum Inc (Derivatives)",
+              "price": 28.344701332007244,
+              "crypto_id": 40094,
+              "issuer_id": "695e11f774b54210f3b95dc3",
+              "issuer_name": "NA (Derivatives)",
+              "market_cap": 0,
+              "volume_24h": 0
+            },
+            {
+              "symbol": "QNTB",
+              "name": "Quantinuum Tokenized bStocks",
+              "price": 28.427088790227664,
+              "crypto_id": 40878,
+              "issuer_id": "6a2aed5097c45356b1a5f710",
+              "issuer_name": "bStocks",
+              "market_cap": 536094.2737909663,
+              "volume_24h": 1961811.4334239336
+            }
+          ],
+          "tradfi_markets": []
+        }
+      ]
+    },
+    "status": {
+      "timestamp": "2026-11-20T00:17:35.288Z",
+      "error_code": "0",
+      "error_message": "",
+      "elapsed": 11,
+      "credit_count": 1
+    }
+  }
+}

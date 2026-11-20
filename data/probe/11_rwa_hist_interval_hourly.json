@@ -1,0 +1,24 @@
+{
+  "request": {
+    "method": "GET",
+    "path": "/v5/real-world-assets/quotes/historical",
+    "params": {
+      "rwa_id": 7750,
+      "interval": "hourly",
+      "count": 5
+    },
+    "url": "https://pro-api.coinmarketcap.com/v5/real-world-assets/quotes/historical?rwa_id=7750&interval=hourly&count=5"
+  },
+  "fetched_at": "2026-11-20T00:17:35.708Z",
+  "elapsed_ms": 95,
+  "http_status": 403,
+  "body": {
+    "status": {
+      "timestamp": "2026-11-20T00:17:35.688Z",
+      "error_code": "1006",
+      "error_message": "Your API Key subscription plan doesn't support this endpoint.",
+      "elapsed": 1,
+      "credit_count": 0
+    }
+  }
+}

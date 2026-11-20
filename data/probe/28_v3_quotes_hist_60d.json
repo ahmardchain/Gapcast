@@ -1,0 +1,26 @@
+{
+  "request": {
+    "method": "GET",
+    "path": "/v3/cryptocurrency/quotes/historical",
+    "params": {
+      "id": 40147,
+      "interval": "hourly",
+      "time_start": "2026-09-21T00:17:34.458Z",
+      "count": 3
+    },
+    "url": "https://pro-api.coinmarketcap.com/v3/cryptocurrency/quotes/historical?id=40147&interval=hourly&time_start=2026-09-21T00%3A17%3A34.458Z&count=3"
+  },
+  "fetched_at": "2026-11-20T00:17:37.555Z",
+  "elapsed_ms": 100,
+  "http_status": 400,
+  "body": {
+    "status": {
+      "timestamp": "2026-11-20T00:17:37.534Z",
+      "error_code": 400,
+      "error_message": "Your plan allows 1 months of historical access. Please upgrade your plan or choose a startDate that is newer than 2026-10-19T00:17:37.533360773Z.",
+      "elapsed": 1,
+      "credit_count": 0,
+      "notice": null
+    }
+  }
+}

@@ -1,0 +1,449 @@
+{
+  "request": {
+    "method": "GET",
+    "path": "/v2/cryptocurrency/info",
+    "params": {
+      "id": "40147,40600,40794,41586"
+    },
+    "url": "https://pro-api.coinmarketcap.com/v2/cryptocurrency/info?id=40147%2C40600%2C40794%2C41586"
+  },
+  "fetched_at": "2026-11-20T00:17:37.221Z",
+  "elapsed_ms": 109,
+  "http_status": 200,
+  "body": {
+    "data": {
+      "40147": {
+        "id": 40147,
+        "name": "Direxion Semiconductor Bull 3X tokenized ETF (xStock)",
+        "symbol": "SOXLx",
+        "category": "token",
+        "description": "Direxion Semiconductor Bull 3X tokenized ETF (xStock) (SOXLx) is a cryptocurrency and operates on the Solana platform. Direxion Semiconductor Bull 3X tokenized ETF (xStock) has a current supply of 1,740,636.58152562 with 264,786.92904509 in circulation. The last known price of Direxion Semiconductor Bull 3X tokenized ETF (xStock) is 44.43513314 USD and is down -12.79 over the last 24 hours. It is currently trading on 5 active market(s) with $13,457,388.66 traded over the last 24 hours. More information can be found at https://assets.backed.fi/products/direxion-semiconductor-bull-3x-xstock.",
+        "slug": "direxion-semiconductor-bull-3x-tokenized-etf-xstock",
+        "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/40147.png",
+        "subreddit": "",
+        "notice": "",
+        "tags": [
+          "defi",
+          "ethereum-ecosystem",
+          "tokenized-stock",
+          "solana-ecosystem",
+          "arbitrum-ecosystem",
+          "bnb-chain-ecosystem",
+          "toncoin-ecosystem",
+          "mantle-ecosystem",
+          "tokenized-assets",
+          "xstocks-ecosystem",
+          "hyperevm-ecosystem"
+        ],
+        "tag-names": [
+          "DeFi",
+          "Ethereum Ecosystem",
+          "Tokenized Stock",
+          "Solana Ecosystem",
+          "Arbitrum Ecosystem",
+          "BNB Chain Ecosystem",
+          "Toncoin Ecosystem",
+          "Mantle Ecosystem",
+          "Tokenized Assets",
+          "xStocks Ecosystem",
+          "HyperEVM Ecosystem"
+        ],
+        "tag-groups": [
+          "CATEGORY",
+          "PLATFORM",
+          "CATEGORY",
+          "PLATFORM",
+          "PLATFORM",
+          "PLATFORM",
+          "PLATFORM",
+          "PLATFORM",
+          "CATEGORY",
+          "CATEGORY",
+          "PLATFORM"
+        ],
+        "urls": {
+          "website": [
+            "https://assets.backed.fi/products/direxion-semiconductor-bull-3x-xstock"
+          ],
+          "twitter": [
+            "https://twitter.com/xstocksfi"
+          ],
+          "message_board": [],
+          "chat": [
+            "https://t.me/xstocksfi",
+            "https://xstocks.fi/",
+            "https://www.linkedin.com/company/xstocksfi/"
+          ],
+          "facebook": [],
+          "explorer": [
+            "https://etherscan.io/token/0x53ee7f58cf031ea4d897fdfcdafad124b3160689",
+            "https://arbiscan.io/token/0x53ee7f58cf031ea4d897fdfcdafad124b3160689",
+            "https://solscan.io/token/XsdZDkoMdUb6iKDAKKappuM7C1Q2HmTqC8jNujbfmCu",
+            "https://tonviewer.com/EQDrx0YmeevoA2hYIOZa-UxMQdwojDCNOMgAV2VCBXhyQ5KJ"
+          ],
+          "reddit": [],
+          "technical_doc": [],
+          "source_code": [],
+          "announcement": []
+        },
+        "platform": {
+          "id": "5426",
+          "name": "Solana",
+          "symbol": "SOL",
+          "slug": "solana",
+          "token_address": "XsdZDkoMdUb6iKDAKKappuM7C1Q2HmTqC8jNujbfmCu"
+        },
+        "date_added": "2026-06-10T06:33:34.000Z",
+        "twitter_username": "xstocksfi",
+        "is_hidden": 0,
+        "contract_address": [
+          {
+            "contract_address": "XsdZDkoMdUb6iKDAKKappuM7C1Q2HmTqC8jNujbfmCu",
+            "platform": {
+              "name": "Solana",
+              "coin": {
+                "id": "5426",
+                "name": "Solana",
+                "symbol": "SOL",
+                "slug": "solana"
+              }
+            }
+          },
+          {
+            "contract_address": "0x53ee7f58cf031ea4d897fdfcdafad124b3160689",
+            "platform": {
+              "name": "Ethereum",
+              "coin": {
+                "id": "1027",
+                "name": "Ethereum",
+                "symbol": "ETH",
+                "slug": "ethereum"
+              }
+            }
+          },
+          {
+            "contract_address": "0x53ee7f58cf031ea4d897fdfcdafad124b3160689",
+            "platform": {
+              "name": "Ink",
+              "coin": {
+                "id": "36851",
+                "name": "INK",
+                "symbol": "INK",
+                "slug": "ink-token"
+              }
+            }
+          },
+          {
+            "contract_address": "0x53ee7f58cf031ea4d897fdfcdafad124b3160689",
+            "platform": {
+              "name": "Mantle",
+              "coin": {
+                "id": "27075",
+                "name": "Mantle",
+                "symbol": "MNT",
+                "slug": "mantle"
+              }
+            }
+          },
+          {
+            "contract_address": "0x53ee7f58cf031ea4d897fdfcdafad124b3160689",
+            "platform": {
+              "name": "Arbitrum",
+              "coin": {
+                "id": "11841",
+                "name": "Arbitrum",
+                "symbol": "ARB",
+                "slug": "arbitrum"
+              }
+            }
+          },
+          {
+            "contract_address": "0x53ee7f58cf031ea4d897fdfcdafad124b3160689",
+            "platform": {
+              "name": "HyperEVM",
+              "coin": {
+                "id": "32196",
+                "name": "Hyperliquid",
+                "symbol": "HYPE",
+                "slug": "hyperliquid"
+              }
+            }
+          },
+          {
+            "contract_address": "EQDrx0YmeevoA2hYIOZa-UxMQdwojDCNOMgAV2VCBXhyQ5KJ",
+            "platform": {
+              "name": "TON",
+              "coin": {
+                "id": "11419",
+                "name": "Gram (prev. Toncoin)",
+                "symbol": "GRAM",
+                "slug": "gram"
+              }
+            }
+          },
+          {
+            "contract_address": "0x53ee7f58cf031ea4d897fdfcdafad124b3160689",
+            "platform": {
+              "name": "BNB Smart Chain (BEP20)",
+              "coin": {
+                "id": "1839",
+                "name": "BNB",
+                "symbol": "BNB",
+                "slug": "bnb"
+              }
+            }
+          }
+        ],
+        "infinite_supply": false
+      },
+      "40600": {
+        "id": 40600,
+        "name": "Direxion Semiconductor Bull 3X Tokenized Stock (Reality)",
+        "symbol": "rSOXL",
+        "category": "token",
+        "description": "Direxion Semiconductor Bull 3X Tokenized Stock (Reality) (rSOXL) is a cryptocurrency and operates on the Arbitrum platform. Direxion Semiconductor Bull 3X Tokenized Stock (Reality) has a current supply of 86,202.48373022. The last known price of Direxion Semiconductor Bull 3X Tokenized Stock (Reality) is 44.28065351 USD and is down -13.00 over the last 24 hours. It is currently trading on 3 active market(s) with $9,979,886.06 traded over the last 24 hours. More information can be found at https://realityfinance.xyz/.",
+        "slug": "direxion-semiconductor-bull-3x-tokenized-stock-reality",
+        "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/40600.png",
+        "subreddit": "",
+        "notice": "",
+        "tags": [
+          "defi",
+          "tokenized-stock",
+          "arbitrum-ecosystem",
+          "tokenized-assets",
+          "bitget-ecosystem",
+          "rtokens"
+        ],
+        "tag-names": [
+          "DeFi",
+          "Tokenized Stock",
+          "Arbitrum Ecosystem",
+          "Tokenized Assets",
+          "Bitget Ecosystem",
+          "rTokens"
+        ],
+        "tag-groups": [
+          "CATEGORY",
+          "CATEGORY",
+          "PLATFORM",
+          "CATEGORY",
+          "CATEGORY",
+          "CATEGORY"
+        ],
+        "urls": {
+          "website": [
+            "https://realityfinance.xyz/"
+          ],
+          "twitter": [
+            "https://twitter.com/RealityFi_xyz"
+          ],
+          "message_board": [],
+          "chat": [],
+          "facebook": [],
+          "explorer": [
+            "https://arbiscan.io/address/0x25501fea0562fa74dab22dc09dd3f994d5558dce"
+          ],
+          "reddit": [],
+          "technical_doc": [],
+          "source_code": [],
+          "announcement": []
+        },
+        "platform": {
+          "id": "11841",
+          "name": "Arbitrum",
+          "symbol": "ARB",
+          "slug": "arbitrum",
+          "token_address": "0x25501fea0562fa74dab22dc09dd3f994d5558dce"
+        },
+        "date_added": "2026-07-02T07:39:01.000Z",
+        "twitter_username": "RealityFi_xyz",
+        "is_hidden": 0,
+        "contract_address": [
+          {
+            "contract_address": "0x25501fea0562fa74dab22dc09dd3f994d5558dce",
+            "platform": {
+              "name": "Arbitrum",
+              "coin": {
+                "id": "11841",
+                "name": "Arbitrum",
+                "symbol": "ARB",
+                "slug": "arbitrum"
+              }
+            }
+          }
+        ],
+        "infinite_supply": false
+      },
+      "40794": {
+        "id": 40794,
+        "name": "Semicon Bull 3X ETF Tokenized bStocks",
+        "symbol": "SOXLB",
+        "category": "token",
+        "description": "Semicon Bull 3X ETF Tokenized bStocks (SOXLB) is a cryptocurrency and operates on the BNB Smart Chain (BEP20) platform. Semicon Bull 3X ETF Tokenized bStocks has a current supply of 1,767,001.93798525. The last known price of Semicon Bull 3X ETF Tokenized bStocks is 44.39220233 USD and is down -13.00 over the last 24 hours. It is currently trading on 48 active market(s) with $84,618,705.93 traded over the last 24 hours. More information can be found at https://www.bstocks.finance/.",
+        "slug": "semicon-bull-3x-etf-tokenized-bstocks",
+        "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/40794.png",
+        "subreddit": "",
+        "notice": "",
+        "tags": [
+          "defi",
+          "tokenized-stock",
+          "bnb-chain-ecosystem",
+          "binance-ecosystem",
+          "binance-listing",
+          "tokenized-assets",
+          "tokenized-etfs",
+          "bstocks"
+        ],
+        "tag-names": [
+          "DeFi",
+          "Tokenized Stock",
+          "BNB Chain Ecosystem",
+          "Binance Ecosystem",
+          "Binance Listing",
+          "Tokenized Assets",
+          "Tokenized ETFs (exchange traded funds)",
+          "bStocks"
+        ],
+        "tag-groups": [
+          "CATEGORY",
+          "CATEGORY",
+          "PLATFORM",
+          "CATEGORY",
+          "CATEGORY",
+          "CATEGORY",
+          "CATEGORY",
+          "CATEGORY"
+        ],
+        "urls": {
+          "website": [
+            "https://www.bstocks.finance/"
+          ],
+          "twitter": [],
+          "message_board": [],
+          "chat": [],
+          "facebook": [],
+          "explorer": [
+            "https://bscscan.com/address/0xd97d097a89113fa59b76c572e5b2eb647e8eefaf"
+          ],
+          "reddit": [],
+          "technical_doc": [],
+          "source_code": [],
+          "announcement": []
+        },
+        "platform": {
+          "id": "1839",
+          "name": "BNB",
+          "symbol": "BNB",
+          "slug": "bnb",
+          "token_address": "0xd97d097a89113fa59b76c572e5b2eb647e8eefaf"
+        },
+        "date_added": "2026-07-06T06:10:07.000Z",
+        "twitter_username": "",
+        "is_hidden": 0,
+        "contract_address": [
+          {
+            "contract_address": "0xd97d097a89113fa59b76c572e5b2eb647e8eefaf",
+            "platform": {
+              "name": "BNB Smart Chain (BEP20)",
+              "coin": {
+                "id": "1839",
+                "name": "BNB",
+                "symbol": "BNB",
+                "slug": "bnb"
+              }
+            }
+          }
+        ],
+        "infinite_supply": false
+      },
+      "41586": {
+        "id": 41586,
+        "name": "Wrapped Direxion Semiconductor Bull 3X Tokenized ETF (xStock)",
+        "symbol": "wSOXLx",
+        "category": "token",
+        "description": "Wrapped Direxion Semiconductor Bull 3X xStock (wSOXLx) is the non-rebasing ERC-20/ERC-4626 wrapped version of Direxion Semiconductor Bull 3X xStock (SOXLx) on X Layer. Vault shares represent a proportional claim on the underlying xStock deposited in the wrapper (0x53EE7F58Cf031Ea4d897FDFCDafAd124b3160689), and wrap/unwrap conversion uses the live xStocks multiplier.",
+        "slug": "wrapped-direxion-semiconductor-bull-3x-tokenized-etf-xstock",
+        "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/41586.png",
+        "subreddit": "",
+        "notice": "",
+        "tags": [
+          "defi",
+          "tokenized-stock",
+          "x-layer-ecosystem",
+          "tokenized-assets",
+          "xstocks-ecosystem"
+        ],
+        "tag-names": [
+          "DeFi",
+          "Tokenized Stock",
+          "X Layer Ecosystem",
+          "Tokenized Assets",
+          "xStocks Ecosystem"
+        ],
+        "tag-groups": [
+          "CATEGORY",
+          "CATEGORY",
+          "PLATFORM",
+          "CATEGORY",
+          "CATEGORY"
+        ],
+        "urls": {
+          "website": [
+            "https://xstocks.fi"
+          ],
+          "twitter": [
+            "https://twitter.com/xstocksfi"
+          ],
+          "message_board": [],
+          "chat": [
+            "https://defi.xstocks.fi/wrap",
+            " https://docs.xstocks.fi/developers/wrapped-xstocks",
+            " https://t.me/xstocksfi",
+            " https://www.linkedin.com/company/backed-finance/"
+          ],
+          "facebook": [],
+          "explorer": [
+            "https://www.oklink.com/x-layer/address/0x6fF7B8B3A17a88daDa6f731838e83d1F9ECfF8f5"
+          ],
+          "reddit": [],
+          "technical_doc": [],
+          "source_code": [],
+          "announcement": []
+        },
+        "platform": {
+          "id": "3897",
+          "name": "OKB",
+          "symbol": "OKB",
+          "slug": "okb",
+          "token_address": "0x6fF7B8B3A17a88daDa6f731838e83d1F9ECfF8f5"
+        },
+        "date_added": "2026-08-11T16:25:23.000Z",
+        "twitter_username": "xstocksfi",
+        "is_hidden": 0,
+        "contract_address": [
+          {
+            "contract_address": "0x6fF7B8B3A17a88daDa6f731838e83d1F9ECfF8f5",
+            "platform": {
+              "name": "X Layer",
+              "coin": {
+                "id": "3897",
+                "name": "OKB",
+                "symbol": "OKB",
+                "slug": "okb"
+              }
+            }
+          }
+        ],
+        "infinite_supply": false
+      }
+    },
+    "status": {
+      "timestamp": "2026-11-20T00:17:37.198Z",
+      "error_code": 0,
+      "error_message": null,
+      "elapsed": 7,
+      "credit_count": 1,
+      "notice": null
+    }
+  }
+}

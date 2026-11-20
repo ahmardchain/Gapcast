@@ -1,0 +1,164 @@
+
+> gapcast@0.1.0 probe
+> NODE_USE_ENV_PROXY=1 tsx scripts/probe.ts
+
+Gapcast probe @ 2026-11-20T00:17:34.458Z  key source: none in env (relying on proxy-injected secret)
+
+Plan: {"credit_limit_monthly":450000,"credit_limit_monthly_reset":"In 10 days, 23 hours, 42 minutes","credit_limit_monthly_reset_timestamp":"2026-12-01T00:00:00.000Z","rate_limit_minute":600}
+
+(b) assets/list: 500 stocks+ETFs, 329 has_tokens, 50 in universe (top 50 by 24h tokenized volume, vol > 0)
+
+(a) quotes/historical on SOXL (rwa_id 7750)
+┌─────────┬─────────────────────────────────────────────────────────────────────────────────┐
+│ (index) │ Values                                                                          │
+├─────────┼─────────────────────────────────────────────────────────────────────────────────┤
+│ hourly  │ "HTTP 403 / 1006 Your API Key subscription plan doesn't support this endpoint." │
+│ 1h      │ "HTTP 403 / 1006 Your API Key subscription plan doesn't support this endpoint." │
+│ 4h      │ "HTTP 403 / 1006 Your API Key subscription plan doesn't support this endpoint." │
+│ daily   │ "HTTP 403 / 1006 Your API Key subscription plan doesn't support this endpoint." │
+│ 15m     │ "HTTP 403 / 1006 Your API Key subscription plan doesn't support this endpoint." │
+│ 5m      │ "HTTP 403 / 1006 Your API Key subscription plan doesn't support this endpoint." │
+└─────────┴─────────────────────────────────────────────────────────────────────────────────┘
+┌───────────┬───────────────────┐
+│ (index)   │ Values            │
+├───────────┼───────────────────┤
+│ 7d back   │ 'HTTP 403 / 1006' │
+│ 29d back  │ 'HTTP 403 / 1006' │
+│ 31d back  │ 'HTTP 403 / 1006' │
+│ 35d back  │ 'HTTP 403 / 1006' │
+│ 45d back  │ 'HTTP 403 / 1006' │
+│ 60d back  │ 'HTTP 403 / 1006' │
+│ 100d back │ 'HTTP 403 / 1006' │
+└───────────┴───────────────────┘
+Fetching hourly 2026-11-13T02:17:34.458Z -> now (167 periods) for 50 assets, 59 assets/request
+(a) hourly points fetched: 0; tokenized_volume_24h present on 0 (0%)
+
+(c) usable off-hours periods per asset (window 2026-11-13T02:17:34.458Z -> now):
+┌─────────┬─────────┬───────────┬────────────┬───────────┬─────────┬─────────┬────────┬─────────┬──────────────────────┐
+│ (index) │ type    │ vol24h    │ hourly_pts │ overnight │ weekend │ holiday │ usable │ missing │ price_moved_offhours │
+├─────────┼─────────┼───────────┼────────────┼───────────┼─────────┼─────────┼────────┼─────────┼──────────────────────┤
+│ SOXL    │ 'etf'   │ 108175523 │ 0          │ 0         │ 0       │ 0       │ 0      │ 5       │ 0                    │
+│ SPY     │ 'etf'   │ 56813885  │ 0          │ 0         │ 0       │ 0       │ 0      │ 5       │ 0                    │
+│ SOXS    │ 'etf'   │ 55808595  │ 0          │ 0         │ 0       │ 0       │ 0      │ 5       │ 0                    │
+│ QQQ     │ 'etf'   │ 51341771  │ 0          │ 0         │ 0       │ 0       │ 0      │ 5       │ 0                    │
+│ KORU    │ 'etf'   │ 39476658  │ 0          │ 0         │ 0       │ 0       │ 0      │ 5       │ 0                    │
+│ SNXX    │ 'etf'   │ 28563500  │ 0          │ 0         │ 0       │ 0       │ 0      │ 5       │ 0                    │
+│ TQQQ    │ 'etf'   │ 21902906  │ 0          │ 0         │ 0       │ 0       │ 0      │ 5       │ 0                    │
+│ EWY     │ 'etf'   │ 7472986   │ 0          │ 0         │ 0       │ 0       │ 0      │ 5       │ 0                    │
+│ DRAM    │ 'etf'   │ 6946622   │ 0          │ 0         │ 0       │ 0       │ 0      │ 5       │ 0                    │
+│ GLD     │ 'etf'   │ 5399578   │ 0          │ 0         │ 0       │ 0       │ 0      │ 5       │ 0                    │
+│ INTW    │ 'etf'   │ 5198052   │ 0          │ 0         │ 0       │ 0       │ 0      │ 5       │ 0                    │
+│ PDD     │ 'stock' │ 4946187   │ 0          │ 0         │ 0       │ 0       │ 0      │ 5       │ 0                    │
+│ LITE    │ 'stock' │ 4711960   │ 0          │ 0         │ 0       │ 0       │ 0      │ 5       │ 0                    │
+│ MUU     │ 'etf'   │ 4559228   │ 0          │ 0         │ 0       │ 0       │ 0      │ 5       │ 0                    │
+│ COST    │ 'stock' │ 4461194   │ 0          │ 0         │ 0       │ 0       │ 0      │ 5       │ 0                    │
+│ BMNR    │ 'stock' │ 4321553   │ 0          │ 0         │ 0       │ 0       │ 0      │ 5       │ 0                    │
+│ CRWV    │ 'stock' │ 4186331   │ 0          │ 0         │ 0       │ 0       │ 0      │ 5       │ 0                    │
+│ SQQQ    │ 'etf'   │ 4166144   │ 0          │ 0         │ 0       │ 0       │ 0      │ 5       │ 0                    │
+│ FXI     │ 'etf'   │ 4092058   │ 0          │ 0         │ 0       │ 0       │ 0      │ 5       │ 0                    │
+│ HIMS    │ 'stock' │ 4041972   │ 0          │ 0         │ 0       │ 0       │ 0      │ 5       │ 0                    │
+│ AAOI    │ 'stock' │ 3995535   │ 0          │ 0         │ 0       │ 0       │ 0      │ 5       │ 0                    │
+│ PFE     │ 'stock' │ 3822269   │ 0          │ 0         │ 0       │ 0       │ 0      │ 5       │ 0                    │
+│ QCOM    │ 'stock' │ 3620167   │ 0          │ 0         │ 0       │ 0       │ 0      │ 5       │ 0                    │
+│ ASML    │ 'stock' │ 3526064   │ 0          │ 0         │ 0       │ 0       │ 0      │ 5       │ 0                    │
+│ ARM     │ 'stock' │ 3436656   │ 0          │ 0         │ 0       │ 0       │ 0      │ 5       │ 0                    │
+│ COHR    │ 'stock' │ 3424029   │ 0          │ 0         │ 0       │ 0       │ 0      │ 5       │ 0                    │
+│ KO      │ 'stock' │ 3248954   │ 0          │ 0         │ 0       │ 0       │ 0      │ 5       │ 0                    │
+│ CBRS    │ 'stock' │ 3195558   │ 0          │ 0         │ 0       │ 0       │ 0      │ 5       │ 0                    │
+│ DELL    │ 'stock' │ 3142149   │ 0          │ 0         │ 0       │ 0       │ 0      │ 5       │ 0                    │
+│ SMCI    │ 'stock' │ 3119376   │ 0          │ 0         │ 0       │ 0       │ 0      │ 5       │ 0                    │
+│ AMC     │ 'stock' │ 3100748   │ 0          │ 0         │ 0       │ 0       │ 0      │ 5       │ 0                    │
+│ AMAT    │ 'stock' │ 3059805   │ 0          │ 0         │ 0       │ 0       │ 0      │ 5       │ 0                    │
+│ SLV     │ 'etf'   │ 2992117   │ 0          │ 0         │ 0       │ 0       │ 0      │ 5       │ 0                    │
+│ NOK     │ 'stock' │ 2969199   │ 0          │ 0         │ 0       │ 0       │ 0      │ 5       │ 0                    │
+│ RKLB    │ 'stock' │ 2832761   │ 0          │ 0         │ 0       │ 0       │ 0      │ 5       │ 0                    │
+│ WDC     │ 'stock' │ 2812139   │ 0          │ 0         │ 0       │ 0       │ 0      │ 5       │ 0                    │
+│ MVLL    │ 'etf'   │ 2687479   │ 0          │ 0         │ 0       │ 0       │ 0      │ 5       │ 0                    │
+│ ALAB    │ 'stock' │ 2671563   │ 0          │ 0         │ 0       │ 0       │ 0      │ 5       │ 0                    │
+│ JPM     │ 'stock' │ 2650980   │ 0          │ 0         │ 0       │ 0       │ 0      │ 5       │ 0                    │
+│ IBM     │ 'stock' │ 2493739   │ 0          │ 0         │ 0       │ 0       │ 0      │ 5       │ 0                    │
+│ PYPL    │ 'stock' │ 2459301   │ 0          │ 0         │ 0       │ 0       │ 0      │ 5       │ 0                    │
+│ STX     │ 'stock' │ 2245306   │ 0          │ 0         │ 0       │ 0       │ 0      │ 5       │ 0                    │
+│ SMH     │ 'etf'   │ 2241142   │ 0          │ 0         │ 0       │ 0       │ 0      │ 5       │ 0                    │
+│ GLW     │ 'stock' │ 2232209   │ 0          │ 0         │ 0       │ 0       │ 0      │ 5       │ 0                    │
+│ USO     │ 'etf'   │ 2144418   │ 0          │ 0         │ 0       │ 0       │ 0      │ 5       │ 0                    │
+│ USAR    │ 'stock' │ 2105164   │ 0          │ 0         │ 0       │ 0       │ 0      │ 5       │ 0                    │
+│ ASTS    │ 'stock' │ 2077209   │ 0          │ 0         │ 0       │ 0       │ 0      │ 5       │ 0                    │
+│ DJT     │ 'stock' │ 2064452   │ 0          │ 0         │ 0       │ 0       │ 0      │ 5       │ 0                    │
+│ SHAZ    │ 'stock' │ 1985969   │ 0          │ 0         │ 0       │ 0       │ 0      │ 5       │ 0                    │
+│ QNT     │ 'stock' │ 1961806   │ 0          │ 0         │ 0       │ 0       │ 0      │ 5       │ 0                    │
+└─────────┴─────────┴───────────┴────────────┴───────────┴─────────┴─────────┴────────┴─────────┴──────────────────────┘
+
+Preview (pooled, unfiltered — NOT the final method; no ex-div/split exclusions yet):
+┌──────────────────────┬────────┐
+│ (index)              │ Values │
+├──────────────────────┼────────┤
+│ usable_periods       │ 0      │
+│ direction_hit_rate   │ 'n/a'  │
+│ mean_gap_error_pct   │ 'n/a'  │
+│ mean_naive_error_pct │ 'n/a'  │
+│ pooled_skill         │ 'n/a'  │
+└──────────────────────┴────────┘
+
+(d) per-wrapper: SOXL wrapper SOXLx (crypto_id 40147); 4 wrappers listed
+DEX checks on solana:XsdZDkoMdUb6iKDAKKappuM7C1Q2HmTqC8jNujbfmCu
+┌─────────────────────────────────┬────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│ (index)                         │ Values                                                                                                                                                             │
+├─────────────────────────────────┼────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ v3 quotes/historical hourly 7d  │ 'ok, first 2026-11-13T01:00:00.000Z'                                                                                                                               │
+│ v3 quotes/historical hourly 30d │ 'ok, first 2026-10-21T01:00:00.000Z'                                                                                                                               │
+│ v3 quotes/historical hourly 60d │ 'HTTP 400 / 400 Your plan allows 1 months of historical access. Please upgrade your plan or choose a startDate that is newer than 2026-10-19T00:17:37.533360773Z.' │
+│ v3 quotes/historical hourly 90d │ 'HTTP 400 / 400 Your plan allows 1 months of historical access. Please upgrade your plan or choose a startDate that is newer than 2026-10-19T00:17:37.636179338Z.' │
+│ v5 ohlcv/historical 1h 7d       │ "HTTP 403 / 1006 Your API Key subscription plan doesn't support this endpoint."                                                                                    │
+│ v5 ohlcv/historical 1h 30d      │ "HTTP 403 / 1006 Your API Key subscription plan doesn't support this endpoint."                                                                                    │
+│ v5 ohlcv/historical 1h 60d      │ "HTTP 403 / 1006 Your API Key subscription plan doesn't support this endpoint."                                                                                    │
+│ v5 ohlcv/historical 1h 90d      │ "HTTP 403 / 1006 Your API Key subscription plan doesn't support this endpoint."                                                                                    │
+└─────────────────────────────────┴────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+Endpoint table:
+┌─────────┬───────────────────────────────────────────┬────────────────────────────────┬────────┬───────┬─────────┬────────────────────────────────────────────────────────────────┬────────────────────────────────────────────────────────────────────────────────────┐
+│ (index) │ endpoint                                  │ call                           │ status │ works │ credits │ note                                                           │ fields                                                                             │
+├─────────┼───────────────────────────────────────────┼────────────────────────────────┼────────┼───────┼─────────┼────────────────────────────────────────────────────────────────┼────────────────────────────────────────────────────────────────────────────────────┤
+│ 0       │ '/v1/key/info'                            │ 'key/info'                     │ 200    │ 'yes' │ 0       │ 'plan: ?; used today 0'                                        │ 'plan.credit_limit_monthly, plan.credit_limit_monthly_reset, plan.credit_limit_mo' │
+│ 1       │ '/v5/real-world-assets/map'               │ 'rwa map (stock)'              │ 200    │ 'yes' │ 0       │ '250 stocks'                                                   │ 'rwa_assets.name, rwa_assets.symbol, rwa_assets.slug, rwa_assets.rwa_id, rwa_asse' │
+│ 2       │ '/v5/real-world-assets/map'               │ 'rwa map (etf)'                │ 200    │ 'yes' │ 0       │ '250 etfs'                                                     │ 'rwa_assets.name, rwa_assets.symbol, rwa_assets.slug, rwa_assets.rwa_id, rwa_asse' │
+│ 3       │ '/v5/real-world-assets/assets/list'       │ 'rwa assets/list (stock)'      │ 200    │ 'yes' │ 1       │ ''                                                             │ 'total_size, has_more, rwa_assets.name, rwa_assets.symbol, rwa_assets.slug, rwa_a' │
+│ 4       │ '/v5/real-world-assets/assets/list'       │ 'rwa assets/list (etf)'        │ 200    │ 'yes' │ 1       │ ''                                                             │ 'total_size, has_more, rwa_assets.name, rwa_assets.symbol, rwa_assets.slug, rwa_a' │
+│ 5       │ '/v5/real-world-assets/info'              │ 'rwa info'                     │ 200    │ 'yes' │ 1       │ ''                                                             │ 'rwa_assets.name, rwa_assets.symbol, rwa_assets.slug, rwa_assets.website, rwa_ass' │
+│ 6       │ '/v5/real-world-assets/quotes/latest'     │ 'rwa quotes/latest'            │ 200    │ 'yes' │ 1       │ ''                                                             │ 'rwa_assets.name, rwa_assets.symbol, rwa_assets.slug, rwa_assets.quotes.symbol, r' │
+│ 7       │ '/v5/real-world-assets/market-pairs/list' │ 'rwa market-pairs/list'        │ 403    │ 'no'  │ 0       │ "1006 Your API Key subscription plan doesn't support this end" │ ''                                                                                 │
+│ 8       │ '/v5/real-world-assets/issuers/list'      │ 'rwa issuers/list'             │ 200    │ 'yes' │ 1       │ '25 issuers'                                                   │ 'issuers.name, issuers.website, issuers.logo, issuers.issuer_id, issuers.num_toke' │
+│ 9       │ '/v5/real-world-assets/issuers'           │ 'rwa issuers (one)'            │ 200    │ 'yes' │ 1       │ 'Backed Assets'                                                │ 'name, website, tokens.name, tokens.symbol, tokens.crypto_id, tokens.rwa_id, issu' │
+│ 10      │ '/v5/real-world-assets/quotes/historical' │ 'rwa quotes/historical hourly' │ 403    │ 'no'  │ 0       │ "1006 Your API Key subscription plan doesn't support this end" │ ''                                                                                 │
+│ 11      │ '/v5/real-world-assets/quotes/historical' │ 'rwa quotes/historical 1h'     │ 403    │ 'no'  │ 0       │ "1006 Your API Key subscription plan doesn't support this end" │ ''                                                                                 │
+│ 12      │ '/v5/real-world-assets/quotes/historical' │ 'rwa quotes/historical 4h'     │ 403    │ 'no'  │ 0       │ "1006 Your API Key subscription plan doesn't support this end" │ ''                                                                                 │
+│ 13      │ '/v5/real-world-assets/quotes/historical' │ 'rwa quotes/historical daily'  │ 403    │ 'no'  │ 0       │ "1006 Your API Key subscription plan doesn't support this end" │ ''                                                                                 │
+│ 14      │ '/v5/real-world-assets/quotes/historical' │ 'rwa quotes/historical 15m'    │ 403    │ 'no'  │ 0       │ "1006 Your API Key subscription plan doesn't support this end" │ ''                                                                                 │
+│ 15      │ '/v5/real-world-assets/quotes/historical' │ 'rwa quotes/historical 5m'     │ 403    │ 'no'  │ 0       │ "1006 Your API Key subscription plan doesn't support this end" │ ''                                                                                 │
+│ 16      │ '/v5/real-world-assets/quotes/historical' │ 'rwa hist hourly depth 7d'     │ 403    │ 'no'  │ 0       │ "1006 Your API Key subscription plan doesn't support this end" │ ''                                                                                 │
+│ 17      │ '/v5/real-world-assets/quotes/historical' │ 'rwa hist hourly depth 29d'    │ 403    │ 'no'  │ 0       │ "1006 Your API Key subscription plan doesn't support this end" │ ''                                                                                 │
+│ 18      │ '/v5/real-world-assets/quotes/historical' │ 'rwa hist hourly depth 31d'    │ 403    │ 'no'  │ 0       │ "1006 Your API Key subscription plan doesn't support this end" │ ''                                                                                 │
+│ 19      │ '/v5/real-world-assets/quotes/historical' │ 'rwa hist hourly depth 35d'    │ 403    │ 'no'  │ 0       │ "1006 Your API Key subscription plan doesn't support this end" │ ''                                                                                 │
+│ 20      │ '/v5/real-world-assets/quotes/historical' │ 'rwa hist hourly depth 45d'    │ 403    │ 'no'  │ 0       │ "1006 Your API Key subscription plan doesn't support this end" │ ''                                                                                 │
+│ 21      │ '/v5/real-world-assets/quotes/historical' │ 'rwa hist hourly depth 60d'    │ 403    │ 'no'  │ 0       │ "1006 Your API Key subscription plan doesn't support this end" │ ''                                                                                 │
+│ 22      │ '/v5/real-world-assets/quotes/historical' │ 'rwa hist hourly depth 100d'   │ 403    │ 'no'  │ 0       │ "1006 Your API Key subscription plan doesn't support this end" │ ''                                                                                 │
+│ 23      │ '/v5/real-world-assets/quotes/historical' │ 'rwa hist hourly universe #0'  │ 403    │ 'no'  │ 0       │ "1006 Your API Key subscription plan doesn't support this end" │ ''                                                                                 │
+│ 24      │ '/v2/cryptocurrency/info'                 │ 'crypto info (wrappers)'       │ 200    │ 'yes' │ 1       │ '4 wrappers'                                                   │ '40147.id, 40147.name, 40147.symbol, 40147.category, 40147.description, 40147.slu' │
+│ 25      │ '/v3/cryptocurrency/quotes/historical'    │ 'v3 quotes/historical 7d'      │ 200    │ 'yes' │ 1       │ '2026-11-13T01:00:00.000Z'                                     │ '40147.id, 40147.name, 40147.symbol, 40147.is_active, 40147.is_fiat, 40147.quotes' │
+│ 26      │ '/v3/cryptocurrency/quotes/historical'    │ 'v3 quotes/historical 30d'     │ 200    │ 'yes' │ 1       │ '2026-10-21T01:00:00.000Z'                                     │ '40147.id, 40147.name, 40147.symbol, 40147.is_active, 40147.is_fiat, 40147.quotes' │
+│ 27      │ '/v3/cryptocurrency/quotes/historical'    │ 'v3 quotes/historical 60d'     │ 400    │ 'no'  │ 0       │ '400 Your plan allows 1 months of historical access. Please u' │ ''                                                                                 │
+│ 28      │ '/v3/cryptocurrency/quotes/historical'    │ 'v3 quotes/historical 90d'     │ 400    │ 'no'  │ 0       │ '400 Your plan allows 1 months of historical access. Please u' │ ''                                                                                 │
+│ 29      │ '/v5/cryptocurrency/ohlcv/historical'     │ 'v5 ohlcv/historical 1h 7d'    │ 403    │ 'no'  │ 0       │ "1006 Your API Key subscription plan doesn't support this end" │ ''                                                                                 │
+│ 30      │ '/v5/cryptocurrency/ohlcv/historical'     │ 'v5 ohlcv/historical 1h 30d'   │ 403    │ 'no'  │ 0       │ "1006 Your API Key subscription plan doesn't support this end" │ ''                                                                                 │
+│ 31      │ '/v5/cryptocurrency/ohlcv/historical'     │ 'v5 ohlcv/historical 1h 60d'   │ 403    │ 'no'  │ 0       │ "1006 Your API Key subscription plan doesn't support this end" │ ''                                                                                 │
+│ 32      │ '/v5/cryptocurrency/ohlcv/historical'     │ 'v5 ohlcv/historical 1h 90d'   │ 403    │ 'no'  │ 0       │ "1006 Your API Key subscription plan doesn't support this end" │ ''                                                                                 │
+│ 33      │ '/v1/dex/token/pools'                     │ 'dex token/pools'              │ 500    │ 'no'  │ 0       │ '500 The system is busy, please try again later!'              │ ''                                                                                 │
+│ 34      │ '/v4/dex/pairs/quotes/latest'             │ 'dex pairs/quotes/latest'      │ 0      │ 'no'  │ null    │ 'skipped: no pool address from token/pools'                    │ ''                                                                                 │
+│ 35      │ '/v1/dex/tokens/transactions'             │ 'dex tokens/transactions'      │ 400    │ 'no'  │ 0       │ '400 Parameter error'                                          │ ''                                                                                 │
+│ 36      │ '/v1/dex/liquidity-change/list'           │ 'dex liquidity-change/list'    │ 400    │ 'no'  │ 0       │ '400 Parameter error'                                          │ ''                                                                                 │
+│ 37      │ '/v1/dex/security/detail'                 │ 'dex security/detail'          │ 400    │ 'no'  │ 0       │ '400 BAD_REQUEST'                                              │ ''                                                                                 │
+│ 38      │ '/v1/key/info'                            │ 'key/info (after)'             │ 200    │ 'yes' │ 0       │ 'used today 9'                                                 │ 'plan.credit_limit_monthly, plan.credit_limit_monthly_reset, plan.credit_limit_mo' │
+└─────────┴───────────────────────────────────────────┴────────────────────────────────┴────────┴───────┴─────────┴────────────────────────────────────────────────────────────────┴────────────────────────────────────────────────────────────────────────────────────┘
+
+(e) assets with < 15 usable off-hours periods: 50/50 (100%)
+(e) STOP: fewer than 15 usable periods for most of the universe.

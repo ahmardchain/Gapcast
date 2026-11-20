@@ -1,0 +1,1302 @@
+{
+  "ran_at": "2026-11-20T00:17:34.458Z",
+  "plan": {
+    "credit_limit_monthly": 450000,
+    "credit_limit_monthly_reset": "In 10 days, 23 hours, 42 minutes",
+    "credit_limit_monthly_reset_timestamp": "2026-12-01T00:00:00.000Z",
+    "rate_limit_minute": 600
+  },
+  "intervalResult": {
+    "hourly": "HTTP 403 / 1006 Your API Key subscription plan doesn't support this endpoint.",
+    "1h": "HTTP 403 / 1006 Your API Key subscription plan doesn't support this endpoint.",
+    "4h": "HTTP 403 / 1006 Your API Key subscription plan doesn't support this endpoint.",
+    "daily": "HTTP 403 / 1006 Your API Key subscription plan doesn't support this endpoint.",
+    "15m": "HTTP 403 / 1006 Your API Key subscription plan doesn't support this endpoint.",
+    "5m": "HTTP 403 / 1006 Your API Key subscription plan doesn't support this endpoint."
+  },
+  "depth": {
+    "7d back": "HTTP 403 / 1006",
+    "29d back": "HTTP 403 / 1006",
+    "31d back": "HTTP 403 / 1006",
+    "35d back": "HTTP 403 / 1006",
+    "45d back": "HTTP 403 / 1006",
+    "60d back": "HTTP 403 / 1006",
+    "100d back": "HTTP 403 / 1006"
+  },
+  "hourlyReachDays": 0,
+  "perStock": {
+    "SOXL": {
+      "type": "etf",
+      "vol24h": 108175523,
+      "hourly_pts": 0,
+      "overnight": 0,
+      "weekend": 0,
+      "holiday": 0,
+      "usable": 0,
+      "missing": 5,
+      "price_moved_offhours": 0
+    },
+    "SPY": {
+      "type": "etf",
+      "vol24h": 56813885,
+      "hourly_pts": 0,
+      "overnight": 0,
+      "weekend": 0,
+      "holiday": 0,
+      "usable": 0,
+      "missing": 5,
+      "price_moved_offhours": 0
+    },
+    "SOXS": {
+      "type": "etf",
+      "vol24h": 55808595,
+      "hourly_pts": 0,
+      "overnight": 0,
+      "weekend": 0,
+      "holiday": 0,
+      "usable": 0,
+      "missing": 5,
+      "price_moved_offhours": 0
+    },
+    "QQQ": {
+      "type": "etf",
+      "vol24h": 51341771,
+      "hourly_pts": 0,
+      "overnight": 0,
+      "weekend": 0,
+      "holiday": 0,
+      "usable": 0,
+      "missing": 5,
+      "price_moved_offhours": 0
+    },
+    "KORU": {
+      "type": "etf",
+      "vol24h": 39476658,
+      "hourly_pts": 0,
+      "overnight": 0,
+      "weekend": 0,
+      "holiday": 0,
+      "usable": 0,
+      "missing": 5,
+      "price_moved_offhours": 0
+    },
+    "SNXX": {
+      "type": "etf",
+      "vol24h": 28563500,
+      "hourly_pts": 0,
+      "overnight": 0,
+      "weekend": 0,
+      "holiday": 0,
+      "usable": 0,
+      "missing": 5,
+      "price_moved_offhours": 0
+    },
+    "TQQQ": {
+      "type": "etf",
+      "vol24h": 21902906,
+      "hourly_pts": 0,
+      "overnight": 0,
+      "weekend": 0,
+      "holiday": 0,
+      "usable": 0,
+      "missing": 5,
+      "price_moved_offhours": 0
+    },
+    "EWY": {
+      "type": "etf",
+      "vol24h": 7472986,
+      "hourly_pts": 0,
+      "overnight": 0,
+      "weekend": 0,
+      "holiday": 0,
+      "usable": 0,
+      "missing": 5,
+      "price_moved_offhours": 0
+    },
+    "DRAM": {
+      "type": "etf",
+      "vol24h": 6946622,
+      "hourly_pts": 0,
+      "overnight": 0,
+      "weekend": 0,
+      "holiday": 0,
+      "usable": 0,
+      "missing": 5,
+      "price_moved_offhours": 0
+    },
+    "GLD": {
+      "type": "etf",
+      "vol24h": 5399578,
+      "hourly_pts": 0,
+      "overnight": 0,
+      "weekend": 0,
+      "holiday": 0,
+      "usable": 0,
+      "missing": 5,
+      "price_moved_offhours": 0
+    },
+    "INTW": {
+      "type": "etf",
+      "vol24h": 5198052,
+      "hourly_pts": 0,
+      "overnight": 0,
+      "weekend": 0,
+      "holiday": 0,
+      "usable": 0,
+      "missing": 5,
+      "price_moved_offhours": 0
+    },
+    "PDD": {
+      "type": "stock",
+      "vol24h": 4946187,
+      "hourly_pts": 0,
+      "overnight": 0,
+      "weekend": 0,
+      "holiday": 0,
+      "usable": 0,
+      "missing": 5,
+      "price_moved_offhours": 0
+    },
+    "LITE": {
+      "type": "stock",
+      "vol24h": 4711960,
+      "hourly_pts": 0,
+      "overnight": 0,
+      "weekend": 0,
+      "holiday": 0,
+      "usable": 0,
+      "missing": 5,
+      "price_moved_offhours": 0
+    },
+    "MUU": {
+      "type": "etf",
+      "vol24h": 4559228,
+      "hourly_pts": 0,
+      "overnight": 0,
+      "weekend": 0,
+      "holiday": 0,
+      "usable": 0,
+      "missing": 5,
+      "price_moved_offhours": 0
+    },
+    "COST": {
+      "type": "stock",
+      "vol24h": 4461194,
+      "hourly_pts": 0,
+      "overnight": 0,
+      "weekend": 0,
+      "holiday": 0,
+      "usable": 0,
+      "missing": 5,
+      "price_moved_offhours": 0
+    },
+    "BMNR": {
+      "type": "stock",
+      "vol24h": 4321553,
+      "hourly_pts": 0,
+      "overnight": 0,
+      "weekend": 0,
+      "holiday": 0,
+      "usable": 0,
+      "missing": 5,
+      "price_moved_offhours": 0
+    },
+    "CRWV": {
+      "type": "stock",
+      "vol24h": 4186331,
+      "hourly_pts": 0,
+      "overnight": 0,
+      "weekend": 0,
+      "holiday": 0,
+      "usable": 0,
+      "missing": 5,
+      "price_moved_offhours": 0
+    },
+    "SQQQ": {
+      "type": "etf",
+      "vol24h": 4166144,
+      "hourly_pts": 0,
+      "overnight": 0,
+      "weekend": 0,
+      "holiday": 0,
+      "usable": 0,
+      "missing": 5,
+      "price_moved_offhours": 0
+    },
+    "FXI": {
+      "type": "etf",
+      "vol24h": 4092058,
+      "hourly_pts": 0,
+      "overnight": 0,
+      "weekend": 0,
+      "holiday": 0,
+      "usable": 0,
+      "missing": 5,
+      "price_moved_offhours": 0
+    },
+    "HIMS": {
+      "type": "stock",
+      "vol24h": 4041972,
+      "hourly_pts": 0,
+      "overnight": 0,
+      "weekend": 0,
+      "holiday": 0,
+      "usable": 0,
+      "missing": 5,
+      "price_moved_offhours": 0
+    },
+    "AAOI": {
+      "type": "stock",
+      "vol24h": 3995535,
+      "hourly_pts": 0,
+      "overnight": 0,
+      "weekend": 0,
+      "holiday": 0,
+      "usable": 0,
+      "missing": 5,
+      "price_moved_offhours": 0
+    },
+    "PFE": {
+      "type": "stock",
+      "vol24h": 3822269,
+      "hourly_pts": 0,
+      "overnight": 0,
+      "weekend": 0,
+      "holiday": 0,
+      "usable": 0,
+      "missing": 5,
+      "price_moved_offhours": 0
+    },
+    "QCOM": {
+      "type": "stock",
+      "vol24h": 3620167,
+      "hourly_pts": 0,
+      "overnight": 0,
+      "weekend": 0,
+      "holiday": 0,
+      "usable": 0,
+      "missing": 5,
+      "price_moved_offhours": 0
+    },
+    "ASML": {
+      "type": "stock",
+      "vol24h": 3526064,
+      "hourly_pts": 0,
+      "overnight": 0,
+      "weekend": 0,
+      "holiday": 0,
+      "usable": 0,
+      "missing": 5,
+      "price_moved_offhours": 0
+    },
+    "ARM": {
+      "type": "stock",
+      "vol24h": 3436656,
+      "hourly_pts": 0,
+      "overnight": 0,
+      "weekend": 0,
+      "holiday": 0,
+      "usable": 0,
+      "missing": 5,
+      "price_moved_offhours": 0
+    },
+    "COHR": {
+      "type": "stock",
+      "vol24h": 3424029,
+      "hourly_pts": 0,
+      "overnight": 0,
+      "weekend": 0,
+      "holiday": 0,
+      "usable": 0,
+      "missing": 5,
+      "price_moved_offhours": 0
+    },
+    "KO": {
+      "type": "stock",
+      "vol24h": 3248954,
+      "hourly_pts": 0,
+      "overnight": 0,
+      "weekend": 0,
+      "holiday": 0,
+      "usable": 0,
+      "missing": 5,
+      "price_moved_offhours": 0
+    },
+    "CBRS": {
+      "type": "stock",
+      "vol24h": 3195558,
+      "hourly_pts": 0,
+      "overnight": 0,
+      "weekend": 0,
+      "holiday": 0,
+      "usable": 0,
+      "missing": 5,
+      "price_moved_offhours": 0
+    },
+    "DELL": {
+      "type": "stock",
+      "vol24h": 3142149,
+      "hourly_pts": 0,
+      "overnight": 0,
+      "weekend": 0,
+      "holiday": 0,
+      "usable": 0,
+      "missing": 5,
+      "price_moved_offhours": 0
+    },
+    "SMCI": {
+      "type": "stock",
+      "vol24h": 3119376,
+      "hourly_pts": 0,
+      "overnight": 0,
+      "weekend": 0,
+      "holiday": 0,
+      "usable": 0,
+      "missing": 5,
+      "price_moved_offhours": 0
+    },
+    "AMC": {
+      "type": "stock",
+      "vol24h": 3100748,
+      "hourly_pts": 0,
+      "overnight": 0,
+      "weekend": 0,
+      "holiday": 0,
+      "usable": 0,
+      "missing": 5,
+      "price_moved_offhours": 0
+    },
+    "AMAT": {
+      "type": "stock",
+      "vol24h": 3059805,
+      "hourly_pts": 0,
+      "overnight": 0,
+      "weekend": 0,
+      "holiday": 0,
+      "usable": 0,
+      "missing": 5,
+      "price_moved_offhours": 0
+    },
+    "SLV": {
+      "type": "etf",
+      "vol24h": 2992117,
+      "hourly_pts": 0,
+      "overnight": 0,
+      "weekend": 0,
+      "holiday": 0,
+      "usable": 0,
+      "missing": 5,
+      "price_moved_offhours": 0
+    },
+    "NOK": {
+      "type": "stock",
+      "vol24h": 2969199,
+      "hourly_pts": 0,
+      "overnight": 0,
+      "weekend": 0,
+      "holiday": 0,
+      "usable": 0,
+      "missing": 5,
+      "price_moved_offhours": 0
+    },
+    "RKLB": {
+      "type": "stock",
+      "vol24h": 2832761,
+      "hourly_pts": 0,
+      "overnight": 0,
+      "weekend": 0,
+      "holiday": 0,
+      "usable": 0,
+      "missing": 5,
+      "price_moved_offhours": 0
+    },
+    "WDC": {
+      "type": "stock",
+      "vol24h": 2812139,
+      "hourly_pts": 0,
+      "overnight": 0,
+      "weekend": 0,
+      "holiday": 0,
+      "usable": 0,
+      "missing": 5,
+      "price_moved_offhours": 0
+    },
+    "MVLL": {
+      "type": "etf",
+      "vol24h": 2687479,
+      "hourly_pts": 0,
+      "overnight": 0,
+      "weekend": 0,
+      "holiday": 0,
+      "usable": 0,
+      "missing": 5,
+      "price_moved_offhours": 0
+    },
+    "ALAB": {
+      "type": "stock",
+      "vol24h": 2671563,
+      "hourly_pts": 0,
+      "overnight": 0,
+      "weekend": 0,
+      "holiday": 0,
+      "usable": 0,
+      "missing": 5,
+      "price_moved_offhours": 0
+    },
+    "JPM": {
+      "type": "stock",
+      "vol24h": 2650980,
+      "hourly_pts": 0,
+      "overnight": 0,
+      "weekend": 0,
+      "holiday": 0,
+      "usable": 0,
+      "missing": 5,
+      "price_moved_offhours": 0
+    },
+    "IBM": {
+      "type": "stock",
+      "vol24h": 2493739,
+      "hourly_pts": 0,
+      "overnight": 0,
+      "weekend": 0,
+      "holiday": 0,
+      "usable": 0,
+      "missing": 5,
+      "price_moved_offhours": 0
+    },
+    "PYPL": {
+      "type": "stock",
+      "vol24h": 2459301,
+      "hourly_pts": 0,
+      "overnight": 0,
+      "weekend": 0,
+      "holiday": 0,
+      "usable": 0,
+      "missing": 5,
+      "price_moved_offhours": 0
+    },
+    "STX": {
+      "type": "stock",
+      "vol24h": 2245306,
+      "hourly_pts": 0,
+      "overnight": 0,
+      "weekend": 0,
+      "holiday": 0,
+      "usable": 0,
+      "missing": 5,
+      "price_moved_offhours": 0
+    },
+    "SMH": {
+      "type": "etf",
+      "vol24h": 2241142,
+      "hourly_pts": 0,
+      "overnight": 0,
+      "weekend": 0,
+      "holiday": 0,
+      "usable": 0,
+      "missing": 5,
+      "price_moved_offhours": 0
+    },
+    "GLW": {
+      "type": "stock",
+      "vol24h": 2232209,
+      "hourly_pts": 0,
+      "overnight": 0,
+      "weekend": 0,
+      "holiday": 0,
+      "usable": 0,
+      "missing": 5,
+      "price_moved_offhours": 0
+    },
+    "USO": {
+      "type": "etf",
+      "vol24h": 2144418,
+      "hourly_pts": 0,
+      "overnight": 0,
+      "weekend": 0,
+      "holiday": 0,
+      "usable": 0,
+      "missing": 5,
+      "price_moved_offhours": 0
+    },
+    "USAR": {
+      "type": "stock",
+      "vol24h": 2105164,
+      "hourly_pts": 0,
+      "overnight": 0,
+      "weekend": 0,
+      "holiday": 0,
+      "usable": 0,
+      "missing": 5,
+      "price_moved_offhours": 0
+    },
+    "ASTS": {
+      "type": "stock",
+      "vol24h": 2077209,
+      "hourly_pts": 0,
+      "overnight": 0,
+      "weekend": 0,
+      "holiday": 0,
+      "usable": 0,
+      "missing": 5,
+      "price_moved_offhours": 0
+    },
+    "DJT": {
+      "type": "stock",
+      "vol24h": 2064452,
+      "hourly_pts": 0,
+      "overnight": 0,
+      "weekend": 0,
+      "holiday": 0,
+      "usable": 0,
+      "missing": 5,
+      "price_moved_offhours": 0
+    },
+    "SHAZ": {
+      "type": "stock",
+      "vol24h": 1985969,
+      "hourly_pts": 0,
+      "overnight": 0,
+      "weekend": 0,
+      "holiday": 0,
+      "usable": 0,
+      "missing": 5,
+      "price_moved_offhours": 0
+    },
+    "QNT": {
+      "type": "stock",
+      "vol24h": 1961806,
+      "hourly_pts": 0,
+      "overnight": 0,
+      "weekend": 0,
+      "holiday": 0,
+      "usable": 0,
+      "missing": 5,
+      "price_moved_offhours": 0
+    }
+  },
+  "preview": {
+    "usable_periods": 0,
+    "direction_hit_rate": "n/a",
+    "mean_gap_error_pct": "n/a",
+    "mean_naive_error_pct": "n/a",
+    "pooled_skill": "n/a"
+  },
+  "perWrapper": {
+    "v3 quotes/historical hourly 7d": "ok, first 2026-11-13T01:00:00.000Z",
+    "v3 quotes/historical hourly 30d": "ok, first 2026-10-21T01:00:00.000Z",
+    "v3 quotes/historical hourly 60d": "HTTP 400 / 400 Your plan allows 1 months of historical access. Please upgrade your plan or choose a startDate that is newer than 2026-10-19T00:17:37.533360773Z.",
+    "v3 quotes/historical hourly 90d": "HTTP 400 / 400 Your plan allows 1 months of historical access. Please upgrade your plan or choose a startDate that is newer than 2026-10-19T00:17:37.636179338Z.",
+    "v5 ohlcv/historical 1h 7d": "HTTP 403 / 1006 Your API Key subscription plan doesn't support this endpoint.",
+    "v5 ohlcv/historical 1h 30d": "HTTP 403 / 1006 Your API Key subscription plan doesn't support this endpoint.",
+    "v5 ohlcv/historical 1h 60d": "HTTP 403 / 1006 Your API Key subscription plan doesn't support this endpoint.",
+    "v5 ohlcv/historical 1h 90d": "HTTP 403 / 1006 Your API Key subscription plan doesn't support this endpoint."
+  },
+  "table": [
+    {
+      "name": "key/info",
+      "endpoint": "/v1/key/info",
+      "status": 200,
+      "works": true,
+      "credits": 0,
+      "note": "plan: ?; used today 0",
+      "fields": "plan.credit_limit_monthly, plan.credit_limit_monthly_reset, plan.credit_limit_monthly_reset_timestamp, plan.rate_limit_minute, usage.current_minute.requests_made, usage.current_minute.requests_left, usage.current_day.credits_used, usage.current_month.credits_used, usage.current_month.credits_left"
+    },
+    {
+      "name": "rwa map (stock)",
+      "endpoint": "/v5/real-world-assets/map",
+      "status": 200,
+      "works": true,
+      "credits": 0,
+      "note": "250 stocks",
+      "fields": "rwa_assets.name, rwa_assets.symbol, rwa_assets.slug, rwa_assets.rwa_id, rwa_assets.asset_type, rwa_assets.rwa_rank, rwa_assets.has_tokens, rwa_assets.first_historical_data, rwa_assets.last_historical_data, total_size, has_more"
+    },
+    {
+      "name": "rwa map (etf)",
+      "endpoint": "/v5/real-world-assets/map",
+      "status": 200,
+      "works": true,
+      "credits": 0,
+      "note": "250 etfs",
+      "fields": "rwa_assets.name, rwa_assets.symbol, rwa_assets.slug, rwa_assets.rwa_id, rwa_assets.asset_type, rwa_assets.rwa_rank, rwa_assets.has_tokens, rwa_assets.first_historical_data, rwa_assets.last_historical_data, total_size, has_more"
+    },
+    {
+      "name": "rwa assets/list (stock)",
+      "endpoint": "/v5/real-world-assets/assets/list",
+      "status": 200,
+      "works": true,
+      "credits": 1,
+      "note": "",
+      "fields": "total_size, has_more, rwa_assets.name, rwa_assets.symbol, rwa_assets.slug, rwa_assets.quotes.symbol, rwa_assets.quotes.crypto_id, rwa_assets.quotes.average_tokenized_price, rwa_assets.quotes.tokenized_market_cap, rwa_assets.quotes.tokenized_volume_24h, rwa_assets.quotes.last_updated, rwa_assets.rwa_id"
+    },
+    {
+      "name": "rwa assets/list (etf)",
+      "endpoint": "/v5/real-world-assets/assets/list",
+      "status": 200,
+      "works": true,
+      "credits": 1,
+      "note": "",
+      "fields": "total_size, has_more, rwa_assets.name, rwa_assets.symbol, rwa_assets.slug, rwa_assets.quotes.symbol, rwa_assets.quotes.crypto_id, rwa_assets.quotes.average_tokenized_price, rwa_assets.quotes.tokenized_market_cap, rwa_assets.quotes.tokenized_volume_24h, rwa_assets.quotes.last_updated, rwa_assets.rwa_id"
+    },
+    {
+      "name": "rwa info",
+      "endpoint": "/v5/real-world-assets/info",
+      "status": 200,
+      "works": true,
+      "credits": 1,
+      "note": "",
+      "fields": "rwa_assets.name, rwa_assets.symbol, rwa_assets.slug, rwa_assets.website, rwa_assets.employees, rwa_assets.founded, rwa_assets.industry, rwa_assets.cik, rwa_assets.about.description, rwa_assets.about.logo, rwa_assets.about.website, rwa_assets.about.date_added"
+    },
+    {
+      "name": "rwa quotes/latest",
+      "endpoint": "/v5/real-world-assets/quotes/latest",
+      "status": 200,
+      "works": true,
+      "credits": 1,
+      "note": "",
+      "fields": "rwa_assets.name, rwa_assets.symbol, rwa_assets.slug, rwa_assets.quotes.symbol, rwa_assets.quotes.crypto_id, rwa_assets.quotes.average_tokenized_price, rwa_assets.quotes.tokenized_market_cap, rwa_assets.quotes.tokenized_volume_24h, rwa_assets.quotes.last_updated, rwa_assets.rwa_id, rwa_assets.asset_type, rwa_assets.rwa_rank"
+    },
+    {
+      "name": "rwa market-pairs/list",
+      "endpoint": "/v5/real-world-assets/market-pairs/list",
+      "status": 403,
+      "works": false,
+      "credits": 0,
+      "note": "1006 Your API Key subscription plan doesn't support this endpoint.",
+      "fields": ""
+    },
+    {
+      "name": "rwa issuers/list",
+      "endpoint": "/v5/real-world-assets/issuers/list",
+      "status": 200,
+      "works": true,
+      "credits": 1,
+      "note": "25 issuers",
+      "fields": "issuers.name, issuers.website, issuers.logo, issuers.issuer_id, issuers.num_tokens, total_size, has_more"
+    },
+    {
+      "name": "rwa issuers (one)",
+      "endpoint": "/v5/real-world-assets/issuers",
+      "status": 200,
+      "works": true,
+      "credits": 1,
+      "note": "Backed Assets",
+      "fields": "name, website, tokens.name, tokens.symbol, tokens.crypto_id, tokens.rwa_id, issuer_id, num_tokens, total_size, has_more"
+    },
+    {
+      "name": "rwa quotes/historical hourly",
+      "endpoint": "/v5/real-world-assets/quotes/historical",
+      "status": 403,
+      "works": false,
+      "credits": 0,
+      "note": "1006 Your API Key subscription plan doesn't support this endpoint.",
+      "fields": ""
+    },
+    {
+      "name": "rwa quotes/historical 1h",
+      "endpoint": "/v5/real-world-assets/quotes/historical",
+      "status": 403,
+      "works": false,
+      "credits": 0,
+      "note": "1006 Your API Key subscription plan doesn't support this endpoint.",
+      "fields": ""
+    },
+    {
+      "name": "rwa quotes/historical 4h",
+      "endpoint": "/v5/real-world-assets/quotes/historical",
+      "status": 403,
+      "works": false,
+      "credits": 0,
+      "note": "1006 Your API Key subscription plan doesn't support this endpoint.",
+      "fields": ""
+    },
+    {
+      "name": "rwa quotes/historical daily",
+      "endpoint": "/v5/real-world-assets/quotes/historical",
+      "status": 403,
+      "works": false,
+      "credits": 0,
+      "note": "1006 Your API Key subscription plan doesn't support this endpoint.",
+      "fields": ""
+    },
+    {
+      "name": "rwa quotes/historical 15m",
+      "endpoint": "/v5/real-world-assets/quotes/historical",
+      "status": 403,
+      "works": false,
+      "credits": 0,
+      "note": "1006 Your API Key subscription plan doesn't support this endpoint.",
+      "fields": ""
+    },
+    {
+      "name": "rwa quotes/historical 5m",
+      "endpoint": "/v5/real-world-assets/quotes/historical",
+      "status": 403,
+      "works": false,
+      "credits": 0,
+      "note": "1006 Your API Key subscription plan doesn't support this endpoint.",
+      "fields": ""
+    },
+    {
+      "name": "rwa hist hourly depth 7d",
+      "endpoint": "/v5/real-world-assets/quotes/historical",
+      "status": 403,
+      "works": false,
+      "credits": 0,
+      "note": "1006 Your API Key subscription plan doesn't support this endpoint.",
+      "fields": ""
+    },
+    {
+      "name": "rwa hist hourly depth 29d",
+      "endpoint": "/v5/real-world-assets/quotes/historical",
+      "status": 403,
+      "works": false,
+      "credits": 0,
+      "note": "1006 Your API Key subscription plan doesn't support this endpoint.",
+      "fields": ""
+    },
+    {
+      "name": "rwa hist hourly depth 31d",
+      "endpoint": "/v5/real-world-assets/quotes/historical",
+      "status": 403,
+      "works": false,
+      "credits": 0,
+      "note": "1006 Your API Key subscription plan doesn't support this endpoint.",
+      "fields": ""
+    },
+    {
+      "name": "rwa hist hourly depth 35d",
+      "endpoint": "/v5/real-world-assets/quotes/historical",
+      "status": 403,
+      "works": false,
+      "credits": 0,
+      "note": "1006 Your API Key subscription plan doesn't support this endpoint.",
+      "fields": ""
+    },
+    {
+      "name": "rwa hist hourly depth 45d",
+      "endpoint": "/v5/real-world-assets/quotes/historical",
+      "status": 403,
+      "works": false,
+      "credits": 0,
+      "note": "1006 Your API Key subscription plan doesn't support this endpoint.",
+      "fields": ""
+    },
+    {
+      "name": "rwa hist hourly depth 60d",
+      "endpoint": "/v5/real-world-assets/quotes/historical",
+      "status": 403,
+      "works": false,
+      "credits": 0,
+      "note": "1006 Your API Key subscription plan doesn't support this endpoint.",
+      "fields": ""
+    },
+    {
+      "name": "rwa hist hourly depth 100d",
+      "endpoint": "/v5/real-world-assets/quotes/historical",
+      "status": 403,
+      "works": false,
+      "credits": 0,
+      "note": "1006 Your API Key subscription plan doesn't support this endpoint.",
+      "fields": ""
+    },
+    {
+      "name": "rwa hist hourly universe #0",
+      "endpoint": "/v5/real-world-assets/quotes/historical",
+      "status": 403,
+      "works": false,
+      "credits": 0,
+      "note": "1006 Your API Key subscription plan doesn't support this endpoint.",
+      "fields": ""
+    },
+    {
+      "name": "crypto info (wrappers)",
+      "endpoint": "/v2/cryptocurrency/info",
+      "status": 200,
+      "works": true,
+      "credits": 1,
+      "note": "4 wrappers",
+      "fields": "40147.id, 40147.name, 40147.symbol, 40147.category, 40147.description, 40147.slug, 40147.logo, 40147.subreddit, 40147.notice, 40147.tags, 40147.tag-names, 40147.tag-groups"
+    },
+    {
+      "name": "v3 quotes/historical 7d",
+      "endpoint": "/v3/cryptocurrency/quotes/historical",
+      "status": 200,
+      "works": true,
+      "credits": 1,
+      "note": "2026-11-13T01:00:00.000Z",
+      "fields": "40147.id, 40147.name, 40147.symbol, 40147.is_active, 40147.is_fiat, 40147.quotes.timestamp, 40147.quotes.quote"
+    },
+    {
+      "name": "v3 quotes/historical 30d",
+      "endpoint": "/v3/cryptocurrency/quotes/historical",
+      "status": 200,
+      "works": true,
+      "credits": 1,
+      "note": "2026-10-21T01:00:00.000Z",
+      "fields": "40147.id, 40147.name, 40147.symbol, 40147.is_active, 40147.is_fiat, 40147.quotes.timestamp, 40147.quotes.quote"
+    },
+    {
+      "name": "v3 quotes/historical 60d",
+      "endpoint": "/v3/cryptocurrency/quotes/historical",
+      "status": 400,
+      "works": false,
+      "credits": 0,
+      "note": "400 Your plan allows 1 months of historical access. Please upgrade your plan or choose a start",
+      "fields": ""
+    },
+    {
+      "name": "v3 quotes/historical 90d",
+      "endpoint": "/v3/cryptocurrency/quotes/historical",
+      "status": 400,
+      "works": false,
+      "credits": 0,
+      "note": "400 Your plan allows 1 months of historical access. Please upgrade your plan or choose a start",
+      "fields": ""
+    },
+    {
+      "name": "v5 ohlcv/historical 1h 7d",
+      "endpoint": "/v5/cryptocurrency/ohlcv/historical",
+      "status": 403,
+      "works": false,
+      "credits": 0,
+      "note": "1006 Your API Key subscription plan doesn't support this endpoint.",
+      "fields": ""
+    },
+    {
+      "name": "v5 ohlcv/historical 1h 30d",
+      "endpoint": "/v5/cryptocurrency/ohlcv/historical",
+      "status": 403,
+      "works": false,
+      "credits": 0,
+      "note": "1006 Your API Key subscription plan doesn't support this endpoint.",
+      "fields": ""
+    },
+    {
+      "name": "v5 ohlcv/historical 1h 60d",
+      "endpoint": "/v5/cryptocurrency/ohlcv/historical",
+      "status": 403,
+      "works": false,
+      "credits": 0,
+      "note": "1006 Your API Key subscription plan doesn't support this endpoint.",
+      "fields": ""
+    },
+    {
+      "name": "v5 ohlcv/historical 1h 90d",
+      "endpoint": "/v5/cryptocurrency/ohlcv/historical",
+      "status": 403,
+      "works": false,
+      "credits": 0,
+      "note": "1006 Your API Key subscription plan doesn't support this endpoint.",
+      "fields": ""
+    },
+    {
+      "name": "dex token/pools",
+      "endpoint": "/v1/dex/token/pools",
+      "status": 500,
+      "works": false,
+      "credits": 0,
+      "note": "500 The system is busy, please try again later!",
+      "fields": ""
+    },
+    {
+      "name": "dex pairs/quotes/latest",
+      "endpoint": "/v4/dex/pairs/quotes/latest",
+      "status": 0,
+      "works": false,
+      "credits": null,
+      "note": "skipped: no pool address from token/pools",
+      "fields": ""
+    },
+    {
+      "name": "dex tokens/transactions",
+      "endpoint": "/v1/dex/tokens/transactions",
+      "status": 400,
+      "works": false,
+      "credits": 0,
+      "note": "400 Parameter error",
+      "fields": ""
+    },
+    {
+      "name": "dex liquidity-change/list",
+      "endpoint": "/v1/dex/liquidity-change/list",
+      "status": 400,
+      "works": false,
+      "credits": 0,
+      "note": "400 Parameter error",
+      "fields": ""
+    },
+    {
+      "name": "dex security/detail",
+      "endpoint": "/v1/dex/security/detail",
+      "status": 400,
+      "works": false,
+      "credits": 0,
+      "note": "400 BAD_REQUEST",
+      "fields": ""
+    },
+    {
+      "name": "key/info (after)",
+      "endpoint": "/v1/key/info",
+      "status": 200,
+      "works": true,
+      "credits": 0,
+      "note": "used today 9",
+      "fields": "plan.credit_limit_monthly, plan.credit_limit_monthly_reset, plan.credit_limit_monthly_reset_timestamp, plan.rate_limit_minute, usage.current_minute.requests_made, usage.current_minute.requests_left, usage.current_day.credits_used, usage.current_month.credits_used, usage.current_month.credits_left"
+    }
+  ],
+  "under15": 50,
+  "universe": [
+    {
+      "rwa_id": 7750,
+      "symbol": "SOXL",
+      "name": "Direxion Daily Semiconductor Bull 3X ETF",
+      "asset_type": "etf",
+      "vol24h": 108175523.30091164
+    },
+    {
+      "rwa_id": 86,
+      "symbol": "SPY",
+      "name": "SPDR S&P 500 ETF Trust",
+      "asset_type": "etf",
+      "vol24h": 56813885.18921758
+    },
+    {
+      "rwa_id": 7751,
+      "symbol": "SOXS",
+      "name": "Direxion Daily Semiconductor Bear 3X ETF",
+      "asset_type": "etf",
+      "vol24h": 55808595.1891627
+    },
+    {
+      "rwa_id": 118,
+      "symbol": "QQQ",
+      "name": "Invesco QQQ Trust",
+      "asset_type": "etf",
+      "vol24h": 51341771.23359228
+    },
+    {
+      "rwa_id": 5289,
+      "symbol": "KORU",
+      "name": "Direxion Daily MSCI South Korea Bull 3X ETF",
+      "asset_type": "etf",
+      "vol24h": 39476657.5560761
+    },
+    {
+      "rwa_id": 5699,
+      "symbol": "SNXX",
+      "name": "Tradr 2X Long SNDK Daily ETF",
+      "asset_type": "etf",
+      "vol24h": 28563500.09520755
+    },
+    {
+      "rwa_id": 211,
+      "symbol": "TQQQ",
+      "name": "ProShares UltraPro QQQ",
+      "asset_type": "etf",
+      "vol24h": 21902906.47244559
+    },
+    {
+      "rwa_id": 1062,
+      "symbol": "EWY",
+      "name": "iShares MSCI South Korea ETF",
+      "asset_type": "etf",
+      "vol24h": 7472986.03352229
+    },
+    {
+      "rwa_id": 4789,
+      "symbol": "DRAM",
+      "name": "Roundhill Memory ETF",
+      "asset_type": "etf",
+      "vol24h": 6946621.72309588
+    },
+    {
+      "rwa_id": 87,
+      "symbol": "GLD",
+      "name": "SPDR Gold Trust",
+      "asset_type": "etf",
+      "vol24h": 5399578.29077254
+    },
+    {
+      "rwa_id": 5186,
+      "symbol": "INTW",
+      "name": "GraniteShares ETF Trust GraniteShares 2x Long INTC Daily ETF",
+      "asset_type": "etf",
+      "vol24h": 5198052.42852869
+    },
+    {
+      "rwa_id": 175,
+      "symbol": "PDD",
+      "name": "PDD Holdings Inc",
+      "asset_type": "stock",
+      "vol24h": 4946186.74880166
+    },
+    {
+      "rwa_id": 189,
+      "symbol": "LITE",
+      "name": "Lumentum Holdings Inc.",
+      "asset_type": "stock",
+      "vol24h": 4711959.67479999
+    },
+    {
+      "rwa_id": 5382,
+      "symbol": "MUU",
+      "name": "Direxion Shares ETF Trust Direxion Daily MU Bull 2X ETF",
+      "asset_type": "etf",
+      "vol24h": 4559228.15782369
+    },
+    {
+      "rwa_id": 31,
+      "symbol": "COST",
+      "name": "Costco Wholesale Corp",
+      "asset_type": "stock",
+      "vol24h": 4461194.09791654
+    },
+    {
+      "rwa_id": 219,
+      "symbol": "BMNR",
+      "name": "BitMine Immersion Technologies",
+      "asset_type": "stock",
+      "vol24h": 4321552.78928122
+    },
+    {
+      "rwa_id": 443,
+      "symbol": "CRWV",
+      "name": "Coreweave, Inc.",
+      "asset_type": "stock",
+      "vol24h": 4186330.7003732
+    },
+    {
+      "rwa_id": 181,
+      "symbol": "SQQQ",
+      "name": "ProShares UltraPro Short QQQ",
+      "asset_type": "etf",
+      "vol24h": 4166144.45557185
+    },
+    {
+      "rwa_id": 5000,
+      "symbol": "FXI",
+      "name": "iShares China Large-Cap ETF",
+      "asset_type": "etf",
+      "vol24h": 4092057.87993578
+    },
+    {
+      "rwa_id": 125,
+      "symbol": "HIMS",
+      "name": "Hims & Hers Health Inc",
+      "asset_type": "stock",
+      "vol24h": 4041971.99612964
+    },
+    {
+      "rwa_id": 191,
+      "symbol": "AAOI",
+      "name": "Applied Optoelectronics, Inc.",
+      "asset_type": "stock",
+      "vol24h": 3995534.9598269
+    },
+    {
+      "rwa_id": 92,
+      "symbol": "PFE",
+      "name": "Pfizer Inc",
+      "asset_type": "stock",
+      "vol24h": 3822269.22983158
+    },
+    {
+      "rwa_id": 103,
+      "symbol": "QCOM",
+      "name": "Qualcomm Inc",
+      "asset_type": "stock",
+      "vol24h": 3620167.45423734
+    },
+    {
+      "rwa_id": 26,
+      "symbol": "ASML",
+      "name": "ASML Holding NV",
+      "asset_type": "stock",
+      "vol24h": 3526064.37240865
+    },
+    {
+      "rwa_id": 54,
+      "symbol": "ARM",
+      "name": "Arm Holdings PLC - ADR",
+      "asset_type": "stock",
+      "vol24h": 3436655.68972107
+    },
+    {
+      "rwa_id": 188,
+      "symbol": "COHR",
+      "name": "Coherent",
+      "asset_type": "stock",
+      "vol24h": 3424029.46418391
+    },
+    {
+      "rwa_id": 34,
+      "symbol": "KO",
+      "name": "Coca-Cola Co",
+      "asset_type": "stock",
+      "vol24h": 3248954.00772299
+    },
+    {
+      "rwa_id": 251,
+      "symbol": "CBRS",
+      "name": "Cerebras Systems",
+      "asset_type": "stock",
+      "vol24h": 3195557.62827705
+    },
+    {
+      "rwa_id": 44,
+      "symbol": "DELL",
+      "name": "Dell Technologies Inc.",
+      "asset_type": "stock",
+      "vol24h": 3142149.43336715
+    },
+    {
+      "rwa_id": 127,
+      "symbol": "SMCI",
+      "name": "Super Micro Computer Inc",
+      "asset_type": "stock",
+      "vol24h": 3119376.3617227
+    },
+    {
+      "rwa_id": 153,
+      "symbol": "AMC",
+      "name": "AMC Entertainment",
+      "asset_type": "stock",
+      "vol24h": 3100748.44892601
+    },
+    {
+      "rwa_id": 22,
+      "symbol": "AMAT",
+      "name": "Applied Materials",
+      "asset_type": "stock",
+      "vol24h": 3059804.75943604
+    },
+    {
+      "rwa_id": 205,
+      "symbol": "SLV",
+      "name": "iShares Silver Trust",
+      "asset_type": "etf",
+      "vol24h": 2992116.9041441
+    },
+    {
+      "rwa_id": 1588,
+      "symbol": "NOK",
+      "name": "Nokia Corporation",
+      "asset_type": "stock",
+      "vol24h": 2969198.52117214
+    },
+    {
+      "rwa_id": 297,
+      "symbol": "RKLB",
+      "name": "Rocket Lab Corporation",
+      "asset_type": "stock",
+      "vol24h": 2832761.37577657
+    },
+    {
+      "rwa_id": 75,
+      "symbol": "WDC",
+      "name": "Western Digital Corporation",
+      "asset_type": "stock",
+      "vol24h": 2812139.4249047
+    },
+    {
+      "rwa_id": 5383,
+      "symbol": "MVLL",
+      "name": "GraniteShares ETF Trust GraniteShares 2x Long MRVL Daily ETF",
+      "asset_type": "etf",
+      "vol24h": 2687478.59378554
+    },
+    {
+      "rwa_id": 255,
+      "symbol": "ALAB",
+      "name": "Astera Labs, Inc.",
+      "asset_type": "stock",
+      "vol24h": 2671562.71156836
+    },
+    {
+      "rwa_id": 16,
+      "symbol": "JPM",
+      "name": "JPmorgan Chase & Co",
+      "asset_type": "stock",
+      "vol24h": 2650979.76137542
+    },
+    {
+      "rwa_id": 42,
+      "symbol": "IBM",
+      "name": "IBM",
+      "asset_type": "stock",
+      "vol24h": 2493739.11074377
+    },
+    {
+      "rwa_id": 93,
+      "symbol": "PYPL",
+      "name": "PayPal Holdings Inc",
+      "asset_type": "stock",
+      "vol24h": 2459301.28746686
+    },
+    {
+      "rwa_id": 73,
+      "symbol": "STX",
+      "name": "Seagate Technology Holdings Plc",
+      "asset_type": "stock",
+      "vol24h": 2245305.85918325
+    },
+    {
+      "rwa_id": 7733,
+      "symbol": "SMH",
+      "name": "VanEck Semiconductor ETF",
+      "asset_type": "etf",
+      "vol24h": 2241142.30744341
+    },
+    {
+      "rwa_id": 256,
+      "symbol": "GLW",
+      "name": "Corning Incorporated",
+      "asset_type": "stock",
+      "vol24h": 2232209.31092733
+    },
+    {
+      "rwa_id": 183,
+      "symbol": "USO",
+      "name": "United States Oil Fund LP",
+      "asset_type": "etf",
+      "vol24h": 2144418.43622624
+    },
+    {
+      "rwa_id": 1682,
+      "symbol": "USAR",
+      "name": "USA Rare Earth, Inc.",
+      "asset_type": "stock",
+      "vol24h": 2105164.02940532
+    },
+    {
+      "rwa_id": 511,
+      "symbol": "ASTS",
+      "name": "Ast Spacemobile, Inc.",
+      "asset_type": "stock",
+      "vol24h": 2077208.84913026
+    },
+    {
+      "rwa_id": 2023,
+      "symbol": "DJT",
+      "name": "Trump Media & Technology Group Corp.",
+      "asset_type": "stock",
+      "vol24h": 2064452.12386435
+    },
+    {
+      "rwa_id": 2220,
+      "symbol": "SHAZ",
+      "name": "SharonAI Holdings, Inc.",
+      "asset_type": "stock",
+      "vol24h": 1985969.34616067
+    },
+    {
+      "rwa_id": 16386,
+      "symbol": "QNT",
+      "name": "Quantinuum Inc",
+      "asset_type": "stock",
+      "vol24h": 1961806.49579295
+    }
+  ]
+}

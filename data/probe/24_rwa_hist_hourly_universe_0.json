@@ -1,0 +1,26 @@
+{
+  "request": {
+    "method": "GET",
+    "path": "/v5/real-world-assets/quotes/historical",
+    "params": {
+      "rwa_id": "7750,86,7751,118,5289,5699,211,1062,4789,87,5186,175,189,5382,31,219,443,181,5000,125,191,92,103,26,54,188,34,251,44,127,153,22,205,1588,297,75,5383,255,16,42,93,73,7733,256,183,1682,511,2023,2220,16386",
+      "interval": "hourly",
+      "time_start": "2026-11-13T02:17:34.458Z",
+      "time_end": "2026-11-20T00:17:34.458Z",
+      "skip_invalid": "true"
+    },
+    "url": "https://pro-api.coinmarketcap.com/v5/real-world-assets/quotes/historical?rwa_id=7750%2C86%2C7751%2C118%2C5289%2C5699%2C211%2C1062%2C4789%2C87%2C5186%2C175%2C189%2C5382%2C31%2C219%2C443%2C181%2C5000%2C125%2C191%2C92%2C103%2C26%2C54%2C188%2C34%2C251%2C44%2C127%2C153%2C22%2C205%2C1588%2C297%2C75%2C5383%2C255%2C16%2C42%2C93%2C73%2C7733%2C256%2C183%2C1682%2C511%2C2023%2C2220%2C16386&interval=hourly&time_start=2026-11-13T02%3A17%3A34.458Z&time_end=2026-11-20T00%3A17%3A34.458Z&skip_invalid=true"
+  },
+  "fetched_at": "2026-11-20T00:17:37.031Z",
+  "elapsed_ms": 97,
+  "http_status": 403,
+  "body": {
+    "status": {
+      "timestamp": "2026-11-20T00:17:37.008Z",
+      "error_code": "1006",
+      "error_message": "Your API Key subscription plan doesn't support this endpoint.",
+      "elapsed": 1,
+      "credit_count": 0
+    }
+  }
+}

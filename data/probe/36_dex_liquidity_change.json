@@ -1,0 +1,22 @@
+{
+  "request": {
+    "method": "GET",
+    "path": "/v1/dex/liquidity-change/list",
+    "params": {
+      "network_slug": "solana"
+    },
+    "url": "https://pro-api.coinmarketcap.com/v1/dex/liquidity-change/list?network_slug=solana"
+  },
+  "fetched_at": "2026-11-20T00:17:38.870Z",
+  "elapsed_ms": 267,
+  "http_status": 400,
+  "body": {
+    "status": {
+      "timestamp": "2026-11-20T00:17:38.849Z",
+      "error_code": "400",
+      "error_message": "Parameter error",
+      "elapsed": 173,
+      "credit_count": 0
+    }
+  }
+}

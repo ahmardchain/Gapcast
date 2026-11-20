@@ -1,0 +1,23 @@
+{
+  "request": {
+    "method": "GET",
+    "path": "/v5/real-world-assets/market-pairs/list",
+    "params": {
+      "rwa_id": 7750,
+      "limit": 100
+    },
+    "url": "https://pro-api.coinmarketcap.com/v5/real-world-assets/market-pairs/list?rwa_id=7750&limit=100"
+  },
+  "fetched_at": "2026-11-20T00:17:35.414Z",
+  "elapsed_ms": 98,
+  "http_status": 403,
+  "body": {
+    "status": {
+      "timestamp": "2026-11-20T00:17:35.391Z",
+      "error_code": "1006",
+      "error_message": "Your API Key subscription plan doesn't support this endpoint.",
+      "elapsed": 0,
+      "credit_count": 0
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "request": {
+    "method": "GET",
+    "path": "/v3/cryptocurrency/quotes/historical",
+    "params": {
+      "id": 40147,
+      "interval": "hourly",
+      "time_start": "2026-11-13T00:17:34.458Z",
+      "count": 3
+    },
+    "url": "https://pro-api.coinmarketcap.com/v3/cryptocurrency/quotes/historical?id=40147&interval=hourly&time_start=2026-11-13T00%3A17%3A34.458Z&count=3"
+  },
+  "fetched_at": "2026-11-20T00:17:37.350Z",
+  "elapsed_ms": 129,
+  "http_status": 200,
+  "body": {
+    "data": {
+      "40147": {
+        "id": 40147,
+        "name": "Direxion Semiconductor Bull 3X tokenized ETF (xStock)",
+        "symbol": "SOXLx",
+        "is_active": 1,
+        "is_fiat": 0,
+        "quotes": [
+          {
+            "timestamp": "2026-11-13T01:00:00.000Z",
+            "quote": {
+              "USD": {
+                "price": 67.43812380496134,
+                "percent_change_1h": -0.607549429721,
+                "percent_change_24h": 7.780382930141,
+                "percent_change_7d": 52.735615097254,
+                "percent_change_30d": -47.848441232428,
+                "volume_24h": 9581584.6,
+                "market_cap": 16781163.130710304,
+                "circulating_supply": 248837.93,
+                "total_supply": 1704841.44,
+                "timestamp": "2026-11-13T01:00:00.000Z"
+              }
+            }
+          },
+          {
+            "timestamp": "2026-11-13T02:00:00.000Z",
+            "quote": {
+              "USD": {
+                "price": 68.43454514348132,
+                "percent_change_1h": 1.477534193273,
+                "percent_change_24h": 7.37109063818,
+                "percent_change_7d": 51.928996451124,
+                "percent_change_30d": -47.009975547958,
+                "volume_24h": 9395755.17,
+                "market_cap": 17036380.355726037,
+                "circulating_supply": 248944.16,
+                "total_supply": 1704841.44,
+                "timestamp": "2026-11-13T02:00:00.000Z"
+              }
+            }
+          },
+          {
+            "timestamp": "2026-11-13T03:00:00.000Z",
+            "quote": {
+              "USD": {
+                "price": 66.61165446176932,
+                "percent_change_1h": -2.663699565607,
+                "percent_change_24h": 4.449934712323,
+                "percent_change_7d": 43.786294244544,
+                "percent_change_30d": -48.708071800611,
+                "volume_24h": 9370341.56,
+                "market_cap": 16572524.006371688,
+                "circulating_supply": 248793.16,
+                "total_supply": 1704841.44,
+                "timestamp": "2026-11-13T03:00:00.000Z"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "status": {
+      "timestamp": "2026-11-20T00:17:37.329Z",
+      "error_code": 0,
+      "error_message": null,
+      "elapsed": 23,
+      "credit_count": 1,
+      "notice": null
+    }
+  }
+}
